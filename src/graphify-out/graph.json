@@ -9,7 +9,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_config_py",
-      "community": 6,
+      "community": 8,
       "norm_label": "config.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L8",
       "id": "config_appconfig",
-      "community": 6,
+      "community": 8,
       "norm_label": "appconfig"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L17",
       "id": "config_read_required",
-      "community": 6,
+      "community": 8,
       "norm_label": "_read_required()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L24",
       "id": "config_load_config",
-      "community": 6,
+      "community": 8,
       "norm_label": "load_config()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/validator.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_llm_validator_py",
-      "community": 9,
+      "community": 10,
       "norm_label": "validator.py"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/validator.py",
       "source_location": "L4",
       "id": "validator_summaryvalidator",
-      "community": 9,
+      "community": 10,
       "norm_label": "summaryvalidator"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/validator.py",
       "source_location": "L5",
       "id": "validator_summaryvalidator_validate",
-      "community": 9,
+      "community": 10,
       "norm_label": ".validate()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_llm_summarizer_py",
-      "community": 6,
+      "community": 4,
       "norm_label": "summarizer.py"
     },
     {
@@ -81,25 +81,25 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L16",
       "id": "summarizer_llmsummarizer",
-      "community": 6,
+      "community": 4,
       "norm_label": "llmsummarizer"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L14",
+      "source_location": "L15",
       "id": "summarizer_llmsummarizer_init",
-      "community": 6,
+      "community": 4,
       "norm_label": ".__init__()"
     },
     {
       "label": ".summarize()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L18",
+      "source_location": "L31",
       "id": "summarizer_llmsummarizer_summarize",
-      "community": 6,
+      "community": 4,
       "norm_label": ".summarize()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/mock_provider.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_providers_mock_provider_py",
-      "community": 3,
+      "community": 2,
       "norm_label": "mock_provider.py"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/mock_provider.py",
       "source_location": "L11",
       "id": "mock_provider_mockmetadataprovider",
-      "community": 3,
+      "community": 2,
       "norm_label": "mockmetadataprovider"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "",
       "source_location": "",
       "id": "metadataprovider",
-      "community": 3,
+      "community": 2,
       "norm_label": "metadataprovider"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/mock_provider.py",
       "source_location": "L12",
       "id": "mock_provider_mockmetadataprovider_init",
-      "community": 3,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/mock_provider.py",
       "source_location": "L16",
       "id": "mock_provider_mockmetadataprovider_resolve_asset",
-      "community": 3,
+      "community": 2,
       "norm_label": ".resolve_asset()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/mock_provider.py",
       "source_location": "L24",
       "id": "mock_provider_mockmetadataprovider_get_downstream_lineage",
-      "community": 3,
+      "community": 2,
       "norm_label": ".get_downstream_lineage()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/__init__.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_providers_init_py",
-      "community": 10,
+      "community": 11,
       "norm_label": "__init__.py"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/resolver.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_providers_resolver_py",
-      "community": 3,
+      "community": 2,
       "norm_label": "resolver.py"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/resolver.py",
       "source_location": "L8",
       "id": "resolver_assetresolver",
-      "community": 3,
+      "community": 2,
       "norm_label": "assetresolver"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/jwt_auth.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_providers_jwt_auth_py",
-      "community": 1,
+      "community": 4,
       "norm_label": "jwt_auth.py"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/jwt_auth.py",
       "source_location": "L6",
       "id": "jwt_auth_authconfigerror",
-      "community": 1,
+      "community": 4,
       "norm_label": "authconfigerror"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "",
       "source_location": "",
       "id": "runtimeerror",
-      "community": 1,
+      "community": 4,
       "norm_label": "runtimeerror"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/jwt_auth.py",
       "source_location": "L10",
       "id": "jwt_auth_jwtauthprovider",
-      "community": 1,
+      "community": 4,
       "norm_label": "jwtauthprovider"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/jwt_auth.py",
       "source_location": "L13",
       "id": "jwt_auth_jwtauthprovider_get_token",
-      "community": 1,
+      "community": 4,
       "norm_label": ".get_token()"
     },
     {
@@ -332,7 +332,7 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/jwt_auth.py",
       "source_location": "L7",
-      "community": 1,
+      "community": 4,
       "norm_label": "raised when required auth configuration is missing or invalid.",
       "id": "jwt_auth_rationale_7"
     },
@@ -342,7 +342,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/base.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_providers_base_py",
-      "community": 3,
+      "community": 2,
       "norm_label": "base.py"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/base.py",
       "source_location": "L9",
       "id": "base_metadataprovider",
-      "community": 3,
+      "community": 2,
       "norm_label": "metadataprovider"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "",
       "source_location": "",
       "id": "protocol",
-      "community": 3,
+      "community": 2,
       "norm_label": "protocol"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/base.py",
       "source_location": "L10",
       "id": "base_metadataprovider_resolve_asset",
-      "community": 3,
+      "community": 2,
       "norm_label": ".resolve_asset()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/base.py",
       "source_location": "L13",
       "id": "base_metadataprovider_get_downstream_lineage",
-      "community": 3,
+      "community": 2,
       "norm_label": ".get_downstream_lineage()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/base.py",
       "source_location": "L17",
       "id": "base_assetnotfounderror",
-      "community": 3,
+      "community": 2,
       "norm_label": "assetnotfounderror"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "",
       "source_location": "",
       "id": "lookuperror",
-      "community": 3,
+      "community": 2,
       "norm_label": "lookuperror"
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/base.py",
       "source_location": "L18",
       "id": "base_assetnotfounderror_init",
-      "community": 3,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -547,7 +547,7 @@
       "label": "._get_json()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/openmetadata_provider.py",
-      "source_location": "L192",
+      "source_location": "L193",
       "id": "openmetadata_provider_openmetadataprovider_get_json",
       "community": 7,
       "norm_label": "._get_json()"
@@ -556,7 +556,7 @@
       "label": "_extract_column_map()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/openmetadata_provider.py",
-      "source_location": "L206",
+      "source_location": "L207",
       "id": "openmetadata_provider_extract_column_map",
       "community": 7,
       "norm_label": "_extract_column_map()"
@@ -567,7 +567,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/parser/diff_parser.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_parser_diff_parser_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "diff_parser.py"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/parser/diff_parser.py",
       "source_location": "L13",
       "id": "diff_parser_strip_quotes",
-      "community": 2,
+      "community": 1,
       "norm_label": "_strip_quotes()"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/parser/diff_parser.py",
       "source_location": "L20",
       "id": "diff_parser_diffparser",
-      "community": 2,
+      "community": 1,
       "norm_label": "diffparser"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/parser/diff_parser.py",
       "source_location": "L39",
       "id": "diff_parser_parse",
-      "community": 2,
+      "community": 1,
       "norm_label": "parse()"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/parser/__init__.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_parser_init_py",
-      "community": 11,
+      "community": 12,
       "norm_label": "__init__.py"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/parser/normalizer.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_parser_normalizer_py",
-      "community": 12,
+      "community": 13,
       "norm_label": "normalizer.py"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "",
       "source_location": "",
       "id": "valueerror",
-      "community": 6,
+      "community": 8,
       "norm_label": "valueerror"
     },
     {
@@ -756,7 +756,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_adapters_github_adapter_py",
-      "community": 1,
+      "community": 6,
       "norm_label": "github_adapter.py"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L11",
       "id": "github_adapter_githubcomment",
-      "community": 1,
+      "community": 6,
       "norm_label": "_githubcomment"
     },
     {
@@ -774,7 +774,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L17",
       "id": "github_adapter_githubadapter",
-      "community": 1,
+      "community": 6,
       "norm_label": "githubadapter"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L27",
       "id": "github_adapter_githubadapter_init",
-      "community": 1,
+      "community": 6,
       "norm_label": ".__init__()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L34",
       "id": "github_adapter_from_env",
-      "community": 1,
+      "community": 6,
       "norm_label": "from_env()"
     },
     {
@@ -801,79 +801,70 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L44",
       "id": "github_adapter_githubadapter_post_pr_comment",
-      "community": 1,
+      "community": 6,
       "norm_label": ".post_pr_comment()"
     },
     {
       "label": ".post_or_update_comment()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L63",
+      "source_location": "L61",
       "id": "github_adapter_githubadapter_post_or_update_comment",
-      "community": 1,
+      "community": 6,
       "norm_label": ".post_or_update_comment()"
     },
     {
       "label": ".get_changed_files()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L66",
+      "source_location": "L64",
       "id": "github_adapter_githubadapter_get_changed_files",
-      "community": 1,
+      "community": 6,
       "norm_label": ".get_changed_files()"
     },
     {
       "label": "._ensure_marker()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L81",
+      "source_location": "L79",
       "id": "github_adapter_githubadapter_ensure_marker",
-      "community": 1,
+      "community": 6,
       "norm_label": "._ensure_marker()"
-    },
-    {
-      "label": "._get_authenticated_login()",
-      "file_type": "code",
-      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L89",
-      "id": "github_adapter_githubadapter_get_authenticated_login",
-      "community": 1,
-      "norm_label": "._get_authenticated_login()"
     },
     {
       "label": "._find_existing_comment()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L99",
+      "source_location": "L88",
       "id": "github_adapter_githubadapter_find_existing_comment",
-      "community": 1,
+      "community": 6,
       "norm_label": "._find_existing_comment()"
     },
     {
       "label": "._create_comment()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L123",
+      "source_location": "L111",
       "id": "github_adapter_githubadapter_create_comment",
-      "community": 1,
+      "community": 6,
       "norm_label": "._create_comment()"
     },
     {
       "label": "._update_comment()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L130",
+      "source_location": "L118",
       "id": "github_adapter_githubadapter_update_comment",
-      "community": 1,
+      "community": 6,
       "norm_label": "._update_comment()"
     },
     {
       "label": "._request_json()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L137",
+      "source_location": "L125",
       "id": "github_adapter_githubadapter_request_json",
-      "community": 1,
+      "community": 6,
       "norm_label": "._request_json()"
     },
     {
@@ -881,7 +872,7 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L18",
-      "community": 1,
+      "community": 6,
       "norm_label": "minimal github rest adapter (stdlib only).      implements an idempotent pr comm",
       "id": "github_adapter_rationale_18"
     },
@@ -890,7 +881,7 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L45",
-      "community": 1,
+      "community": 6,
       "norm_label": "create or update a single metaguard bot comment on a pr.          identification",
       "id": "github_adapter_rationale_45"
     },
@@ -900,7 +891,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/__init__.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_adapters_init_py",
-      "community": 13,
+      "community": 14,
       "norm_label": "__init__.py"
     },
     {
@@ -1034,9 +1025,9 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L209",
-      "id": "mcp_client_rationale_209",
       "community": 0,
-      "norm_label": "query mcp for downstream lineage rooted at `asset_id` up to `depth`.          as"
+      "norm_label": "query mcp for downstream lineage rooted at `asset_id` up to `depth`.          as",
+      "id": "mcp_client_rationale_209"
     },
     {
       "label": "renderer.py",
@@ -1044,7 +1035,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
-      "community": 8,
+      "community": 9,
       "norm_label": "renderer.py"
     },
     {
@@ -1053,7 +1044,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L7",
       "id": "renderer_severity_badge",
-      "community": 8,
+      "community": 9,
       "norm_label": "_severity_badge()"
     },
     {
@@ -1062,7 +1053,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L17",
       "id": "renderer_recommended_actions",
-      "community": 8,
+      "community": 9,
       "norm_label": "_recommended_actions()"
     },
     {
@@ -1071,7 +1062,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L42",
       "id": "renderer_prcommentrenderer",
-      "community": 2,
+      "community": 1,
       "norm_label": "prcommentrenderer"
     },
     {
@@ -1080,7 +1071,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L44",
       "id": "renderer_render",
-      "community": 8,
+      "community": 9,
       "norm_label": "render()"
     },
     {
@@ -1089,7 +1080,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/reporter.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_engine_reporter_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "reporter.py"
     },
     {
@@ -1098,7 +1089,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/reporter.py",
       "source_location": "L11",
       "id": "reporter_reportbuilder",
-      "community": 2,
+      "community": 1,
       "norm_label": "reportbuilder"
     },
     {
@@ -1107,7 +1098,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/reporter.py",
       "source_location": "L13",
       "id": "reporter_build",
-      "community": 2,
+      "community": 1,
       "norm_label": "build()"
     },
     {
@@ -1116,7 +1107,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/__init__.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_engine_init_py",
-      "community": 14,
+      "community": 15,
       "norm_label": "__init__.py"
     },
     {
@@ -1125,7 +1116,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "rules.py"
     },
     {
@@ -1134,7 +1125,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L9",
       "id": "rules_column_map_references",
-      "community": 4,
+      "community": 3,
       "norm_label": "_column_map_references()"
     },
     {
@@ -1143,7 +1134,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L18",
       "id": "rules_column_map_has_alias",
-      "community": 4,
+      "community": 3,
       "norm_label": "_column_map_has_alias()"
     },
     {
@@ -1152,7 +1143,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L29",
       "id": "rules_normalize_type",
-      "community": 4,
+      "community": 3,
       "norm_label": "_normalize_type()"
     },
     {
@@ -1161,7 +1152,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L33",
       "id": "rules_varchar_len",
-      "community": 4,
+      "community": 3,
       "norm_label": "_varchar_len()"
     },
     {
@@ -1170,7 +1161,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L46",
       "id": "rules_type_change_compatible",
-      "community": 4,
+      "community": 3,
       "norm_label": "_type_change_compatible()"
     },
     {
@@ -1179,7 +1170,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L63",
       "id": "rules_type_change_incompatible",
-      "community": 4,
+      "community": 3,
       "norm_label": "_type_change_incompatible()"
     },
     {
@@ -1188,7 +1179,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L77",
       "id": "rules_compute_path",
-      "community": 4,
+      "community": 3,
       "norm_label": "_compute_path()"
     },
     {
@@ -1197,7 +1188,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L104",
       "id": "rules_format_reason",
-      "community": 4,
+      "community": 3,
       "norm_label": "_format_reason()"
     },
     {
@@ -1206,7 +1197,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L165",
       "id": "rules_ruleoutcome",
-      "community": 4,
+      "community": 3,
       "norm_label": "ruleoutcome"
     },
     {
@@ -1215,7 +1206,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L171",
       "id": "rules_rule_drop_column",
-      "community": 4,
+      "community": 3,
       "norm_label": "rule_drop_column()"
     },
     {
@@ -1224,7 +1215,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L184",
       "id": "rules_rule_rename_column",
-      "community": 4,
+      "community": 3,
       "norm_label": "rule_rename_column()"
     },
     {
@@ -1233,7 +1224,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L197",
       "id": "rules_rule_alter_type",
-      "community": 4,
+      "community": 3,
       "norm_label": "rule_alter_type()"
     },
     {
@@ -1242,7 +1233,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L214",
       "id": "rules_rule_alter_nullability",
-      "community": 4,
+      "community": 3,
       "norm_label": "rule_alter_nullability()"
     },
     {
@@ -1251,7 +1242,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L232",
       "id": "rules_rule_add_column",
-      "community": 4,
+      "community": 3,
       "norm_label": "rule_add_column()"
     },
     {
@@ -1260,7 +1251,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L241",
       "id": "rules_impactrulesengine",
-      "community": 2,
+      "community": 1,
       "norm_label": "impactrulesengine"
     },
     {
@@ -1269,7 +1260,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L243",
       "id": "rules_evaluate",
-      "community": 4,
+      "community": 3,
       "norm_label": "evaluate()"
     },
     {
@@ -1305,7 +1296,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_engine_summarizer_py",
-      "community": 6,
+      "community": 4,
       "norm_label": "summarizer.py"
     },
     {
@@ -1314,7 +1305,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L8",
       "id": "summarizer_summaryvalidationerror",
-      "community": 6,
+      "community": 4,
       "norm_label": "summaryvalidationerror"
     },
     {
@@ -1323,7 +1314,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L32",
       "id": "summarizer_llmsummarizer_apply",
-      "community": 6,
+      "community": 4,
       "norm_label": ".apply()"
     },
     {
@@ -1332,7 +1323,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L55",
       "id": "summarizer_llmsummarizer_build_prompt",
-      "community": 6,
+      "community": 4,
       "norm_label": "._build_prompt()"
     },
     {
@@ -1341,7 +1332,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L68",
       "id": "summarizer_llmsummarizer_validate_and_clean",
-      "community": 6,
+      "community": 4,
       "norm_label": "._validate_and_clean()"
     },
     {
@@ -1349,7 +1340,7 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/summarizer.py",
       "source_location": "L17",
-      "community": 6,
+      "community": 4,
       "norm_label": "phase 4 summarizer wrapper.      contract:     - accepts full impactreport json",
       "id": "summarizer_rationale_17"
     },
@@ -1359,7 +1350,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/scorer.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_engine_scorer_py",
-      "community": 15,
+      "community": 16,
       "norm_label": "scorer.py"
     },
     {
@@ -1368,7 +1359,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/enums.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_domain_enums_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "enums.py"
     },
     {
@@ -1377,7 +1368,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/enums.py",
       "source_location": "L6",
       "id": "enums_changetype",
-      "community": 2,
+      "community": 1,
       "norm_label": "changetype"
     },
     {
@@ -1386,7 +1377,7 @@
       "source_file": "",
       "source_location": "",
       "id": "str",
-      "community": 2,
+      "community": 1,
       "norm_label": "str"
     },
     {
@@ -1395,7 +1386,7 @@
       "source_file": "",
       "source_location": "",
       "id": "enum",
-      "community": 2,
+      "community": 1,
       "norm_label": "enum"
     },
     {
@@ -1404,7 +1395,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/enums.py",
       "source_location": "L15",
       "id": "enums_severity",
-      "community": 2,
+      "community": 1,
       "norm_label": "severity"
     },
     {
@@ -1413,7 +1404,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/enums.py",
       "source_location": "L22",
       "id": "enums_confidence",
-      "community": 2,
+      "community": 1,
       "norm_label": "confidence"
     },
     {
@@ -1431,7 +1422,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/models.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_domain_models_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "models.py"
     },
     {
@@ -1440,7 +1431,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/models.py",
       "source_location": "L10",
       "id": "models_schemachange",
-      "community": 2,
+      "community": 1,
       "norm_label": "schemachange"
     },
     {
@@ -1476,7 +1467,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/models.py",
       "source_location": "L45",
       "id": "models_impactrecord",
-      "community": 2,
+      "community": 1,
       "norm_label": "impactrecord"
     },
     {
@@ -1485,7 +1476,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/models.py",
       "source_location": "L57",
       "id": "models_impactreport",
-      "community": 2,
+      "community": 1,
       "norm_label": "impactreport"
     },
     {
@@ -1494,7 +1485,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/domain/__init__.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_domain_init_py",
-      "community": 16,
+      "community": 17,
       "norm_label": "__init__.py"
     },
     {
@@ -1620,7 +1611,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_src_llm_summarizer_py",
       "_tgt": "summarizer_llmsummarizer",
@@ -1632,7 +1623,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0,
       "_src": "summarizer_llmsummarizer",
       "_tgt": "summarizer_llmsummarizer_init",
@@ -1644,7 +1635,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L18",
+      "source_location": "L31",
       "weight": 1.0,
       "_src": "summarizer_llmsummarizer",
       "_tgt": "summarizer_llmsummarizer_summarize",
@@ -1711,6 +1702,18 @@
       "source": "summarizer_llmsummarizer",
       "target": "summarizer_rationale_17",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_src": "summarizer_llmsummarizer_init",
+      "_tgt": "runtimeerror",
+      "source": "summarizer_llmsummarizer_init",
+      "target": "runtimeerror"
     },
     {
       "relation": "calls",
@@ -2617,18 +2620,6 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L95",
-      "weight": 1.0,
-      "_src": "runtimeerror",
-      "_tgt": "github_adapter_githubadapter_get_authenticated_login",
-      "source": "runtimeerror",
-      "target": "github_adapter_githubadapter_get_authenticated_login"
-    },
-    {
-      "relation": "calls",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L106",
       "weight": 1.0,
       "_src": "runtimeerror",
@@ -3024,7 +3015,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/openmetadata_provider.py",
-      "source_location": "L206",
+      "source_location": "L207",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_src_providers_openmetadata_provider_py",
       "_tgt": "openmetadata_provider_extract_column_map",
@@ -3228,7 +3219,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/openmetadata_provider.py",
-      "source_location": "L192",
+      "source_location": "L193",
       "weight": 1.0,
       "_src": "openmetadata_provider_openmetadataprovider",
       "_tgt": "openmetadata_provider_openmetadataprovider_get_json",
@@ -3348,7 +3339,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/openmetadata_provider.py",
-      "source_location": "L187",
+      "source_location": "L188",
       "weight": 1.0,
       "_src": "openmetadata_provider_openmetadataprovider_get_downstream_lineage",
       "_tgt": "openmetadata_provider_extract_column_map",
@@ -3816,7 +3807,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L120",
+      "source_location": "L108",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_find_existing_comment",
       "_tgt": "github_adapter_githubcomment",
@@ -3852,7 +3843,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L63",
+      "source_location": "L61",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_post_or_update_comment",
@@ -3864,7 +3855,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L66",
+      "source_location": "L64",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_get_changed_files",
@@ -3876,7 +3867,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L81",
+      "source_location": "L79",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_ensure_marker",
@@ -3888,19 +3879,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L89",
-      "weight": 1.0,
-      "_src": "github_adapter_githubadapter",
-      "_tgt": "github_adapter_githubadapter_get_authenticated_login",
-      "source": "github_adapter_githubadapter",
-      "target": "github_adapter_githubadapter_get_authenticated_login",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L99",
+      "source_location": "L88",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_find_existing_comment",
@@ -3912,7 +3891,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L123",
+      "source_location": "L111",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_create_comment",
@@ -3924,7 +3903,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L130",
+      "source_location": "L118",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_update_comment",
@@ -3936,7 +3915,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L137",
+      "source_location": "L125",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter",
       "_tgt": "github_adapter_githubadapter_request_json",
@@ -3960,7 +3939,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L53",
+      "source_location": "L52",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_post_pr_comment",
       "_tgt": "github_adapter_githubadapter_ensure_marker",
@@ -3972,19 +3951,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L54",
-      "weight": 1.0,
-      "_src": "github_adapter_githubadapter_post_pr_comment",
-      "_tgt": "github_adapter_githubadapter_get_authenticated_login",
-      "source": "github_adapter_githubadapter_post_pr_comment",
-      "target": "github_adapter_githubadapter_get_authenticated_login",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L56",
+      "source_location": "L53",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_post_pr_comment",
       "_tgt": "github_adapter_githubadapter_find_existing_comment",
@@ -3996,7 +3963,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L58",
+      "source_location": "L56",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_post_pr_comment",
       "_tgt": "github_adapter_githubadapter_create_comment",
@@ -4008,7 +3975,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L61",
+      "source_location": "L59",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_post_pr_comment",
       "_tgt": "github_adapter_githubadapter_update_comment",
@@ -4020,7 +3987,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L64",
+      "source_location": "L62",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_post_or_update_comment",
       "_tgt": "github_adapter_githubadapter_post_pr_comment",
@@ -4044,7 +4011,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L67",
+      "source_location": "L65",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_get_changed_files",
       "_tgt": "github_adapter_githubadapter_request_json",
@@ -4056,19 +4023,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L92",
-      "weight": 1.0,
-      "_src": "github_adapter_githubadapter_get_authenticated_login",
-      "_tgt": "github_adapter_githubadapter_request_json",
-      "source": "github_adapter_githubadapter_get_authenticated_login",
-      "target": "github_adapter_githubadapter_request_json",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L101",
+      "source_location": "L90",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_find_existing_comment",
       "_tgt": "github_adapter_githubadapter_request_json",
@@ -4080,7 +4035,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L124",
+      "source_location": "L112",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_create_comment",
       "_tgt": "github_adapter_githubadapter_request_json",
@@ -4092,7 +4047,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
-      "source_location": "L131",
+      "source_location": "L119",
       "weight": 1.0,
       "_src": "github_adapter_githubadapter_update_comment",
       "_tgt": "github_adapter_githubadapter_request_json",
@@ -4660,9 +4615,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -4672,9 +4627,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -4684,9 +4639,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -4696,9 +4651,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "contains",
@@ -6086,8 +6041,8 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_208",
-      "_tgt": "enums_assettype",
+      "_src": "enums_assettype",
+      "_tgt": "mcp_client_rationale_208",
       "confidence_score": 0.5,
       "source": "enums_assettype",
       "target": "mcp_client_rationale_208"
@@ -6170,8 +6125,8 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L11",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_208",
-      "_tgt": "models_asset",
+      "_src": "models_asset",
+      "_tgt": "mcp_client_rationale_208",
       "confidence_score": 0.5,
       "source": "models_asset",
       "target": "mcp_client_rationale_208"
@@ -6182,8 +6137,8 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L11",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_208",
-      "_tgt": "models_lineageedge",
+      "_src": "models_lineageedge",
+      "_tgt": "mcp_client_rationale_208",
       "confidence_score": 0.5,
       "source": "models_lineageedge",
       "target": "mcp_client_rationale_208"
@@ -6194,8 +6149,8 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L11",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_208",
-      "_tgt": "models_lineagegraph",
+      "_src": "models_lineagegraph",
+      "_tgt": "mcp_client_rationale_208",
       "confidence_score": 0.5,
       "source": "models_lineagegraph",
       "target": "mcp_client_rationale_208"
