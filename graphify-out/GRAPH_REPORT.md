@@ -1,12 +1,12 @@
 # Graph Report - /Users/akshatsaxena/Desktop/metaguard  (2026-04-19)
 
 ## Corpus Check
-- 57 files · ~28,737 words
+- 58 files · ~30,561 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 312 nodes · 819 edges · 28 communities detected
-- Extraction: 48% EXTRACTED · 52% INFERRED · 0% AMBIGUOUS · INFERRED: 424 edges (avg confidence: 0.68)
+- 335 nodes · 941 edges · 28 communities detected
+- Extraction: 45% EXTRACTED · 55% INFERRED · 0% AMBIGUOUS · INFERRED: 516 edges (avg confidence: 0.66)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -40,28 +40,28 @@
 - [[_COMMUNITY_Community 27|Community 27]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Asset` - 38 edges
-2. `SchemaChange` - 37 edges
-3. `LineageGraph` - 34 edges
-4. `evaluate()` - 30 edges
-5. `AssetType` - 29 edges
+1. `SchemaChange` - 51 edges
+2. `Asset` - 43 edges
+3. `AssetType` - 38 edges
+4. `evaluate()` - 34 edges
+5. `LineageGraph` - 34 edges
 6. `LineageEdge` - 27 edges
-7. `OpenMetadataProvider` - 25 edges
-8. `render_sandbox_markdown()` - 23 edges
-9. `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` - 22 edges
-10. `MCPMetadataProvider` - 22 edges
+7. `ChangeType` - 26 edges
+8. `OpenMetadataProvider` - 25 edges
+9. `Severity` - 24 edges
+10. `ImpactRecord` - 24 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `SchemaChange`  [INFERRED]
   /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/domain/models.py
-- `main()` --calls--> `traverse()`  [INFERRED]
-  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/traverser.py
-- `main()` --calls--> `evaluate()`  [INFERRED]
-  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/rules.py
 - `main()` --calls--> `build()`  [INFERRED]
   /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/reporter.py
-- `main()` --calls--> `render()`  [INFERRED]
-  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/renderer.py
+- `main()` --calls--> `LineageGraph`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test_mcp.py → src/domain/models.py
+- `main()` --calls--> `SchemaChange`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test_mcp.py → src/domain/models.py
+- `main()` --calls--> `build()`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test_mcp.py → src/engine/reporter.py
 
 ## Hyperedges (group relationships)
 - **Core Engine Components** — metaguard_diffparser, metaguard_lineagetraverser, metaguard_impactrulesengine [EXTRACTED 1.00]
@@ -70,47 +70,47 @@
 
 ### Community 0 - "Community 0"
 Cohesion: 0.09
-Nodes (38): AssetNotFoundError, MetadataProvider, Resolve an asset reference (id or name) to an Asset., Return downstream lineage graph rooted at the given asset id., AssetType, LookupError, iter_sse_events(), _lineage_graph_from_payload() (+30 more)
+Nodes (36): AssetNotFoundError, MetadataProvider, Resolve an asset reference (id or name) to an Asset., Return downstream lineage graph rooted at the given asset id., AssetType, LookupError, iter_sse_events(), _lineage_graph_from_payload() (+28 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.09
-Nodes (24): _default_stream_provider(), _asset_name(), _asset_type_from_om_entity(), _extract_column_map(), _extract_criticality(), _extract_domain(), _extract_owner(), _normalize_host() (+16 more)
+Cohesion: 0.08
+Nodes (26): _default_stream_provider(), _asset_name(), _asset_type_from_om_entity(), _extract_column_map(), _extract_criticality(), _extract_domain(), _extract_owner(), _normalize_host() (+18 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.18
-Nodes (33): SchemaChange, _column_map_has_alias(), _column_map_references(), _compute_path(), evaluate(), _format_reason(), _normalize_type(), rule_add_column() (+25 more)
+Cohesion: 0.16
+Nodes (38): SchemaChange, _adjust_for_depth(), _column_map_has_alias(), _column_map_references(), _compute_path(), evaluate(), _format_reason(), _lower_severity() (+30 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.15
-Nodes (22): _asset_type_rank(), _collect_fixture_records(), _confidence_rank(), _effective_sandbox_depth(), main(), _parse_changed_files(), _record_to_dict(), render_fixture_markdown() (+14 more)
+Cohesion: 0.2
+Nodes (32): Enum, ChangeType, Confidence, Severity, Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like, Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like, ImpactRecord, ImpactReport (+24 more)
 
 ### Community 4 - "Community 4"
+Cohesion: 0.16
+Nodes (20): _asset_type_rank(), _collect_fixture_records(), _confidence_rank(), _effective_sandbox_depth(), main(), _parse_changed_files(), _record_to_dict(), render_fixture_markdown() (+12 more)
+
+### Community 5 - "Community 5"
 Cohesion: 0.13
 Nodes (10): from_env(), GitHubAdapter, _GitHubComment, Minimal GitHub REST adapter (stdlib only).      Implements an idempotent PR comm, Create or update a single MetaGuard bot comment on a PR.          Identification, RuntimeError, _FakeHTTPResponse, test_get_changed_files() (+2 more)
 
-### Community 5 - "Community 5"
-Cohesion: 0.23
-Nodes (18): DiffParser, Enum, ChangeType, Confidence, Severity, FileNotFoundError, FixtureNotFoundError, Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like (+10 more)
-
 ### Community 6 - "Community 6"
-Cohesion: 0.18
-Nodes (15): AppConfig, load_config(), _read_required(), _get_json(), main(), _read_required(), _search_tables_for_service(), main() (+7 more)
+Cohesion: 0.19
+Nodes (9): FileNotFoundError, default(), FixtureLoader, FixtureNotFoundError, FixtureValidationError, test_e2e_all_fixtures_match_expected(), test_fixture_loader_invalid_schema_raises(), test_fixture_loader_loads_all_fixture_sets() (+1 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.22
-Nodes (7): default(), FixtureLoader, FixtureValidationError, test_e2e_all_fixtures_match_expected(), test_fixture_loader_invalid_schema_raises(), test_fixture_loader_loads_all_fixture_sets(), test_fixture_loader_missing_fixture_raises()
+Cohesion: 0.18
+Nodes (15): AppConfig, load_config(), _read_required(), _get_json(), main(), _read_required(), _search_tables_for_service(), main() (+7 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.22
 Nodes (7): LLMSummarizer, Phase 4 summarizer wrapper.      Contract:     - Accepts full ImpactReport JSON, SummaryValidationError, test_llm_summarizer_calls_llm_with_prompt(), test_llm_summarizer_raises_without_client(), test_summarizer_appends_llm_summary_when_valid(), test_summarizer_falls_back_when_hallucinated_asset_is_mentioned()
 
 ### Community 9 - "Community 9"
-Cohesion: 0.39
-Nodes (5): AuthConfigError, JWTAuthProvider, Raised when required auth configuration is missing or invalid., test_missing_env_var_raises(), test_present_env_var_returns_token()
+Cohesion: 0.24
+Nodes (9): DiffParser, parse(), _strip_quotes(), test_parse_add_column(), test_parse_alter_column_type(), test_parse_drop_column(), test_parse_rename_column(), Phase 3: Verify the diff parser correctly handles a single migration file with m (+1 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.39
-Nodes (6): parse(), _strip_quotes(), test_parse_add_column(), test_parse_alter_column_type(), test_parse_drop_column(), test_parse_rename_column()
+Nodes (5): AuthConfigError, JWTAuthProvider, Raised when required auth configuration is missing or invalid., test_missing_env_var_raises(), test_present_env_var_returns_token()
 
 ### Community 11 - "Community 11"
 Cohesion: 0.33
@@ -219,17 +219,17 @@ Nodes (1): Phase 4: LLM Summarizer
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `render_sandbox_markdown()` connect `Community 3` to `Community 0`, `Community 1`, `Community 2`, `Community 6`, `Community 8`, `Community 10`?**
-  _High betweenness centrality (0.184) - this node is a cross-community bridge._
-- **Why does `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` connect `Community 5` to `Community 0`, `Community 1`, `Community 2`, `Community 3`, `Community 4`, `Community 7`, `Community 8`, `Community 9`?**
-  _High betweenness centrality (0.146) - this node is a cross-community bridge._
-- **Why does `SchemaChange` connect `Community 2` to `Community 0`, `Community 1`, `Community 3`, `Community 5`, `Community 10`, `Community 11`?**
-  _High betweenness centrality (0.107) - this node is a cross-community bridge._
-- **Are the 37 inferred relationships involving `Asset` (e.g. with `_FakeMCPClient` and `_FakeRESTProvider`) actually correct?**
-  _`Asset` has 37 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 36 inferred relationships involving `SchemaChange` (e.g. with `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` and `main()`) actually correct?**
-  _`SchemaChange` has 36 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 33 inferred relationships involving `LineageGraph` (e.g. with `_FakeMCPClient` and `_FakeRESTProvider`) actually correct?**
-  _`LineageGraph` has 33 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 21 inferred relationships involving `evaluate()` (e.g. with `main()` and `main()`) actually correct?**
-  _`evaluate()` has 21 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `render_sandbox_markdown()` connect `Community 4` to `Community 0`, `Community 1`, `Community 2`, `Community 3`, `Community 7`, `Community 8`, `Community 9`?**
+  _High betweenness centrality (0.178) - this node is a cross-community bridge._
+- **Why does `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` connect `Community 3` to `Community 0`, `Community 1`, `Community 2`, `Community 4`, `Community 5`, `Community 6`, `Community 8`, `Community 9`, `Community 10`?**
+  _High betweenness centrality (0.139) - this node is a cross-community bridge._
+- **Why does `SchemaChange` connect `Community 2` to `Community 0`, `Community 1`, `Community 3`, `Community 4`, `Community 9`, `Community 11`?**
+  _High betweenness centrality (0.128) - this node is a cross-community bridge._
+- **Are the 50 inferred relationships involving `SchemaChange` (e.g. with `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` and `Phase 2: verify the concise title format.`) actually correct?**
+  _`SchemaChange` has 50 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 42 inferred relationships involving `Asset` (e.g. with `_FakeMCPClient` and `_FakeRESTProvider`) actually correct?**
+  _`Asset` has 42 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 35 inferred relationships involving `AssetType` (e.g. with `Phase 2: verify the concise title format.` and `Phase 2: verify 'Changes detected' section when changes are provided.`) actually correct?**
+  _`AssetType` has 35 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 24 inferred relationships involving `evaluate()` (e.g. with `main()` and `main()`) actually correct?**
+  _`evaluate()` has 24 INFERRED edges - model-reasoned connections that need verification._

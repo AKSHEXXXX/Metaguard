@@ -142,3 +142,35 @@ def test_empty_lineage_graph_returns_low_low() -> None:
     record = ImpactRulesEngine.evaluate(change, _asset(), [], None)
     assert record.severity is Severity.LOW
     assert record.confidence is Confidence.LOW
+
+
+# --- Phase 2: Severity Tuning Tests ---
+
+def test_deep_lineage_reduces_severity() -> None:
+    """A change that would be CRITICAL on a direct downstream asset should be HIGH if depth > 3."""
+    change = SchemaChange(entity="t", change_type=ChangeType.DROP_COLUMN, column="c")
+    path = ["t", "l1", "l2", "l3", "l4"] # 4 hops
+    record = ImpactRulesEngine.evaluate(
+        change, _asset(), path, [{"from": "c", "to": "c"}]
+    )
+    assert record.severity is Severity.HIGH # Reduced from CRITICAL
+    assert record.confidence is Confidence.MEDIUM # Reduced from HIGH
+
+
+def test_deep_lineage_without_column_map_has_low_confidence() -> None:
+    """A deep path without column-level lineage should cap confidence at LOW."""
+    change = SchemaChange(entity="t", change_type=ChangeType.DROP_COLUMN, column="c")
+    path = ["t", "l1", "l2", "l3", "l4"] # 4 hops
+    record = ImpactRulesEngine.evaluate(change, _asset(), path, None)
+    # Original would be HIGH severity, MEDIUM confidence
+    # Reduced by depth to MEDIUM severity, LOW confidence
+    assert record.severity is Severity.MEDIUM
+    assert record.confidence is Confidence.LOW
+
+
+def test_deep_lineage_preserves_low_severity() -> None:
+    """If severity is already LOW, depth adjustment floors at LOW."""
+    change = SchemaChange(entity="t", change_type=ChangeType.ADD_COLUMN, column="c")
+    path = ["t", "l1", "l2", "l3", "l4"] # 4 hops
+    record = ImpactRulesEngine.evaluate(change, _asset(), path, None)
+    assert record.severity is Severity.LOW

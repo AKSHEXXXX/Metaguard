@@ -151,7 +151,7 @@ def run_fixture(fixture_id: str, depth: int = 5) -> dict[str, Any]:
 def render_fixture_markdown(fixture_id: str) -> str:
     changes, records = _collect_fixture_records(fixture_id=fixture_id)
     report = ReportBuilder.build(report_id=fixture_id, changes=changes, records=_sort_records(records))
-    markdown = PRCommentRenderer.render(report)
+    markdown = PRCommentRenderer.render(report, changes=changes)
     report_json = run_fixture(fixture_id)
 
     if str(os.getenv("ENABLE_LLM_SUMMARY", "false")).lower() == "true":
@@ -252,7 +252,7 @@ def render_sandbox_markdown(
     # 5. Build report and render
     logger.info("Building impact report with %d records", len(records))
     report = ReportBuilder.build(report_id="sandbox-run", changes=changes, records=_sort_records(records))
-    markdown = PRCommentRenderer.render(report)
+    markdown = PRCommentRenderer.render(report, changes=changes)
     report_json = report_to_fixture_dict("sandbox-run", changes, records)
 
     # 6. Optional LLM Summary

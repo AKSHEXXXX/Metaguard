@@ -25,7 +25,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/smoke_test.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_smoke_test_py",
-      "community": 0,
+      "community": 1,
       "norm_label": "smoke_test.py"
     },
     {
@@ -34,7 +34,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/smoke_test.py",
       "source_location": "L23",
       "id": "smoke_test_column_map_for_path",
-      "community": 0,
+      "community": 1,
       "norm_label": "_column_map_for_path()"
     },
     {
@@ -43,7 +43,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/smoke_test.py",
       "source_location": "L32",
       "id": "smoke_test_main",
-      "community": 0,
+      "community": 1,
       "norm_label": "main()"
     },
     {
@@ -97,7 +97,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_main_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "main.py"
     },
     {
@@ -106,7 +106,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L33",
       "id": "main_effective_sandbox_depth",
-      "community": 3,
+      "community": 4,
       "norm_label": "_effective_sandbox_depth()"
     },
     {
@@ -115,7 +115,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L38",
       "id": "main_schema_change_from_dict",
-      "community": 3,
+      "community": 4,
       "norm_label": "_schema_change_from_dict()"
     },
     {
@@ -124,7 +124,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L49",
       "id": "main_severity_rank",
-      "community": 3,
+      "community": 4,
       "norm_label": "_severity_rank()"
     },
     {
@@ -133,7 +133,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L53",
       "id": "main_confidence_rank",
-      "community": 3,
+      "community": 4,
       "norm_label": "_confidence_rank()"
     },
     {
@@ -142,7 +142,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L58",
       "id": "main_asset_type_rank",
-      "community": 3,
+      "community": 4,
       "norm_label": "_asset_type_rank()"
     },
     {
@@ -151,7 +151,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L71",
       "id": "main_sort_records",
-      "community": 3,
+      "community": 4,
       "norm_label": "_sort_records()"
     },
     {
@@ -160,7 +160,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L84",
       "id": "main_record_to_dict",
-      "community": 3,
+      "community": 4,
       "norm_label": "_record_to_dict()"
     },
     {
@@ -169,7 +169,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L96",
       "id": "main_report_to_fixture_dict",
-      "community": 3,
+      "community": 4,
       "norm_label": "report_to_fixture_dict()"
     },
     {
@@ -178,7 +178,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L106",
       "id": "main_collect_fixture_records",
-      "community": 3,
+      "community": 4,
       "norm_label": "_collect_fixture_records()"
     },
     {
@@ -187,7 +187,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L146",
       "id": "main_run_fixture",
-      "community": 3,
+      "community": 4,
       "norm_label": "run_fixture()"
     },
     {
@@ -196,7 +196,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L151",
       "id": "main_render_fixture_markdown",
-      "community": 3,
+      "community": 4,
       "norm_label": "render_fixture_markdown()"
     },
     {
@@ -205,7 +205,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L169",
       "id": "main_smoke_openmetadata",
-      "community": 3,
+      "community": 4,
       "norm_label": "smoke_openmetadata()"
     },
     {
@@ -214,7 +214,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L181",
       "id": "main_render_sandbox_markdown",
-      "community": 3,
+      "community": 4,
       "norm_label": "render_sandbox_markdown()"
     },
     {
@@ -223,7 +223,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L276",
       "id": "main_parse_changed_files",
-      "community": 3,
+      "community": 4,
       "norm_label": "_parse_changed_files()"
     },
     {
@@ -232,7 +232,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L316",
       "id": "main_main",
-      "community": 3,
+      "community": 4,
       "norm_label": "main()"
     },
     {
@@ -240,9 +240,9 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/main.py",
       "source_location": "L277",
-      "id": "main_rationale_277",
-      "community": 5,
-      "norm_label": "returns (fixture_id, file_paths).      - if `changed_files` is a fixture id like"
+      "community": 3,
+      "norm_label": "returns (fixture_id, file_paths).      - if `changed_files` is a fixture id like",
+      "id": "main_rationale_277"
     },
     {
       "label": "__init__.py",
@@ -256,20 +256,92 @@
     {
       "label": "test_renderer.py",
       "file_type": "code",
-      "source_file": "tests/unit/test_renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
       "source_location": "L1",
-      "id": "tests_unit_test_renderer_py",
-      "community": 5,
+      "id": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "community": 3,
       "norm_label": "test_renderer.py"
     },
     {
       "label": "test_renderer_contains_asset_names_and_critical()",
       "file_type": "code",
-      "source_file": "tests/unit/test_renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
       "source_location": "L10",
       "id": "test_renderer_test_renderer_contains_asset_names_and_critical",
-      "community": 5,
+      "community": 3,
       "norm_label": "test_renderer_contains_asset_names_and_critical()"
+    },
+    {
+      "label": "test_renderer_polished_title_format()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L34",
+      "id": "test_renderer_test_renderer_polished_title_format",
+      "community": 3,
+      "norm_label": "test_renderer_polished_title_format()"
+    },
+    {
+      "label": "test_renderer_change_details_section()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L62",
+      "id": "test_renderer_test_renderer_change_details_section",
+      "community": 3,
+      "norm_label": "test_renderer_change_details_section()"
+    },
+    {
+      "label": "test_renderer_no_owner_column_when_absent()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L89",
+      "id": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "community": 3,
+      "norm_label": "test_renderer_no_owner_column_when_absent()"
+    },
+    {
+      "label": "test_renderer_owner_column_when_present()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L108",
+      "id": "test_renderer_test_renderer_owner_column_when_present",
+      "community": 3,
+      "norm_label": "test_renderer_owner_column_when_present()"
+    },
+    {
+      "label": "Phase 2: verify the concise title format.",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L35",
+      "id": "test_renderer_rationale_35",
+      "community": 3,
+      "norm_label": "phase 2: verify the concise title format."
+    },
+    {
+      "label": "Phase 2: verify 'Changes detected' section when changes are provided.",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L63",
+      "id": "test_renderer_rationale_63",
+      "community": 3,
+      "norm_label": "phase 2: verify 'changes detected' section when changes are provided."
+    },
+    {
+      "label": "The Owner column should only appear when at least one record has an owner.",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L90",
+      "id": "test_renderer_rationale_90",
+      "community": 3,
+      "norm_label": "the owner column should only appear when at least one record has an owner."
+    },
+    {
+      "label": "The Owner column should appear when a record has an owner.",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L109",
+      "id": "test_renderer_rationale_109",
+      "community": 3,
+      "norm_label": "the owner column should appear when a record has an owner."
     },
     {
       "label": "test_traverser.py",
@@ -304,7 +376,7 @@
       "source_file": "tests/unit/test_reporter.py",
       "source_location": "L1",
       "id": "tests_unit_test_reporter_py",
-      "community": 5,
+      "community": 4,
       "norm_label": "test_reporter.py"
     },
     {
@@ -313,7 +385,7 @@
       "source_file": "tests/unit/test_reporter.py",
       "source_location": "L10",
       "id": "test_reporter_test_report_builder_highest_severity_and_counts",
-      "community": 5,
+      "community": 4,
       "norm_label": "test_report_builder_highest_severity_and_counts()"
     },
     {
@@ -448,7 +520,7 @@
       "source_file": "tests/unit/test_fixture_loader.py",
       "source_location": "L1",
       "id": "tests_unit_test_fixture_loader_py",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_fixture_loader.py"
     },
     {
@@ -457,7 +529,7 @@
       "source_file": "tests/unit/test_fixture_loader.py",
       "source_location": "L10",
       "id": "test_fixture_loader_test_fixture_loader_loads_all_fixture_sets",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_fixture_loader_loads_all_fixture_sets()"
     },
     {
@@ -466,7 +538,7 @@
       "source_file": "tests/unit/test_fixture_loader.py",
       "source_location": "L22",
       "id": "test_fixture_loader_test_fixture_loader_missing_fixture_raises",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_fixture_loader_missing_fixture_raises()"
     },
     {
@@ -475,7 +547,7 @@
       "source_file": "tests/unit/test_fixture_loader.py",
       "source_location": "L29",
       "id": "test_fixture_loader_test_fixture_loader_invalid_schema_raises",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_fixture_loader_invalid_schema_raises()"
     },
     {
@@ -529,7 +601,7 @@
       "source_file": "tests/unit/test_diff_parser.py",
       "source_location": "L1",
       "id": "tests_unit_test_diff_parser_py",
-      "community": 10,
+      "community": 9,
       "norm_label": "test_diff_parser.py"
     },
     {
@@ -538,7 +610,7 @@
       "source_file": "tests/unit/test_diff_parser.py",
       "source_location": "L7",
       "id": "test_diff_parser_test_parse_drop_column",
-      "community": 10,
+      "community": 9,
       "norm_label": "test_parse_drop_column()"
     },
     {
@@ -547,7 +619,7 @@
       "source_file": "tests/unit/test_diff_parser.py",
       "source_location": "L14",
       "id": "test_diff_parser_test_parse_add_column",
-      "community": 10,
+      "community": 9,
       "norm_label": "test_parse_add_column()"
     },
     {
@@ -556,7 +628,7 @@
       "source_file": "tests/unit/test_diff_parser.py",
       "source_location": "L21",
       "id": "test_diff_parser_test_parse_rename_column",
-      "community": 10,
+      "community": 9,
       "norm_label": "test_parse_rename_column()"
     },
     {
@@ -565,7 +637,7 @@
       "source_file": "tests/unit/test_diff_parser.py",
       "source_location": "L28",
       "id": "test_diff_parser_test_parse_alter_column_type",
-      "community": 10,
+      "community": 9,
       "norm_label": "test_parse_alter_column_type()"
     },
     {
@@ -664,7 +736,7 @@
       "source_file": "tests/unit/test_jwt_auth.py",
       "source_location": "L1",
       "id": "tests_unit_test_jwt_auth_py",
-      "community": 9,
+      "community": 10,
       "norm_label": "test_jwt_auth.py"
     },
     {
@@ -673,7 +745,7 @@
       "source_file": "tests/unit/test_jwt_auth.py",
       "source_location": "L8",
       "id": "test_jwt_auth_test_missing_env_var_raises",
-      "community": 9,
+      "community": 10,
       "norm_label": "test_missing_env_var_raises()"
     },
     {
@@ -682,7 +754,7 @@
       "source_file": "tests/unit/test_jwt_auth.py",
       "source_location": "L15",
       "id": "test_jwt_auth_test_present_env_var_returns_token",
-      "community": 9,
+      "community": 10,
       "norm_label": "test_present_env_var_returns_token()"
     },
     {
@@ -691,7 +763,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_tests_unit_test_github_adapter_py",
-      "community": 4,
+      "community": 5,
       "norm_label": "test_github_adapter.py"
     },
     {
@@ -700,7 +772,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L11",
       "id": "test_github_adapter_fakehttpresponse",
-      "community": 4,
+      "community": 5,
       "norm_label": "_fakehttpresponse"
     },
     {
@@ -709,7 +781,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L12",
       "id": "test_github_adapter_fakehttpresponse_init",
-      "community": 4,
+      "community": 5,
       "norm_label": ".__init__()"
     },
     {
@@ -727,7 +799,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L18",
       "id": "test_github_adapter_fakehttpresponse_enter",
-      "community": 4,
+      "community": 5,
       "norm_label": ".__enter__()"
     },
     {
@@ -736,7 +808,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L21",
       "id": "test_github_adapter_fakehttpresponse_exit",
-      "community": 4,
+      "community": 5,
       "norm_label": ".__exit__()"
     },
     {
@@ -745,7 +817,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L25",
       "id": "test_github_adapter_json_body",
-      "community": 4,
+      "community": 5,
       "norm_label": "_json_body()"
     },
     {
@@ -754,7 +826,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L31",
       "id": "test_github_adapter_test_post_pr_comment_creates_when_no_existing_marker",
-      "community": 4,
+      "community": 5,
       "norm_label": "test_post_pr_comment_creates_when_no_existing_marker()"
     },
     {
@@ -763,7 +835,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L61",
       "id": "test_github_adapter_test_post_pr_comment_updates_when_marker_exists",
-      "community": 4,
+      "community": 5,
       "norm_label": "test_post_pr_comment_updates_when_marker_exists()"
     },
     {
@@ -772,7 +844,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_github_adapter.py",
       "source_location": "L99",
       "id": "test_github_adapter_test_get_changed_files",
-      "community": 4,
+      "community": 5,
       "norm_label": "test_get_changed_files()"
     },
     {
@@ -889,7 +961,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_config.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_tests_unit_test_config_py",
-      "community": 6,
+      "community": 7,
       "norm_label": "test_config.py"
     },
     {
@@ -898,7 +970,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_config.py",
       "source_location": "L8",
       "id": "test_config_test_load_config_reads_required_env",
-      "community": 6,
+      "community": 7,
       "norm_label": "test_load_config_reads_required_env()"
     },
     {
@@ -907,7 +979,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_config.py",
       "source_location": "L26",
       "id": "test_config_test_load_config_raises_when_required_env_missing",
-      "community": 6,
+      "community": 7,
       "norm_label": "test_load_config_raises_when_required_env_missing()"
     },
     {
@@ -916,7 +988,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_config.py",
       "source_location": "L36",
       "id": "test_config_test_load_config_supports_legacy_om_host",
-      "community": 6,
+      "community": 7,
       "norm_label": "test_load_config_supports_legacy_om_host()"
     },
     {
@@ -947,12 +1019,39 @@
       "norm_label": "test_models_instantiate_and_types_are_correct()"
     },
     {
+      "label": "test_multi_change.py",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L1",
+      "id": "users_akshatsaxena_desktop_metaguard_tests_unit_test_multi_change_py",
+      "community": 9,
+      "norm_label": "test_multi_change.py"
+    },
+    {
+      "label": "test_multi_change_migration_parsing()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L9",
+      "id": "test_multi_change_test_multi_change_migration_parsing",
+      "community": 9,
+      "norm_label": "test_multi_change_migration_parsing()"
+    },
+    {
+      "label": "Phase 3: Verify the diff parser correctly handles a single migration file with m",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L10",
+      "id": "test_multi_change_rationale_10",
+      "community": 9,
+      "norm_label": "phase 3: verify the diff parser correctly handles a single migration file with m"
+    },
+    {
       "label": "test_llm_validator.py",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_llm_validator.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_tests_unit_test_llm_validator_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_llm_validator.py"
     },
     {
@@ -961,7 +1060,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_llm_validator.py",
       "source_location": "L6",
       "id": "test_llm_validator_test_validator_passes_when_assets_and_severity_present",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_validator_passes_when_assets_and_severity_present()"
     },
     {
@@ -970,22 +1069,22 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_llm_validator.py",
       "source_location": "L17",
       "id": "test_llm_validator_test_validator_fails_when_asset_missing",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_validator_fails_when_asset_missing()"
     },
     {
       "label": "test_rules.py",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L1",
-      "id": "tests_unit_test_rules_py",
+      "id": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "community": 2,
       "norm_label": "test_rules.py"
     },
     {
       "label": "_asset()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L8",
       "id": "test_rules_asset",
       "community": 2,
@@ -994,7 +1093,7 @@
     {
       "label": "test_drop_column_with_column_lineage_is_critical_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L12",
       "id": "test_rules_test_drop_column_with_column_lineage_is_critical_high",
       "community": 2,
@@ -1003,7 +1102,7 @@
     {
       "label": "test_drop_column_table_level_only_is_high_medium()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L24",
       "id": "test_rules_test_drop_column_table_level_only_is_high_medium",
       "community": 2,
@@ -1012,7 +1111,7 @@
     {
       "label": "test_drop_column_no_downstream_is_low_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L31",
       "id": "test_rules_test_drop_column_no_downstream_is_low_high",
       "community": 2,
@@ -1021,7 +1120,7 @@
     {
       "label": "test_rename_column_no_alias_is_critical_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L38",
       "id": "test_rules_test_rename_column_no_alias_is_critical_high",
       "community": 2,
@@ -1030,7 +1129,7 @@
     {
       "label": "test_rename_column_with_alias_is_medium_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L45",
       "id": "test_rules_test_rename_column_with_alias_is_medium_high",
       "community": 2,
@@ -1039,7 +1138,7 @@
     {
       "label": "test_rename_column_table_level_only_is_high_medium()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L57",
       "id": "test_rules_test_rename_column_table_level_only_is_high_medium",
       "community": 2,
@@ -1048,7 +1147,7 @@
     {
       "label": "test_alter_type_incompatible_with_column_lineage_is_high_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L64",
       "id": "test_rules_test_alter_type_incompatible_with_column_lineage_is_high_high",
       "community": 2,
@@ -1057,7 +1156,7 @@
     {
       "label": "test_alter_type_compatible_with_column_lineage_is_low_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L73",
       "id": "test_rules_test_alter_type_compatible_with_column_lineage_is_low_high",
       "community": 2,
@@ -1066,7 +1165,7 @@
     {
       "label": "test_alter_type_table_level_only_is_medium_medium()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L80",
       "id": "test_rules_test_alter_type_table_level_only_is_medium_medium",
       "community": 2,
@@ -1075,7 +1174,7 @@
     {
       "label": "test_alter_nullability_not_null_to_null_is_low_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L87",
       "id": "test_rules_test_alter_nullability_not_null_to_null_is_low_high",
       "community": 2,
@@ -1084,7 +1183,7 @@
     {
       "label": "test_alter_nullability_null_to_not_null_is_high_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L96",
       "id": "test_rules_test_alter_nullability_null_to_not_null_is_high_high",
       "community": 2,
@@ -1093,7 +1192,7 @@
     {
       "label": "test_alter_nullability_table_level_only_is_medium_medium()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L105",
       "id": "test_rules_test_alter_nullability_table_level_only_is_medium_medium",
       "community": 2,
@@ -1102,7 +1201,7 @@
     {
       "label": "test_add_column_strict_schema_consumer_is_medium_low()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L114",
       "id": "test_rules_test_add_column_strict_schema_consumer_is_medium_low",
       "community": 2,
@@ -1111,7 +1210,7 @@
     {
       "label": "test_add_column_default_is_low_high()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L121",
       "id": "test_rules_test_add_column_default_is_low_high",
       "community": 2,
@@ -1120,7 +1219,7 @@
     {
       "label": "test_path_computation_appends_column_except_for_dashboard_leaf()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L128",
       "id": "test_rules_test_path_computation_appends_column_except_for_dashboard_leaf",
       "community": 2,
@@ -1129,11 +1228,65 @@
     {
       "label": "test_empty_lineage_graph_returns_low_low()",
       "file_type": "code",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L140",
       "id": "test_rules_test_empty_lineage_graph_returns_low_low",
       "community": 2,
       "norm_label": "test_empty_lineage_graph_returns_low_low()"
+    },
+    {
+      "label": "test_deep_lineage_reduces_severity()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L149",
+      "id": "test_rules_test_deep_lineage_reduces_severity",
+      "community": 2,
+      "norm_label": "test_deep_lineage_reduces_severity()"
+    },
+    {
+      "label": "test_deep_lineage_without_column_map_has_low_confidence()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L160",
+      "id": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "community": 2,
+      "norm_label": "test_deep_lineage_without_column_map_has_low_confidence()"
+    },
+    {
+      "label": "test_deep_lineage_preserves_low_severity()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L171",
+      "id": "test_rules_test_deep_lineage_preserves_low_severity",
+      "community": 2,
+      "norm_label": "test_deep_lineage_preserves_low_severity()"
+    },
+    {
+      "label": "A change that would be CRITICAL on a direct downstream asset should be HIGH if d",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L150",
+      "id": "test_rules_rationale_150",
+      "community": 3,
+      "norm_label": "a change that would be critical on a direct downstream asset should be high if d"
+    },
+    {
+      "label": "A deep path without column-level lineage should cap confidence at LOW.",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L161",
+      "id": "test_rules_rationale_161",
+      "community": 3,
+      "norm_label": "a deep path without column-level lineage should cap confidence at low."
+    },
+    {
+      "label": "If severity is already LOW, depth adjustment floors at LOW.",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L172",
+      "id": "test_rules_rationale_172",
+      "community": 3,
+      "norm_label": "if severity is already low, depth adjustment floors at low."
     },
     {
       "label": "test_cli_mock.py",
@@ -1168,7 +1321,7 @@
       "source_file": "tests/integration/test_e2e_fixtures.py",
       "source_location": "L1",
       "id": "tests_integration_test_e2e_fixtures_py",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_e2e_fixtures.py"
     },
     {
@@ -1177,7 +1330,7 @@
       "source_file": "tests/integration/test_e2e_fixtures.py",
       "source_location": "L7",
       "id": "test_e2e_fixtures_test_e2e_all_fixtures_match_expected",
-      "community": 7,
+      "community": 6,
       "norm_label": "test_e2e_all_fixtures_match_expected()"
     },
     {
@@ -1186,43 +1339,43 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_scripts_seed_lineage_py",
-      "community": 6,
+      "community": 7,
       "norm_label": "seed_lineage.py"
     },
     {
       "label": "_read_required()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L19",
+      "source_location": "L23",
       "id": "seed_lineage_read_required",
-      "community": 6,
+      "community": 7,
       "norm_label": "_read_required()"
     },
     {
       "label": "_request_json()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L26",
+      "source_location": "L30",
       "id": "seed_lineage_request_json",
-      "community": 6,
+      "community": 7,
       "norm_label": "_request_json()"
     },
     {
       "label": "_resolve_table()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L51",
+      "source_location": "L55",
       "id": "seed_lineage_resolve_table",
-      "community": 6,
+      "community": 7,
       "norm_label": "_resolve_table()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L58",
+      "source_location": "L62",
       "id": "seed_lineage_main",
-      "community": 6,
+      "community": 7,
       "norm_label": "main()"
     },
     {
@@ -1231,7 +1384,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/discover_lineage_entities.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_scripts_discover_lineage_entities_py",
-      "community": 6,
+      "community": 7,
       "norm_label": "discover_lineage_entities.py"
     },
     {
@@ -1240,7 +1393,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/discover_lineage_entities.py",
       "source_location": "L27",
       "id": "discover_lineage_entities_read_required",
-      "community": 6,
+      "community": 7,
       "norm_label": "_read_required()"
     },
     {
@@ -1249,7 +1402,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/discover_lineage_entities.py",
       "source_location": "L34",
       "id": "discover_lineage_entities_get_json",
-      "community": 6,
+      "community": 7,
       "norm_label": "_get_json()"
     },
     {
@@ -1258,7 +1411,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/discover_lineage_entities.py",
       "source_location": "L52",
       "id": "discover_lineage_entities_search_tables_for_service",
-      "community": 6,
+      "community": 7,
       "norm_label": "_search_tables_for_service()"
     },
     {
@@ -1267,7 +1420,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/discover_lineage_entities.py",
       "source_location": "L77",
       "id": "discover_lineage_entities_main",
-      "community": 6,
+      "community": 7,
       "norm_label": "main()"
     },
     {
@@ -1276,7 +1429,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_config_py",
-      "community": 6,
+      "community": 7,
       "norm_label": "config.py"
     },
     {
@@ -1285,7 +1438,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L8",
       "id": "config_appconfig",
-      "community": 6,
+      "community": 7,
       "norm_label": "appconfig"
     },
     {
@@ -1294,7 +1447,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L17",
       "id": "config_read_required",
-      "community": 6,
+      "community": 7,
       "norm_label": "_read_required()"
     },
     {
@@ -1303,7 +1456,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/config.py",
       "source_location": "L24",
       "id": "config_load_config",
-      "community": 6,
+      "community": 7,
       "norm_label": "load_config()"
     },
     {
@@ -1312,7 +1465,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/validator.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_llm_validator_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "validator.py"
     },
     {
@@ -1321,7 +1474,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/validator.py",
       "source_location": "L4",
       "id": "validator_summaryvalidator",
-      "community": 3,
+      "community": 4,
       "norm_label": "summaryvalidator"
     },
     {
@@ -1330,7 +1483,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/validator.py",
       "source_location": "L5",
       "id": "validator_summaryvalidator_validate",
-      "community": 3,
+      "community": 4,
       "norm_label": ".validate()"
     },
     {
@@ -1355,16 +1508,16 @@
       "label": ".__init__()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L15",
+      "source_location": "L22",
       "id": "summarizer_llmsummarizer_init",
-      "community": 4,
+      "community": 5,
       "norm_label": ".__init__()"
     },
     {
       "label": ".summarize()",
       "file_type": "code",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L31",
+      "source_location": "L38",
       "id": "summarizer_llmsummarizer_summarize",
       "community": 8,
       "norm_label": ".summarize()"
@@ -1518,9 +1671,9 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/providers/mcp_provider.py",
       "source_location": "L13",
-      "id": "mcp_provider_rationale_13",
       "community": 0,
-      "norm_label": "mcp-first provider.     any mcp transport failure => silent rest fallback."
+      "norm_label": "mcp-first provider.     any mcp transport failure => silent rest fallback.",
+      "id": "mcp_provider_rationale_13"
     },
     {
       "label": "resolver.py",
@@ -1537,7 +1690,7 @@
       "source_file": "src/providers/resolver.py",
       "source_location": "L8",
       "id": "resolver_assetresolver",
-      "community": 5,
+      "community": 3,
       "norm_label": "assetresolver"
     },
     {
@@ -1555,7 +1708,7 @@
       "source_file": "src/providers/jwt_auth.py",
       "source_location": "L1",
       "id": "src_providers_jwt_auth_py",
-      "community": 9,
+      "community": 10,
       "norm_label": "jwt_auth.py"
     },
     {
@@ -1564,7 +1717,7 @@
       "source_file": "src/providers/jwt_auth.py",
       "source_location": "L6",
       "id": "jwt_auth_authconfigerror",
-      "community": 9,
+      "community": 10,
       "norm_label": "authconfigerror"
     },
     {
@@ -1573,7 +1726,7 @@
       "source_file": "",
       "source_location": "",
       "id": "runtimeerror",
-      "community": 4,
+      "community": 5,
       "norm_label": "runtimeerror"
     },
     {
@@ -1582,7 +1735,7 @@
       "source_file": "src/providers/jwt_auth.py",
       "source_location": "L10",
       "id": "jwt_auth_jwtauthprovider",
-      "community": 9,
+      "community": 10,
       "norm_label": "jwtauthprovider"
     },
     {
@@ -1591,7 +1744,7 @@
       "source_file": "src/providers/jwt_auth.py",
       "source_location": "L13",
       "id": "jwt_auth_jwtauthprovider_get_token",
-      "community": 9,
+      "community": 10,
       "norm_label": ".get_token()"
     },
     {
@@ -1599,7 +1752,7 @@
       "file_type": "rationale",
       "source_file": "src/providers/jwt_auth.py",
       "source_location": "L7",
-      "community": 9,
+      "community": 10,
       "norm_label": "raised when required auth configuration is missing or invalid.",
       "id": "jwt_auth_rationale_7"
     },
@@ -1834,7 +1987,7 @@
       "source_file": "src/parser/diff_parser.py",
       "source_location": "L1",
       "id": "src_parser_diff_parser_py",
-      "community": 10,
+      "community": 9,
       "norm_label": "diff_parser.py"
     },
     {
@@ -1843,7 +1996,7 @@
       "source_file": "src/parser/diff_parser.py",
       "source_location": "L13",
       "id": "diff_parser_strip_quotes",
-      "community": 10,
+      "community": 9,
       "norm_label": "_strip_quotes()"
     },
     {
@@ -1852,7 +2005,7 @@
       "source_file": "src/parser/diff_parser.py",
       "source_location": "L20",
       "id": "diff_parser_diffparser",
-      "community": 5,
+      "community": 9,
       "norm_label": "diffparser"
     },
     {
@@ -1861,7 +2014,7 @@
       "source_file": "src/parser/diff_parser.py",
       "source_location": "L39",
       "id": "diff_parser_parse",
-      "community": 10,
+      "community": 9,
       "norm_label": "parse()"
     },
     {
@@ -1888,7 +2041,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L1",
       "id": "src_parser_fixture_loader_py",
-      "community": 7,
+      "community": 6,
       "norm_label": "fixture_loader.py"
     },
     {
@@ -1897,7 +2050,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L9",
       "id": "fixture_loader_fixturenotfounderror",
-      "community": 5,
+      "community": 6,
       "norm_label": "fixturenotfounderror"
     },
     {
@@ -1906,7 +2059,7 @@
       "source_file": "",
       "source_location": "",
       "id": "filenotfounderror",
-      "community": 5,
+      "community": 6,
       "norm_label": "filenotfounderror"
     },
     {
@@ -1915,7 +2068,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L10",
       "id": "fixture_loader_fixturenotfounderror_init",
-      "community": 7,
+      "community": 6,
       "norm_label": ".__init__()"
     },
     {
@@ -1924,7 +2077,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L17",
       "id": "fixture_loader_fixturevalidationerror",
-      "community": 7,
+      "community": 6,
       "norm_label": "fixturevalidationerror"
     },
     {
@@ -1933,7 +2086,7 @@
       "source_file": "",
       "source_location": "",
       "id": "valueerror",
-      "community": 6,
+      "community": 7,
       "norm_label": "valueerror"
     },
     {
@@ -1942,7 +2095,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L18",
       "id": "fixture_loader_fixturevalidationerror_init",
-      "community": 7,
+      "community": 6,
       "norm_label": ".__init__()"
     },
     {
@@ -1951,7 +2104,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L25",
       "id": "fixture_loader_fixtureloader",
-      "community": 7,
+      "community": 6,
       "norm_label": "fixtureloader"
     },
     {
@@ -1960,7 +2113,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L29",
       "id": "fixture_loader_default",
-      "community": 7,
+      "community": 6,
       "norm_label": "default()"
     },
     {
@@ -1969,7 +2122,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L33",
       "id": "fixture_loader_fixtureloader_load_diff",
-      "community": 7,
+      "community": 6,
       "norm_label": ".load_diff()"
     },
     {
@@ -1978,7 +2131,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L36",
       "id": "fixture_loader_fixtureloader_load_lineage",
-      "community": 7,
+      "community": 6,
       "norm_label": ".load_lineage()"
     },
     {
@@ -1987,7 +2140,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L39",
       "id": "fixture_loader_fixtureloader_load_expected",
-      "community": 7,
+      "community": 6,
       "norm_label": ".load_expected()"
     },
     {
@@ -1996,7 +2149,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L42",
       "id": "fixture_loader_fixtureloader_load_all",
-      "community": 7,
+      "community": 6,
       "norm_label": ".load_all()"
     },
     {
@@ -2005,7 +2158,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L49",
       "id": "fixture_loader_fixtureloader_load_json",
-      "community": 7,
+      "community": 6,
       "norm_label": "._load_json()"
     },
     {
@@ -2014,7 +2167,7 @@
       "source_file": "src/parser/fixture_loader.py",
       "source_location": "L57",
       "id": "fixture_loader_fixtureloader_validate_payload",
-      "community": 7,
+      "community": 6,
       "norm_label": "._validate_payload()"
     },
     {
@@ -2023,7 +2176,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L1",
       "id": "users_akshatsaxena_desktop_metaguard_src_adapters_github_adapter_py",
-      "community": 4,
+      "community": 5,
       "norm_label": "github_adapter.py"
     },
     {
@@ -2032,7 +2185,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L11",
       "id": "github_adapter_githubcomment",
-      "community": 4,
+      "community": 5,
       "norm_label": "_githubcomment"
     },
     {
@@ -2041,7 +2194,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L17",
       "id": "github_adapter_githubadapter",
-      "community": 4,
+      "community": 5,
       "norm_label": "githubadapter"
     },
     {
@@ -2050,7 +2203,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L27",
       "id": "github_adapter_githubadapter_init",
-      "community": 4,
+      "community": 5,
       "norm_label": ".__init__()"
     },
     {
@@ -2059,7 +2212,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L34",
       "id": "github_adapter_from_env",
-      "community": 4,
+      "community": 5,
       "norm_label": "from_env()"
     },
     {
@@ -2068,7 +2221,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L44",
       "id": "github_adapter_githubadapter_post_pr_comment",
-      "community": 4,
+      "community": 5,
       "norm_label": ".post_pr_comment()"
     },
     {
@@ -2077,7 +2230,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L61",
       "id": "github_adapter_githubadapter_post_or_update_comment",
-      "community": 4,
+      "community": 5,
       "norm_label": ".post_or_update_comment()"
     },
     {
@@ -2086,7 +2239,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L64",
       "id": "github_adapter_githubadapter_get_changed_files",
-      "community": 4,
+      "community": 5,
       "norm_label": ".get_changed_files()"
     },
     {
@@ -2095,7 +2248,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L79",
       "id": "github_adapter_githubadapter_ensure_marker",
-      "community": 4,
+      "community": 5,
       "norm_label": "._ensure_marker()"
     },
     {
@@ -2104,7 +2257,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L88",
       "id": "github_adapter_githubadapter_find_existing_comment",
-      "community": 4,
+      "community": 5,
       "norm_label": "._find_existing_comment()"
     },
     {
@@ -2113,7 +2266,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L111",
       "id": "github_adapter_githubadapter_create_comment",
-      "community": 4,
+      "community": 5,
       "norm_label": "._create_comment()"
     },
     {
@@ -2122,7 +2275,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L118",
       "id": "github_adapter_githubadapter_update_comment",
-      "community": 4,
+      "community": 5,
       "norm_label": "._update_comment()"
     },
     {
@@ -2131,7 +2284,7 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/github_adapter.py",
       "source_location": "L125",
       "id": "github_adapter_githubadapter_request_json",
-      "community": 4,
+      "community": 5,
       "norm_label": "._request_json()"
     },
     {
@@ -2139,7 +2292,7 @@
       "file_type": "rationale",
       "source_file": "src/adapters/github_adapter.py",
       "source_location": "L18",
-      "community": 4,
+      "community": 5,
       "norm_label": "minimal github rest adapter (stdlib only).      implements an idempotent pr comm",
       "id": "github_adapter_rationale_18"
     },
@@ -2148,7 +2301,7 @@
       "file_type": "rationale",
       "source_file": "src/adapters/github_adapter.py",
       "source_location": "L45",
-      "community": 4,
+      "community": 5,
       "norm_label": "create or update a single metaguard bot comment on a pr.          identification",
       "id": "github_adapter_rationale_45"
     },
@@ -2283,60 +2436,78 @@
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L27",
-      "id": "mcp_client_rationale_27",
       "community": 0,
-      "norm_label": "minimal sse parser.      - accepts arbitrary byte chunks (not necessarily line-a"
+      "norm_label": "minimal sse parser.      - accepts arbitrary byte chunks (not necessarily line-a",
+      "id": "mcp_client_rationale_27"
     },
     {
       "label": "Query MCP for downstream lineage rooted at `asset_id` up to `depth`.          As",
       "file_type": "rationale",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L209",
-      "id": "mcp_client_rationale_209",
       "community": 0,
-      "norm_label": "query mcp for downstream lineage rooted at `asset_id` up to `depth`.          as"
+      "norm_label": "query mcp for downstream lineage rooted at `asset_id` up to `depth`.          as",
+      "id": "mcp_client_rationale_209"
     },
     {
       "label": "renderer.py",
       "file_type": "code",
-      "source_file": "src/engine/renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L1",
-      "id": "src_engine_renderer_py",
+      "id": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "community": 3,
       "norm_label": "renderer.py"
     },
     {
       "label": "_severity_badge()",
       "file_type": "code",
-      "source_file": "src/engine/renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L7",
       "id": "renderer_severity_badge",
       "community": 3,
       "norm_label": "_severity_badge()"
     },
     {
-      "label": "_recommended_actions()",
+      "label": "_severity_label()",
       "file_type": "code",
-      "source_file": "src/engine/renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L17",
-      "id": "renderer_recommended_actions",
+      "id": "renderer_severity_label",
       "community": 3,
-      "norm_label": "_recommended_actions()"
+      "norm_label": "_severity_label()"
+    },
+    {
+      "label": "_change_verb()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L26",
+      "id": "renderer_change_verb",
+      "community": 3,
+      "norm_label": "_change_verb()"
+    },
+    {
+      "label": "_suggested_followup()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L37",
+      "id": "renderer_suggested_followup",
+      "community": 3,
+      "norm_label": "_suggested_followup()"
     },
     {
       "label": "PRCommentRenderer",
       "file_type": "code",
-      "source_file": "src/engine/renderer.py",
-      "source_location": "L42",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L60",
       "id": "renderer_prcommentrenderer",
-      "community": 5,
+      "community": 3,
       "norm_label": "prcommentrenderer"
     },
     {
       "label": "render()",
       "file_type": "code",
-      "source_file": "src/engine/renderer.py",
-      "source_location": "L44",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L62",
       "id": "renderer_render",
       "community": 3,
       "norm_label": "render()"
@@ -2347,7 +2518,7 @@
       "source_file": "src/engine/reporter.py",
       "source_location": "L1",
       "id": "src_engine_reporter_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "reporter.py"
     },
     {
@@ -2356,7 +2527,7 @@
       "source_file": "src/engine/reporter.py",
       "source_location": "L11",
       "id": "reporter_reportbuilder",
-      "community": 5,
+      "community": 3,
       "norm_label": "reportbuilder"
     },
     {
@@ -2365,7 +2536,7 @@
       "source_file": "src/engine/reporter.py",
       "source_location": "L13",
       "id": "reporter_build",
-      "community": 3,
+      "community": 4,
       "norm_label": "build()"
     },
     {
@@ -2380,16 +2551,16 @@
     {
       "label": "rules.py",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L1",
-      "id": "src_engine_rules_py",
+      "id": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "community": 2,
       "norm_label": "rules.py"
     },
     {
       "label": "_column_map_references()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L9",
       "id": "rules_column_map_references",
       "community": 2,
@@ -2398,7 +2569,7 @@
     {
       "label": "_column_map_has_alias()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L18",
       "id": "rules_column_map_has_alias",
       "community": 2,
@@ -2407,7 +2578,7 @@
     {
       "label": "_normalize_type()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L29",
       "id": "rules_normalize_type",
       "community": 2,
@@ -2416,7 +2587,7 @@
     {
       "label": "_varchar_len()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L33",
       "id": "rules_varchar_len",
       "community": 2,
@@ -2425,7 +2596,7 @@
     {
       "label": "_type_change_compatible()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L46",
       "id": "rules_type_change_compatible",
       "community": 2,
@@ -2434,7 +2605,7 @@
     {
       "label": "_type_change_incompatible()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L63",
       "id": "rules_type_change_incompatible",
       "community": 2,
@@ -2443,7 +2614,7 @@
     {
       "label": "_compute_path()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L77",
       "id": "rules_compute_path",
       "community": 2,
@@ -2452,7 +2623,7 @@
     {
       "label": "_format_reason()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L104",
       "id": "rules_format_reason",
       "community": 2,
@@ -2461,7 +2632,7 @@
     {
       "label": "RuleOutcome",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L165",
       "id": "rules_ruleoutcome",
       "community": 2,
@@ -2470,7 +2641,7 @@
     {
       "label": "rule_drop_column()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L171",
       "id": "rules_rule_drop_column",
       "community": 2,
@@ -2479,7 +2650,7 @@
     {
       "label": "rule_rename_column()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L184",
       "id": "rules_rule_rename_column",
       "community": 2,
@@ -2488,7 +2659,7 @@
     {
       "label": "rule_alter_type()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L197",
       "id": "rules_rule_alter_type",
       "community": 2,
@@ -2497,7 +2668,7 @@
     {
       "label": "rule_alter_nullability()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L214",
       "id": "rules_rule_alter_nullability",
       "community": 2,
@@ -2506,29 +2677,65 @@
     {
       "label": "rule_add_column()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L232",
       "id": "rules_rule_add_column",
       "community": 2,
       "norm_label": "rule_add_column()"
     },
     {
+      "label": "_lower_severity()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L244",
+      "id": "rules_lower_severity",
+      "community": 2,
+      "norm_label": "_lower_severity()"
+    },
+    {
+      "label": "_adjust_for_depth()",
+      "file_type": "code",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L250",
+      "id": "rules_adjust_for_depth",
+      "community": 2,
+      "norm_label": "_adjust_for_depth()"
+    },
+    {
       "label": "ImpactRulesEngine",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L241",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L275",
       "id": "rules_impactrulesengine",
-      "community": 5,
+      "community": 3,
       "norm_label": "impactrulesengine"
     },
     {
       "label": "evaluate()",
       "file_type": "code",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L243",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L277",
       "id": "rules_evaluate",
       "community": 2,
       "norm_label": "evaluate()"
+    },
+    {
+      "label": "Reduce severity by one level (floor at LOW).",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L245",
+      "id": "rules_rationale_245",
+      "community": 3,
+      "norm_label": "reduce severity by one level (floor at low)."
+    },
+    {
+      "label": "Adjust severity and confidence based on lineage depth.      Rules:     - Depth >",
+      "file_type": "rationale",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L251",
+      "id": "rules_rationale_251",
+      "community": 3,
+      "norm_label": "adjust severity and confidence based on lineage depth.      rules:     - depth >"
     },
     {
       "label": "traverser.py",
@@ -2545,7 +2752,7 @@
       "source_file": "src/engine/traverser.py",
       "source_location": "L8",
       "id": "traverser_lineagetraverser",
-      "community": 5,
+      "community": 3,
       "norm_label": "lineagetraverser"
     },
     {
@@ -2626,7 +2833,7 @@
       "source_file": "src/domain/enums.py",
       "source_location": "L1",
       "id": "src_domain_enums_py",
-      "community": 5,
+      "community": 3,
       "norm_label": "enums.py"
     },
     {
@@ -2635,7 +2842,7 @@
       "source_file": "src/domain/enums.py",
       "source_location": "L6",
       "id": "enums_changetype",
-      "community": 5,
+      "community": 3,
       "norm_label": "changetype"
     },
     {
@@ -2653,7 +2860,7 @@
       "source_file": "",
       "source_location": "",
       "id": "enum",
-      "community": 5,
+      "community": 3,
       "norm_label": "enum"
     },
     {
@@ -2662,7 +2869,7 @@
       "source_file": "src/domain/enums.py",
       "source_location": "L15",
       "id": "enums_severity",
-      "community": 5,
+      "community": 3,
       "norm_label": "severity"
     },
     {
@@ -2671,7 +2878,7 @@
       "source_file": "src/domain/enums.py",
       "source_location": "L22",
       "id": "enums_confidence",
-      "community": 5,
+      "community": 3,
       "norm_label": "confidence"
     },
     {
@@ -2734,7 +2941,7 @@
       "source_file": "src/domain/models.py",
       "source_location": "L45",
       "id": "models_impactrecord",
-      "community": 5,
+      "community": 3,
       "norm_label": "impactrecord"
     },
     {
@@ -2743,7 +2950,7 @@
       "source_file": "src/domain/models.py",
       "source_location": "L57",
       "id": "models_impactreport",
-      "community": 5,
+      "community": 3,
       "norm_label": "impactreport"
     },
     {
@@ -2760,7 +2967,7 @@
       "file_type": "rationale",
       "source_file": "main.py",
       "source_location": "L159",
-      "community": 5,
+      "community": 3,
       "norm_label": "returns (fixture_id, file_paths).      - if `changed_files` is a fixture id like",
       "id": "main_rationale_159"
     },
@@ -4260,9 +4467,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "github_adapter_githubadapter",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "github_adapter_githubadapter",
-      "confidence_score": 0.5
+      "target": "github_adapter_githubadapter"
     },
     {
       "relation": "uses",
@@ -4272,9 +4479,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "mcp_client_mcpclient",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "mcp_client_mcpclient",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcpclient"
     },
     {
       "relation": "uses",
@@ -4284,9 +4491,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "enums_changetype",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "enums_changetype",
-      "confidence_score": 0.5
+      "target": "enums_changetype"
     },
     {
       "relation": "uses",
@@ -4296,9 +4503,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "enums_severity",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "enums_severity",
-      "confidence_score": 0.5
+      "target": "enums_severity"
     },
     {
       "relation": "uses",
@@ -4308,9 +4515,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "models_impactrecord",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "models_impactrecord",
-      "confidence_score": 0.5
+      "target": "models_impactrecord"
     },
     {
       "relation": "uses",
@@ -4320,9 +4527,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "models_schemachange",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "models_schemachange",
-      "confidence_score": 0.5
+      "target": "models_schemachange"
     },
     {
       "relation": "uses",
@@ -4332,9 +4539,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "renderer_prcommentrenderer",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "renderer_prcommentrenderer",
-      "confidence_score": 0.5
+      "target": "renderer_prcommentrenderer"
     },
     {
       "relation": "uses",
@@ -4344,9 +4551,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "reporter_reportbuilder",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "reporter_reportbuilder",
-      "confidence_score": 0.5
+      "target": "reporter_reportbuilder"
     },
     {
       "relation": "uses",
@@ -4356,9 +4563,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "rules_impactrulesengine",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "rules_impactrulesengine",
-      "confidence_score": 0.5
+      "target": "rules_impactrulesengine"
     },
     {
       "relation": "uses",
@@ -4368,9 +4575,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "traverser_lineagetraverser",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "traverser_lineagetraverser",
-      "confidence_score": 0.5
+      "target": "traverser_lineagetraverser"
     },
     {
       "relation": "uses",
@@ -4380,9 +4587,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "summarizer_llmsummarizer",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "summarizer_llmsummarizer",
-      "confidence_score": 0.5
+      "target": "summarizer_llmsummarizer"
     },
     {
       "relation": "uses",
@@ -4392,9 +4599,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "validator_summaryvalidator",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "validator_summaryvalidator",
-      "confidence_score": 0.5
+      "target": "validator_summaryvalidator"
     },
     {
       "relation": "uses",
@@ -4404,9 +4611,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "fixture_loader_fixtureloader",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "fixture_loader_fixtureloader",
-      "confidence_score": 0.5
+      "target": "fixture_loader_fixtureloader"
     },
     {
       "relation": "uses",
@@ -4416,9 +4623,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "fixture_loader_fixturenotfounderror",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "fixture_loader_fixturenotfounderror",
-      "confidence_score": 0.5
+      "target": "fixture_loader_fixturenotfounderror"
     },
     {
       "relation": "uses",
@@ -4428,9 +4635,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "fixture_loader_fixturevalidationerror",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "fixture_loader_fixturevalidationerror",
-      "confidence_score": 0.5
+      "target": "fixture_loader_fixturevalidationerror"
     },
     {
       "relation": "uses",
@@ -4440,9 +4647,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "jwt_auth_jwtauthprovider",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "jwt_auth_jwtauthprovider",
-      "confidence_score": 0.5
+      "target": "jwt_auth_jwtauthprovider"
     },
     {
       "relation": "uses",
@@ -4452,9 +4659,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "mcp_provider_mcpmetadataprovider",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "mcp_provider_mcpmetadataprovider",
-      "confidence_score": 0.5
+      "target": "mcp_provider_mcpmetadataprovider"
     },
     {
       "relation": "uses",
@@ -4464,9 +4671,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "mock_provider_mockmetadataprovider",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "mock_provider_mockmetadataprovider",
-      "confidence_score": 0.5
+      "target": "mock_provider_mockmetadataprovider"
     },
     {
       "relation": "uses",
@@ -4476,9 +4683,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "openmetadata_provider_openmetadataprovider",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "openmetadata_provider_openmetadataprovider",
-      "confidence_score": 0.5
+      "target": "openmetadata_provider_openmetadataprovider"
     },
     {
       "relation": "uses",
@@ -4488,9 +4695,9 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "resolver_assetresolver",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "resolver_assetresolver",
-      "confidence_score": 0.5
+      "target": "resolver_assetresolver"
     },
     {
       "relation": "uses",
@@ -4500,20 +4707,68 @@
       "weight": 0.8,
       "_src": "main_rationale_277",
       "_tgt": "diff_parser_diffparser",
+      "confidence_score": 0.5,
       "source": "main_rationale_277",
-      "target": "diff_parser_diffparser",
-      "confidence_score": 0.5
+      "target": "diff_parser_diffparser"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "tests_unit_test_renderer_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
       "_tgt": "test_renderer_test_renderer_contains_asset_names_and_critical",
-      "source": "tests_unit_test_renderer_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
       "target": "test_renderer_test_renderer_contains_asset_names_and_critical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "_tgt": "test_renderer_test_renderer_polished_title_format",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "target": "test_renderer_test_renderer_polished_title_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "_tgt": "test_renderer_test_renderer_change_details_section",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "target": "test_renderer_test_renderer_change_details_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "_tgt": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "target": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "_tgt": "test_renderer_test_renderer_owner_column_when_present",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_renderer_py",
+      "target": "test_renderer_test_renderer_owner_column_when_present",
       "confidence_score": 1.0
     },
     {
@@ -4551,6 +4806,594 @@
       "_tgt": "renderer_render",
       "source": "test_renderer_test_renderer_contains_asset_names_and_critical",
       "target": "renderer_render"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "test_renderer_test_renderer_polished_title_format",
+      "source": "test_renderer_test_renderer_polished_title_format",
+      "target": "test_renderer_rationale_35",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_polished_title_format",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_test_renderer_polished_title_format",
+      "target": "models_impactreport"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_polished_title_format",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_test_renderer_polished_title_format",
+      "target": "models_impactrecord"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_polished_title_format",
+      "_tgt": "renderer_render",
+      "source": "test_renderer_test_renderer_polished_title_format",
+      "target": "renderer_render"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "test_renderer_test_renderer_change_details_section",
+      "source": "test_renderer_test_renderer_change_details_section",
+      "target": "test_renderer_rationale_63",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_change_details_section",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_test_renderer_change_details_section",
+      "target": "models_impactreport"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_change_details_section",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_test_renderer_change_details_section",
+      "target": "models_impactrecord"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_change_details_section",
+      "_tgt": "models_schemachange",
+      "source": "test_renderer_test_renderer_change_details_section",
+      "target": "models_schemachange"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_change_details_section",
+      "_tgt": "renderer_render",
+      "source": "test_renderer_test_renderer_change_details_section",
+      "target": "renderer_render"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "source": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "target": "test_renderer_rationale_90",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "target": "models_impactreport"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "target": "models_impactrecord"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "_tgt": "renderer_render",
+      "source": "test_renderer_test_renderer_no_owner_column_when_absent",
+      "target": "renderer_render"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "test_renderer_test_renderer_owner_column_when_present",
+      "source": "test_renderer_test_renderer_owner_column_when_present",
+      "target": "test_renderer_rationale_109",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_owner_column_when_present",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_test_renderer_owner_column_when_present",
+      "target": "models_impactreport"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_owner_column_when_present",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_test_renderer_owner_column_when_present",
+      "target": "models_impactrecord"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_src": "test_renderer_test_renderer_owner_column_when_present",
+      "_tgt": "renderer_render",
+      "source": "test_renderer_test_renderer_owner_column_when_present",
+      "target": "renderer_render"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "enums_assettype",
+      "source": "test_renderer_rationale_35",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "enums_changetype",
+      "source": "test_renderer_rationale_35",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "enums_confidence",
+      "source": "test_renderer_rationale_35",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "enums_severity",
+      "source": "test_renderer_rationale_35",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_rationale_35",
+      "target": "models_impactrecord",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_rationale_35",
+      "target": "models_impactreport",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "models_schemachange",
+      "source": "test_renderer_rationale_35",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_35",
+      "_tgt": "renderer_prcommentrenderer",
+      "source": "test_renderer_rationale_35",
+      "target": "renderer_prcommentrenderer",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "enums_assettype",
+      "source": "test_renderer_rationale_63",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "enums_changetype",
+      "source": "test_renderer_rationale_63",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "enums_confidence",
+      "source": "test_renderer_rationale_63",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "enums_severity",
+      "source": "test_renderer_rationale_63",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_rationale_63",
+      "target": "models_impactrecord",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_rationale_63",
+      "target": "models_impactreport",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "models_schemachange",
+      "source": "test_renderer_rationale_63",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_63",
+      "_tgt": "renderer_prcommentrenderer",
+      "source": "test_renderer_rationale_63",
+      "target": "renderer_prcommentrenderer",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "enums_assettype",
+      "source": "test_renderer_rationale_90",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "enums_changetype",
+      "source": "test_renderer_rationale_90",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "enums_confidence",
+      "source": "test_renderer_rationale_90",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "enums_severity",
+      "source": "test_renderer_rationale_90",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_rationale_90",
+      "target": "models_impactrecord",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_rationale_90",
+      "target": "models_impactreport",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "models_schemachange",
+      "source": "test_renderer_rationale_90",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_90",
+      "_tgt": "renderer_prcommentrenderer",
+      "source": "test_renderer_rationale_90",
+      "target": "renderer_prcommentrenderer",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "enums_assettype",
+      "source": "test_renderer_rationale_109",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "enums_changetype",
+      "source": "test_renderer_rationale_109",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "enums_confidence",
+      "source": "test_renderer_rationale_109",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "enums_severity",
+      "source": "test_renderer_rationale_109",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "models_impactrecord",
+      "source": "test_renderer_rationale_109",
+      "target": "models_impactrecord",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "models_impactreport",
+      "source": "test_renderer_rationale_109",
+      "target": "models_impactreport",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "models_schemachange",
+      "source": "test_renderer_rationale_109",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_renderer.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_src": "test_renderer_rationale_109",
+      "_tgt": "renderer_prcommentrenderer",
+      "source": "test_renderer_rationale_109",
+      "target": "renderer_prcommentrenderer",
+      "confidence_score": 0.5
     },
     {
       "relation": "contains",
@@ -5768,11 +6611,23 @@
       "relation": "calls",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "test_multi_change_test_multi_change_migration_parsing",
+      "_tgt": "test_github_adapter_fakehttpresponse_read",
+      "source": "test_github_adapter_fakehttpresponse_read",
+      "target": "test_multi_change_test_multi_change_migration_parsing"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
       "source_location": "L40",
       "weight": 1.0,
-      "_src": "seed_lineage_request_json",
-      "_tgt": "test_github_adapter_fakehttpresponse_read",
+      "_src": "test_github_adapter_fakehttpresponse_read",
+      "_tgt": "seed_lineage_request_json",
       "source": "test_github_adapter_fakehttpresponse_read",
       "target": "seed_lineage_request_json"
     },
@@ -5783,8 +6638,8 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/discover_lineage_entities.py",
       "source_location": "L46",
       "weight": 1.0,
-      "_src": "discover_lineage_entities_get_json",
-      "_tgt": "test_github_adapter_fakehttpresponse_read",
+      "_src": "test_github_adapter_fakehttpresponse_read",
+      "_tgt": "discover_lineage_entities_get_json",
       "source": "test_github_adapter_fakehttpresponse_read",
       "target": "discover_lineage_entities_get_json"
     },
@@ -5819,8 +6674,8 @@
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/adapters/mcp_client.py",
       "source_location": "L251",
       "weight": 1.0,
-      "_src": "mcp_client_mcpclient_post_sse",
-      "_tgt": "test_github_adapter_fakehttpresponse_read",
+      "_src": "test_github_adapter_fakehttpresponse_read",
+      "_tgt": "mcp_client_mcpclient_post_sse",
       "source": "test_github_adapter_fakehttpresponse_read",
       "target": "mcp_client_mcpclient_post_sse"
     },
@@ -6012,9 +6867,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakemcpclient",
       "_tgt": "mcp_client_mcptransporterror",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakemcpclient",
-      "target": "mcp_client_mcptransporterror",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcptransporterror"
     },
     {
       "relation": "uses",
@@ -6024,9 +6879,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakemcpclient",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakemcpclient",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -6036,9 +6891,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakemcpclient",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakemcpclient",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -6048,9 +6903,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakemcpclient",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakemcpclient",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -6060,9 +6915,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakemcpclient",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakemcpclient",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "uses",
@@ -6072,9 +6927,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakemcpclient",
       "_tgt": "mcp_provider_mcpmetadataprovider",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakemcpclient",
-      "target": "mcp_provider_mcpmetadataprovider",
-      "confidence_score": 0.5
+      "target": "mcp_provider_mcpmetadataprovider"
     },
     {
       "relation": "calls",
@@ -6144,9 +6999,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakerestprovider",
       "_tgt": "mcp_client_mcptransporterror",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakerestprovider",
-      "target": "mcp_client_mcptransporterror",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcptransporterror"
     },
     {
       "relation": "uses",
@@ -6156,9 +7011,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakerestprovider",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakerestprovider",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -6168,9 +7023,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakerestprovider",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakerestprovider",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -6180,9 +7035,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakerestprovider",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakerestprovider",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -6192,9 +7047,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakerestprovider",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakerestprovider",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "uses",
@@ -6204,9 +7059,9 @@
       "weight": 0.8,
       "_src": "test_mcp_provider_fakerestprovider",
       "_tgt": "mcp_provider_mcpmetadataprovider",
+      "confidence_score": 0.5,
       "source": "test_mcp_provider_fakerestprovider",
-      "target": "mcp_provider_mcpmetadataprovider",
-      "confidence_score": 0.5
+      "target": "mcp_provider_mcpmetadataprovider"
     },
     {
       "relation": "calls",
@@ -6595,6 +7450,66 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_multi_change_py",
+      "_tgt": "test_multi_change_test_multi_change_migration_parsing",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_multi_change_py",
+      "target": "test_multi_change_test_multi_change_migration_parsing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "test_multi_change_rationale_10",
+      "_tgt": "test_multi_change_test_multi_change_migration_parsing",
+      "source": "test_multi_change_test_multi_change_migration_parsing",
+      "target": "test_multi_change_rationale_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "test_multi_change_test_multi_change_migration_parsing",
+      "_tgt": "diff_parser_parse",
+      "source": "test_multi_change_test_multi_change_migration_parsing",
+      "target": "diff_parser_parse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_multi_change_rationale_10",
+      "_tgt": "enums_changetype",
+      "source": "test_multi_change_rationale_10",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_multi_change.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "test_multi_change_rationale_10",
+      "_tgt": "diff_parser_diffparser",
+      "source": "test_multi_change_rationale_10",
+      "target": "diff_parser_diffparser",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_llm_validator.py",
       "source_location": "L6",
       "weight": 1.0,
@@ -6667,211 +7582,247 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L8",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_asset",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_asset",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L12",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_drop_column_with_column_lineage_is_critical_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_drop_column_with_column_lineage_is_critical_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L24",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_drop_column_table_level_only_is_high_medium",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_drop_column_table_level_only_is_high_medium",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L31",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_drop_column_no_downstream_is_low_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_drop_column_no_downstream_is_low_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L38",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_rename_column_no_alias_is_critical_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_rename_column_no_alias_is_critical_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L45",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_rename_column_with_alias_is_medium_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_rename_column_with_alias_is_medium_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L57",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_rename_column_table_level_only_is_high_medium",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_rename_column_table_level_only_is_high_medium",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L64",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_alter_type_incompatible_with_column_lineage_is_high_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_alter_type_incompatible_with_column_lineage_is_high_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L73",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_alter_type_compatible_with_column_lineage_is_low_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_alter_type_compatible_with_column_lineage_is_low_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L80",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_alter_type_table_level_only_is_medium_medium",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_alter_type_table_level_only_is_medium_medium",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L87",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_alter_nullability_not_null_to_null_is_low_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_alter_nullability_not_null_to_null_is_low_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L96",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_alter_nullability_null_to_not_null_is_high_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_alter_nullability_null_to_not_null_is_high_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L105",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_alter_nullability_table_level_only_is_medium_medium",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_alter_nullability_table_level_only_is_medium_medium",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L114",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_add_column_strict_schema_consumer_is_medium_low",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_add_column_strict_schema_consumer_is_medium_low",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L121",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_add_column_default_is_low_high",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_add_column_default_is_low_high",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L128",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_path_computation_appends_column_except_for_dashboard_leaf",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_path_computation_appends_column_except_for_dashboard_leaf",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L140",
       "weight": 1.0,
-      "_src": "tests_unit_test_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "_tgt": "test_rules_test_empty_lineage_graph_returns_low_low",
-      "source": "tests_unit_test_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
       "target": "test_rules_test_empty_lineage_graph_returns_low_low",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
+      "_tgt": "test_rules_test_deep_lineage_reduces_severity",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
+      "target": "test_rules_test_deep_lineage_reduces_severity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
+      "_tgt": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
+      "target": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
+      "_tgt": "test_rules_test_deep_lineage_preserves_low_severity",
+      "source": "users_akshatsaxena_desktop_metaguard_tests_unit_test_rules_py",
+      "target": "test_rules_test_deep_lineage_preserves_low_severity",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L16",
       "weight": 1.0,
       "_src": "test_rules_test_drop_column_with_column_lineage_is_critical_high",
@@ -6883,7 +7834,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L26",
       "weight": 1.0,
       "_src": "test_rules_test_drop_column_table_level_only_is_high_medium",
@@ -6895,7 +7846,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L33",
       "weight": 1.0,
       "_src": "test_rules_test_drop_column_no_downstream_is_low_high",
@@ -6907,7 +7858,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L40",
       "weight": 1.0,
       "_src": "test_rules_test_rename_column_no_alias_is_critical_high",
@@ -6919,7 +7870,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L49",
       "weight": 1.0,
       "_src": "test_rules_test_rename_column_with_alias_is_medium_high",
@@ -6931,7 +7882,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L59",
       "weight": 1.0,
       "_src": "test_rules_test_rename_column_table_level_only_is_high_medium",
@@ -6943,7 +7894,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L68",
       "weight": 1.0,
       "_src": "test_rules_test_alter_type_incompatible_with_column_lineage_is_high_high",
@@ -6955,7 +7906,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L75",
       "weight": 1.0,
       "_src": "test_rules_test_alter_type_compatible_with_column_lineage_is_low_high",
@@ -6967,7 +7918,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L82",
       "weight": 1.0,
       "_src": "test_rules_test_alter_type_table_level_only_is_medium_medium",
@@ -6979,7 +7930,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L91",
       "weight": 1.0,
       "_src": "test_rules_test_alter_nullability_not_null_to_null_is_low_high",
@@ -6991,7 +7942,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L100",
       "weight": 1.0,
       "_src": "test_rules_test_alter_nullability_null_to_not_null_is_high_high",
@@ -7003,7 +7954,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L109",
       "weight": 1.0,
       "_src": "test_rules_test_alter_nullability_table_level_only_is_medium_medium",
@@ -7015,7 +7966,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L116",
       "weight": 1.0,
       "_src": "test_rules_test_add_column_strict_schema_consumer_is_medium_low",
@@ -7027,7 +7978,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L123",
       "weight": 1.0,
       "_src": "test_rules_test_add_column_default_is_low_high",
@@ -7039,7 +7990,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L130",
       "weight": 1.0,
       "_src": "test_rules_test_path_computation_appends_column_except_for_dashboard_leaf",
@@ -7051,13 +8002,49 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "tests/unit/test_rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
       "source_location": "L142",
       "weight": 1.0,
       "_src": "test_rules_test_empty_lineage_graph_returns_low_low",
       "_tgt": "test_rules_asset",
       "source": "test_rules_asset",
       "target": "test_rules_test_empty_lineage_graph_returns_low_low",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L154",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_reduces_severity",
+      "_tgt": "test_rules_asset",
+      "source": "test_rules_asset",
+      "target": "test_rules_test_deep_lineage_reduces_severity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "_tgt": "test_rules_asset",
+      "source": "test_rules_asset",
+      "target": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_preserves_low_severity",
+      "_tgt": "test_rules_asset",
+      "source": "test_rules_asset",
+      "target": "test_rules_test_deep_lineage_preserves_low_severity",
       "confidence_score": 1.0
     },
     {
@@ -7457,6 +8444,366 @@
       "target": "rules_evaluate"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "test_rules_test_deep_lineage_reduces_severity",
+      "source": "test_rules_test_deep_lineage_reduces_severity",
+      "target": "test_rules_rationale_150",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_reduces_severity",
+      "_tgt": "models_schemachange",
+      "source": "test_rules_test_deep_lineage_reduces_severity",
+      "target": "models_schemachange"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_reduces_severity",
+      "_tgt": "rules_evaluate",
+      "source": "test_rules_test_deep_lineage_reduces_severity",
+      "target": "rules_evaluate"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "source": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "target": "test_rules_rationale_161",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "_tgt": "models_schemachange",
+      "source": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "target": "models_schemachange"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "_tgt": "rules_evaluate",
+      "source": "test_rules_test_deep_lineage_without_column_map_has_low_confidence",
+      "target": "rules_evaluate"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "test_rules_test_deep_lineage_preserves_low_severity",
+      "source": "test_rules_test_deep_lineage_preserves_low_severity",
+      "target": "test_rules_rationale_172",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L173",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_preserves_low_severity",
+      "_tgt": "models_schemachange",
+      "source": "test_rules_test_deep_lineage_preserves_low_severity",
+      "target": "models_schemachange"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_src": "test_rules_test_deep_lineage_preserves_low_severity",
+      "_tgt": "rules_evaluate",
+      "source": "test_rules_test_deep_lineage_preserves_low_severity",
+      "target": "rules_evaluate"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "enums_assettype",
+      "source": "test_rules_rationale_150",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "enums_changetype",
+      "source": "test_rules_rationale_150",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "enums_confidence",
+      "source": "test_rules_rationale_150",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "enums_severity",
+      "source": "test_rules_rationale_150",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "models_asset",
+      "source": "test_rules_rationale_150",
+      "target": "models_asset",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "models_schemachange",
+      "source": "test_rules_rationale_150",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_150",
+      "_tgt": "rules_impactrulesengine",
+      "source": "test_rules_rationale_150",
+      "target": "rules_impactrulesengine",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "enums_assettype",
+      "source": "test_rules_rationale_161",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "enums_changetype",
+      "source": "test_rules_rationale_161",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "enums_confidence",
+      "source": "test_rules_rationale_161",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "enums_severity",
+      "source": "test_rules_rationale_161",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "models_asset",
+      "source": "test_rules_rationale_161",
+      "target": "models_asset",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "models_schemachange",
+      "source": "test_rules_rationale_161",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_161",
+      "_tgt": "rules_impactrulesengine",
+      "source": "test_rules_rationale_161",
+      "target": "rules_impactrulesengine",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "enums_assettype",
+      "source": "test_rules_rationale_172",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "enums_changetype",
+      "source": "test_rules_rationale_172",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "enums_confidence",
+      "source": "test_rules_rationale_172",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "enums_severity",
+      "source": "test_rules_rationale_172",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "models_asset",
+      "source": "test_rules_rationale_172",
+      "target": "models_asset",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "models_schemachange",
+      "source": "test_rules_rationale_172",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/tests/unit/test_rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "test_rules_rationale_172",
+      "_tgt": "rules_impactrulesengine",
+      "source": "test_rules_rationale_172",
+      "target": "rules_impactrulesengine",
+      "confidence_score": 0.5
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/integration/test_cli_mock.py",
@@ -7532,7 +8879,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L19",
+      "source_location": "L23",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_scripts_seed_lineage_py",
       "_tgt": "seed_lineage_read_required",
@@ -7544,7 +8891,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L26",
+      "source_location": "L30",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_scripts_seed_lineage_py",
       "_tgt": "seed_lineage_request_json",
@@ -7556,7 +8903,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L51",
+      "source_location": "L55",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_scripts_seed_lineage_py",
       "_tgt": "seed_lineage_resolve_table",
@@ -7568,7 +8915,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L58",
+      "source_location": "L62",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_scripts_seed_lineage_py",
       "_tgt": "seed_lineage_main",
@@ -7580,7 +8927,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L60",
+      "source_location": "L64",
       "weight": 1.0,
       "_src": "seed_lineage_main",
       "_tgt": "seed_lineage_read_required",
@@ -7604,7 +8951,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L52",
+      "source_location": "L56",
       "weight": 1.0,
       "_src": "seed_lineage_resolve_table",
       "_tgt": "seed_lineage_request_json",
@@ -7616,7 +8963,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L108",
+      "source_location": "L124",
       "weight": 1.0,
       "_src": "seed_lineage_main",
       "_tgt": "seed_lineage_request_json",
@@ -7628,7 +8975,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/scripts/seed_lineage.py",
-      "source_location": "L63",
+      "source_location": "L67",
       "weight": 1.0,
       "_src": "seed_lineage_main",
       "_tgt": "seed_lineage_resolve_table",
@@ -7868,7 +9215,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L14",
+      "source_location": "L21",
       "weight": 1.0,
       "_src": "users_akshatsaxena_desktop_metaguard_src_llm_summarizer_py",
       "_tgt": "summarizer_llmsummarizer",
@@ -7880,7 +9227,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L15",
+      "source_location": "L22",
       "weight": 1.0,
       "_src": "summarizer_llmsummarizer",
       "_tgt": "summarizer_llmsummarizer_init",
@@ -7892,7 +9239,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/llm/summarizer.py",
-      "source_location": "L31",
+      "source_location": "L38",
       "weight": 1.0,
       "_src": "summarizer_llmsummarizer",
       "_tgt": "summarizer_llmsummarizer_summarize",
@@ -8050,8 +9397,8 @@
       "source_file": "main.py",
       "source_location": "L18",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "mock_provider_mockmetadataprovider",
+      "_src": "mock_provider_mockmetadataprovider",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "mock_provider_mockmetadataprovider",
       "target": "main_rationale_159"
@@ -8340,9 +9687,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "mcp_client_mcpclient",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "mcp_client_mcpclient",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcpclient"
     },
     {
       "relation": "uses",
@@ -8352,9 +9699,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "mcp_client_mcptransporterror",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "mcp_client_mcptransporterror",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcptransporterror"
     },
     {
       "relation": "uses",
@@ -8364,9 +9711,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -8376,9 +9723,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -8388,9 +9735,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -8400,9 +9747,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "uses",
@@ -8412,9 +9759,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "base_metadataprovider",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "base_metadataprovider",
-      "confidence_score": 0.5
+      "target": "base_metadataprovider"
     },
     {
       "relation": "uses",
@@ -8424,9 +9771,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_mcpmetadataprovider",
       "_tgt": "openmetadata_provider_openmetadataprovider",
+      "confidence_score": 0.5,
       "source": "mcp_provider_mcpmetadataprovider",
-      "target": "openmetadata_provider_openmetadataprovider",
-      "confidence_score": 0.5
+      "target": "openmetadata_provider_openmetadataprovider"
     },
     {
       "relation": "calls",
@@ -8592,9 +9939,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "mcp_client_mcpclient",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "mcp_client_mcpclient",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcpclient"
     },
     {
       "relation": "uses",
@@ -8604,9 +9951,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "mcp_client_mcptransporterror",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "mcp_client_mcptransporterror",
-      "confidence_score": 0.5
+      "target": "mcp_client_mcptransporterror"
     },
     {
       "relation": "uses",
@@ -8616,9 +9963,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -8628,9 +9975,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -8640,9 +9987,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -8652,9 +9999,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "uses",
@@ -8664,9 +10011,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "base_metadataprovider",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "base_metadataprovider",
-      "confidence_score": 0.5
+      "target": "base_metadataprovider"
     },
     {
       "relation": "uses",
@@ -8676,9 +10023,9 @@
       "weight": 0.8,
       "_src": "mcp_provider_rationale_13",
       "_tgt": "openmetadata_provider_openmetadataprovider",
+      "confidence_score": 0.5,
       "source": "mcp_provider_rationale_13",
-      "target": "openmetadata_provider_openmetadataprovider",
-      "confidence_score": 0.5
+      "target": "openmetadata_provider_openmetadataprovider"
     },
     {
       "relation": "contains",
@@ -8710,8 +10057,8 @@
       "source_file": "main.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "resolver_assetresolver",
+      "_src": "resolver_assetresolver",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "resolver_assetresolver",
       "target": "main_rationale_159"
@@ -8914,8 +10261,8 @@
       "source_file": "main.py",
       "source_location": "L17",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "jwt_auth_jwtauthprovider",
+      "_src": "jwt_auth_jwtauthprovider",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "jwt_auth_jwtauthprovider",
       "target": "main_rationale_159"
@@ -9562,8 +10909,8 @@
       "source_file": "main.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "openmetadata_provider_openmetadataprovider",
+      "_src": "openmetadata_provider_openmetadataprovider",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "openmetadata_provider_openmetadataprovider",
       "target": "main_rationale_159"
@@ -9850,8 +11197,8 @@
       "source_file": "main.py",
       "source_location": "L16",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "fixture_loader_fixturenotfounderror",
+      "_src": "fixture_loader_fixturenotfounderror",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "fixture_loader_fixturenotfounderror",
       "target": "main_rationale_159"
@@ -9910,8 +11257,8 @@
       "source_file": "main.py",
       "source_location": "L16",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "fixture_loader_fixturevalidationerror",
+      "_src": "fixture_loader_fixturevalidationerror",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "fixture_loader_fixturevalidationerror",
       "target": "main_rationale_159"
@@ -10006,8 +11353,8 @@
       "source_file": "main.py",
       "source_location": "L16",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "fixture_loader_fixtureloader",
+      "_src": "fixture_loader_fixtureloader",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "fixture_loader_fixtureloader",
       "target": "main_rationale_159"
@@ -10270,8 +11617,8 @@
       "source_file": "main.py",
       "source_location": "L9",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "github_adapter_githubadapter",
+      "_src": "github_adapter_githubadapter",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "github_adapter_githubadapter",
       "target": "main_rationale_159"
@@ -10560,9 +11907,9 @@
       "weight": 0.8,
       "_src": "mcp_client_mcptransporterror",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "mcp_client_mcptransporterror",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -10572,9 +11919,9 @@
       "weight": 0.8,
       "_src": "mcp_client_mcptransporterror",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "mcp_client_mcptransporterror",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -10584,9 +11931,9 @@
       "weight": 0.8,
       "_src": "mcp_client_mcptransporterror",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "mcp_client_mcptransporterror",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -10596,9 +11943,9 @@
       "weight": 0.8,
       "_src": "mcp_client_mcptransporterror",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "mcp_client_mcptransporterror",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "calls",
@@ -10908,9 +12255,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_27",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_27",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -10920,9 +12267,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_27",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_27",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -10932,9 +12279,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_27",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_27",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -10944,9 +12291,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_27",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_27",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "uses",
@@ -10956,9 +12303,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "enums_assettype",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "enums_assettype",
-      "confidence_score": 0.5
+      "target": "enums_assettype"
     },
     {
       "relation": "uses",
@@ -10968,9 +12315,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "models_asset",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "models_asset",
-      "confidence_score": 0.5
+      "target": "models_asset"
     },
     {
       "relation": "uses",
@@ -10980,9 +12327,9 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "models_lineageedge",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "models_lineageedge",
-      "confidence_score": 0.5
+      "target": "models_lineageedge"
     },
     {
       "relation": "uses",
@@ -10992,63 +12339,87 @@
       "weight": 0.8,
       "_src": "mcp_client_rationale_209",
       "_tgt": "models_lineagegraph",
+      "confidence_score": 0.5,
       "source": "mcp_client_rationale_209",
-      "target": "models_lineagegraph",
-      "confidence_score": 0.5
+      "target": "models_lineagegraph"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L7",
       "weight": 1.0,
-      "_src": "src_engine_renderer_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "_tgt": "renderer_severity_badge",
-      "source": "src_engine_renderer_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "target": "renderer_severity_badge",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/renderer.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
       "source_location": "L17",
       "weight": 1.0,
-      "_src": "src_engine_renderer_py",
-      "_tgt": "renderer_recommended_actions",
-      "source": "src_engine_renderer_py",
-      "target": "renderer_recommended_actions",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
+      "_tgt": "renderer_severity_label",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
+      "target": "renderer_severity_label",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/renderer.py",
-      "source_location": "L42",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L26",
       "weight": 1.0,
-      "_src": "src_engine_renderer_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
+      "_tgt": "renderer_change_verb",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
+      "target": "renderer_change_verb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
+      "_tgt": "renderer_suggested_followup",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
+      "target": "renderer_suggested_followup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "_tgt": "renderer_prcommentrenderer",
-      "source": "src_engine_renderer_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "target": "renderer_prcommentrenderer",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/renderer.py",
-      "source_location": "L44",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L62",
       "weight": 1.0,
-      "_src": "src_engine_renderer_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "_tgt": "renderer_render",
-      "source": "src_engine_renderer_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_renderer_py",
       "target": "renderer_render",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/renderer.py",
-      "source_location": "L45",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L63",
       "weight": 1.0,
       "_src": "renderer_render",
       "_tgt": "renderer_severity_badge",
@@ -11059,26 +12430,50 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/renderer.py",
-      "source_location": "L79",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L64",
       "weight": 1.0,
       "_src": "renderer_render",
-      "_tgt": "renderer_recommended_actions",
-      "source": "renderer_recommended_actions",
+      "_tgt": "renderer_severity_label",
+      "source": "renderer_severity_label",
+      "target": "renderer_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "renderer_render",
+      "_tgt": "renderer_change_verb",
+      "source": "renderer_change_verb",
+      "target": "renderer_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_src": "renderer_render",
+      "_tgt": "renderer_suggested_followup",
+      "source": "renderer_suggested_followup",
       "target": "renderer_render",
       "confidence_score": 1.0
     },
     {
       "relation": "uses",
       "confidence": "INFERRED",
-      "source_file": "main.py",
-      "source_location": "L12",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L3",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "renderer_prcommentrenderer",
-      "confidence_score": 0.5,
+      "_src": "renderer_prcommentrenderer",
+      "_tgt": "enums_changetype",
       "source": "renderer_prcommentrenderer",
-      "target": "main_rationale_159"
+      "target": "enums_changetype",
+      "confidence_score": 0.5
     },
     {
       "relation": "uses",
@@ -11103,6 +12498,30 @@
       "confidence_score": 0.5,
       "source": "renderer_prcommentrenderer",
       "target": "models_impactreport"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/renderer.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "renderer_prcommentrenderer",
+      "_tgt": "models_schemachange",
+      "source": "renderer_prcommentrenderer",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L12",
+      "weight": 0.8,
+      "_src": "renderer_prcommentrenderer",
+      "_tgt": "main_rationale_159",
+      "confidence_score": 0.5,
+      "source": "renderer_prcommentrenderer",
+      "target": "main_rationale_159"
     },
     {
       "relation": "contains",
@@ -11134,8 +12553,8 @@
       "source_file": "main.py",
       "source_location": "L13",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "reporter_reportbuilder",
+      "_src": "reporter_reportbuilder",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "reporter_reportbuilder",
       "target": "main_rationale_159"
@@ -11203,199 +12622,223 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L9",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_column_map_references",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_column_map_references",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L18",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_column_map_has_alias",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_column_map_has_alias",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L29",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_normalize_type",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_normalize_type",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L33",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_varchar_len",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_varchar_len",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L46",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_type_change_compatible",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_type_change_compatible",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L63",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_type_change_incompatible",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_type_change_incompatible",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L77",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_compute_path",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_compute_path",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L104",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_format_reason",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_format_reason",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L165",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_ruleoutcome",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_ruleoutcome",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L171",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_rule_drop_column",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_rule_drop_column",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L184",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_rule_rename_column",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_rule_rename_column",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L197",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_rule_alter_type",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_rule_alter_type",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L214",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_rule_alter_nullability",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_rule_alter_nullability",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L232",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_rule_add_column",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_rule_add_column",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L241",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L244",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
+      "_tgt": "rules_lower_severity",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
+      "target": "rules_lower_severity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L250",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
+      "_tgt": "rules_adjust_for_depth",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
+      "target": "rules_adjust_for_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L275",
+      "weight": 1.0,
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_impactrulesengine",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_impactrulesengine",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L243",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L277",
       "weight": 1.0,
-      "_src": "src_engine_rules_py",
+      "_src": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "_tgt": "rules_evaluate",
-      "source": "src_engine_rules_py",
+      "source": "users_akshatsaxena_desktop_metaguard_src_engine_rules_py",
       "target": "rules_evaluate",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L178",
       "weight": 1.0,
       "_src": "rules_rule_drop_column",
@@ -11407,7 +12850,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L144",
       "weight": 1.0,
       "_src": "rules_format_reason",
@@ -11419,7 +12862,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L191",
       "weight": 1.0,
       "_src": "rules_rule_rename_column",
@@ -11431,7 +12874,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L47",
       "weight": 1.0,
       "_src": "rules_type_change_compatible",
@@ -11443,7 +12886,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L64",
       "weight": 1.0,
       "_src": "rules_type_change_incompatible",
@@ -11455,7 +12898,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L130",
       "weight": 1.0,
       "_src": "rules_format_reason",
@@ -11467,7 +12910,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L221",
       "weight": 1.0,
       "_src": "rules_rule_alter_nullability",
@@ -11479,7 +12922,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L55",
       "weight": 1.0,
       "_src": "rules_type_change_compatible",
@@ -11491,7 +12934,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L207",
       "weight": 1.0,
       "_src": "rules_rule_alter_type",
@@ -11503,7 +12946,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L129",
       "weight": 1.0,
       "_src": "rules_format_reason",
@@ -11515,7 +12958,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L204",
       "weight": 1.0,
       "_src": "rules_rule_alter_type",
@@ -11527,8 +12970,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L288",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L325",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_compute_path",
@@ -11539,8 +12982,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L296",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L333",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_format_reason",
@@ -11551,7 +12994,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L173",
       "weight": 1.0,
       "_src": "rules_rule_drop_column",
@@ -11563,7 +13006,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L186",
       "weight": 1.0,
       "_src": "rules_rule_rename_column",
@@ -11575,7 +13018,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L199",
       "weight": 1.0,
       "_src": "rules_rule_alter_type",
@@ -11587,7 +13030,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L216",
       "weight": 1.0,
       "_src": "rules_rule_alter_nullability",
@@ -11599,7 +13042,7 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
       "source_location": "L237",
       "weight": 1.0,
       "_src": "rules_rule_add_column",
@@ -11611,8 +13054,20 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L264",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L272",
+      "weight": 1.0,
+      "_src": "rules_adjust_for_depth",
+      "_tgt": "rules_ruleoutcome",
+      "source": "rules_ruleoutcome",
+      "target": "rules_adjust_for_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L298",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_ruleoutcome",
@@ -11707,8 +13162,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L276",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L310",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_rule_drop_column",
@@ -11719,8 +13174,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L278",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L312",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_rule_rename_column",
@@ -11731,8 +13186,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L280",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L314",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_rule_alter_type",
@@ -11743,8 +13198,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L282",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L316",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_rule_alter_nullability",
@@ -11755,8 +13210,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "src/engine/rules.py",
-      "source_location": "L284",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L318",
       "weight": 1.0,
       "_src": "rules_evaluate",
       "_tgt": "rules_rule_add_column",
@@ -11765,16 +13220,52 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "uses",
-      "confidence": "INFERRED",
-      "source_file": "main.py",
-      "source_location": "L14",
-      "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "rules_impactrulesengine",
-      "confidence_score": 0.5,
-      "source": "rules_impactrulesengine",
-      "target": "main_rationale_159"
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L264",
+      "weight": 1.0,
+      "_src": "rules_adjust_for_depth",
+      "_tgt": "rules_lower_severity",
+      "source": "rules_lower_severity",
+      "target": "rules_adjust_for_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L245",
+      "weight": 1.0,
+      "_src": "rules_rationale_245",
+      "_tgt": "rules_lower_severity",
+      "source": "rules_lower_severity",
+      "target": "rules_rationale_245",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L323",
+      "weight": 1.0,
+      "_src": "rules_evaluate",
+      "_tgt": "rules_adjust_for_depth",
+      "source": "rules_adjust_for_depth",
+      "target": "rules_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L251",
+      "weight": 1.0,
+      "_src": "rules_rationale_251",
+      "_tgt": "rules_adjust_for_depth",
+      "source": "rules_adjust_for_depth",
+      "target": "rules_rationale_251",
+      "confidence_score": 1.0
     },
     {
       "relation": "uses",
@@ -11859,6 +13350,18 @@
       "confidence_score": 0.5,
       "source": "rules_impactrulesengine",
       "target": "models_schemachange"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "main.py",
+      "source_location": "L14",
+      "weight": 0.8,
+      "_src": "rules_impactrulesengine",
+      "_tgt": "main_rationale_159",
+      "confidence_score": 0.5,
+      "source": "rules_impactrulesengine",
+      "target": "main_rationale_159"
     },
     {
       "relation": "calls",
@@ -11871,6 +13374,174 @@
       "_tgt": "models_impactrecord",
       "source": "rules_evaluate",
       "target": "models_impactrecord"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "enums_assettype",
+      "source": "rules_rationale_245",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "enums_changetype",
+      "source": "rules_rationale_245",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "enums_confidence",
+      "source": "rules_rationale_245",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "enums_severity",
+      "source": "rules_rationale_245",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "models_asset",
+      "source": "rules_rationale_245",
+      "target": "models_asset",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "models_impactrecord",
+      "source": "rules_rationale_245",
+      "target": "models_impactrecord",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "rules_rationale_245",
+      "_tgt": "models_schemachange",
+      "source": "rules_rationale_245",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "enums_assettype",
+      "source": "rules_rationale_251",
+      "target": "enums_assettype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "enums_changetype",
+      "source": "rules_rationale_251",
+      "target": "enums_changetype",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "enums_confidence",
+      "source": "rules_rationale_251",
+      "target": "enums_confidence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "enums_severity",
+      "source": "rules_rationale_251",
+      "target": "enums_severity",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "models_asset",
+      "source": "rules_rationale_251",
+      "target": "models_asset",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "models_impactrecord",
+      "source": "rules_rationale_251",
+      "target": "models_impactrecord",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "/Users/akshatsaxena/Desktop/metaguard/src/engine/rules.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_src": "rules_rationale_251",
+      "_tgt": "models_schemachange",
+      "source": "rules_rationale_251",
+      "target": "models_schemachange",
+      "confidence_score": 0.5
     },
     {
       "relation": "contains",
@@ -11902,8 +13573,8 @@
       "source_file": "main.py",
       "source_location": "L15",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "traverser_lineagetraverser",
+      "_src": "traverser_lineagetraverser",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "traverser_lineagetraverser",
       "target": "main_rationale_159"
@@ -12070,8 +13741,8 @@
       "source_file": "main.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "enums_changetype",
+      "_src": "enums_changetype",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "enums_changetype",
       "target": "main_rationale_159"
@@ -12226,8 +13897,8 @@
       "source_file": "main.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "enums_severity",
+      "_src": "enums_severity",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "enums_severity",
       "target": "main_rationale_159"
@@ -12382,8 +14053,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L9",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_22",
-      "_tgt": "enums_assettype",
+      "_src": "enums_assettype",
+      "_tgt": "mcp_client_rationale_22",
       "confidence_score": 0.5,
       "source": "enums_assettype",
       "target": "mcp_client_rationale_22"
@@ -12394,8 +14065,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L9",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_155",
-      "_tgt": "enums_assettype",
+      "_src": "enums_assettype",
+      "_tgt": "mcp_client_rationale_155",
       "confidence_score": 0.5,
       "source": "enums_assettype",
       "target": "mcp_client_rationale_155"
@@ -12550,8 +14221,8 @@
       "source_file": "main.py",
       "source_location": "L11",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "models_schemachange",
+      "_src": "models_schemachange",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "models_schemachange",
       "target": "main_rationale_159"
@@ -12562,8 +14233,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_22",
-      "_tgt": "models_asset",
+      "_src": "models_asset",
+      "_tgt": "mcp_client_rationale_22",
       "confidence_score": 0.5,
       "source": "models_asset",
       "target": "mcp_client_rationale_22"
@@ -12574,8 +14245,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_155",
-      "_tgt": "models_asset",
+      "_src": "models_asset",
+      "_tgt": "mcp_client_rationale_155",
       "confidence_score": 0.5,
       "source": "models_asset",
       "target": "mcp_client_rationale_155"
@@ -12586,8 +14257,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_22",
-      "_tgt": "models_lineageedge",
+      "_src": "models_lineageedge",
+      "_tgt": "mcp_client_rationale_22",
       "confidence_score": 0.5,
       "source": "models_lineageedge",
       "target": "mcp_client_rationale_22"
@@ -12598,8 +14269,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_155",
-      "_tgt": "models_lineageedge",
+      "_src": "models_lineageedge",
+      "_tgt": "mcp_client_rationale_155",
       "confidence_score": 0.5,
       "source": "models_lineageedge",
       "target": "mcp_client_rationale_155"
@@ -12610,8 +14281,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_22",
-      "_tgt": "models_lineagegraph",
+      "_src": "models_lineagegraph",
+      "_tgt": "mcp_client_rationale_22",
       "confidence_score": 0.5,
       "source": "models_lineagegraph",
       "target": "mcp_client_rationale_22"
@@ -12622,8 +14293,8 @@
       "source_file": "src/adapters/mcp_client.py",
       "source_location": "L10",
       "weight": 0.8,
-      "_src": "mcp_client_rationale_155",
-      "_tgt": "models_lineagegraph",
+      "_src": "models_lineagegraph",
+      "_tgt": "mcp_client_rationale_155",
       "confidence_score": 0.5,
       "source": "models_lineagegraph",
       "target": "mcp_client_rationale_155"
@@ -12634,8 +14305,8 @@
       "source_file": "main.py",
       "source_location": "L11",
       "weight": 0.8,
-      "_src": "main_rationale_159",
-      "_tgt": "models_impactrecord",
+      "_src": "models_impactrecord",
+      "_tgt": "main_rationale_159",
       "confidence_score": 0.5,
       "source": "models_impactrecord",
       "target": "main_rationale_159"

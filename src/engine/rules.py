@@ -238,6 +238,40 @@ def rule_add_column(asset: Asset, has_downstream: bool) -> RuleOutcome:
     return RuleOutcome(Severity.LOW, Confidence.HIGH, "Additive change; no breakage expected")
 
 
+_SEVERITY_ORDER = [Severity.LOW, Severity.MEDIUM, Severity.HIGH, Severity.CRITICAL]
+
+
+def _lower_severity(sev: Severity) -> Severity:
+    """Reduce severity by one level (floor at LOW)."""
+    idx = _SEVERITY_ORDER.index(sev)
+    return _SEVERITY_ORDER[max(0, idx - 1)]
+
+
+def _adjust_for_depth(outcome: RuleOutcome, path: list[str], column_map: list[dict[str, str]] | None) -> RuleOutcome:
+    """
+    Adjust severity and confidence based on lineage depth.
+
+    Rules:
+    - Depth > 3 hops: reduce severity by one level and cap confidence at MEDIUM.
+      Rationale: impact certainty decreases with distance.
+    - No column map on a deep path: cap confidence at LOW.
+      Rationale: without column-level evidence, deep inferred paths are unreliable.
+    """
+    depth = len(path) - 1  # hops = edges, not nodes
+    if depth <= 3:
+        return outcome
+
+    sev = _lower_severity(outcome.severity)
+    conf = outcome.confidence
+    # Deep paths without column-level confirmation are unreliable.
+    if column_map is None:
+        conf = Confidence.LOW
+    elif conf is Confidence.HIGH:
+        conf = Confidence.MEDIUM
+
+    return RuleOutcome(sev, conf, outcome.reason)
+
+
 class ImpactRulesEngine:
     @staticmethod
     def evaluate(
@@ -284,6 +318,9 @@ class ImpactRulesEngine:
             outcome = rule_add_column(asset, has_downstream)
         else:
             outcome = RuleOutcome(Severity.LOW, Confidence.LOW, "Unknown change type")
+
+        # Phase 2 tuning: adjust for lineage depth.
+        outcome = _adjust_for_depth(outcome, path, column_map)
 
         computed_path = _compute_path(change, path, asset, column_map)
         return ImpactRecord(

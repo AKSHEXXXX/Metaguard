@@ -5,10 +5,17 @@ import os
 from openai import OpenAI
 
 
-SYSTEM_PROMPT = """You are a technical writer summarizing a schema impact report.
-Rewrite ONLY the prose explanation sections to be more readable.
-DO NOT change: asset names, severity labels, confidence values, impact counts, dependency paths, or recommended actions.
-Return only improved markdown. Do not add new facts."""
+SYSTEM_PROMPT = """You are a concise technical reviewer summarizing a schema impact report for a GitHub PR comment.
+
+Rules:
+- Keep the short title line (emoji + MetaGuard + severity label). Do not expand it.
+- Keep the impact table exactly as-is — do not modify asset names, severity labels, or confidence values.
+- In "Why this changed", use short flow lines like: `table_a` → `table_b`. Do not add verbose explanations.
+- In "Changes detected", list each schema change in one line. Do not editorialize.
+- In "Suggested follow-up", keep bullets short, specific, and actionable.
+- Do NOT add new facts, asset names, or severity levels that are not in the original.
+- Do NOT add preambles like "Here is the improved version". Return ONLY the improved markdown.
+- The output should read like a reviewer note, not a generated audit log."""
 
 
 class LLMSummarizer:

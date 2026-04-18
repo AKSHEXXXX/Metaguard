@@ -10,10 +10,14 @@ from urllib.error import HTTPError
 from dotenv import load_dotenv
 
 
-UPSTREAM_FQN = "sample_snowflake.ANALYTICS_DB.prod.order_summary"
-DOWNSTREAM_FQN = "sample_redshift.staging_db.integration.dim_customer"
-UPSTREAM_COLUMN = "sample_snowflake.ANALYTICS_DB.prod.order_summary.customer_name"
-DOWNSTREAM_COLUMN = "sample_redshift.staging_db.integration.dim_customer.customer_name"
+UPSTREAM_FQN = "acme_nexus_analytics.ANALYTICS.MARTS.fact_orders"
+DOWNSTREAM_FQN = "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics"
+
+UPSTREAM_COL1 = "acme_nexus_analytics.ANALYTICS.MARTS.fact_orders.amount"
+DOWNSTREAM_COL1 = "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics.total_amount"
+
+UPSTREAM_COL2 = "acme_nexus_analytics.ANALYTICS.MARTS.fact_orders.old_customer_ref"
+DOWNSTREAM_COL2 = "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics.customer_id"
 
 
 def _read_required(name: str) -> str:
@@ -71,8 +75,12 @@ def main() -> int:
                 "lineageDetails": {
                     "columnsLineage": [
                         {
-                            "fromColumns": [UPSTREAM_COLUMN],
-                            "toColumns": [DOWNSTREAM_COLUMN],
+                            "fromColumns": [UPSTREAM_COL1],
+                            "toColumns": [DOWNSTREAM_COL1],
+                        },
+                        {
+                            "fromColumns": [UPSTREAM_COL2],
+                            "toColumns": [DOWNSTREAM_COL2],
                         }
                     ]
                 },
@@ -84,8 +92,12 @@ def main() -> int:
             "lineageDetails": {
                 "columnsLineage": [
                     {
-                        "fromColumns": [UPSTREAM_COLUMN],
-                        "toColumns": [DOWNSTREAM_COLUMN],
+                        "fromColumns": [UPSTREAM_COL1],
+                        "toColumns": [DOWNSTREAM_COL1],
+                    },
+                    {
+                        "fromColumns": [UPSTREAM_COL2],
+                        "toColumns": [DOWNSTREAM_COL2],
                     }
                 ]
             },
@@ -96,8 +108,12 @@ def main() -> int:
             "lineageDetails": {
                 "columnsLineage": [
                     {
-                        "fromColumns": [UPSTREAM_COLUMN],
-                        "toColumns": [DOWNSTREAM_COLUMN],
+                        "fromColumns": [UPSTREAM_COL1],
+                        "toColumns": [DOWNSTREAM_COL1],
+                    },
+                    {
+                        "fromColumns": [UPSTREAM_COL2],
+                        "toColumns": [DOWNSTREAM_COL2],
                     }
                 ]
             },
