@@ -18,3 +18,5 @@ ALTER TABLE fact_orders DROP COLUMN order_status;
 ALTER TABLE fact_orders RENAME COLUMN internal_code TO product_sku;
 ALTER TABLE fact_orders ALTER COLUMN discount TYPE BIGINT;
 ALTER TABLE fact_orders ADD COLUMN is_active BOOLEAN;
+
+-- Trigger
