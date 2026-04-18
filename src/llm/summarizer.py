@@ -21,7 +21,7 @@ class LLMSummarizer:
                 api_key=groq_key,
                 base_url="https://api.groq.com/openai/v1"
             )
-            self.model = os.getenv("GROQ_MODEL", "llama-3.1-70b-versatile")
+            self.model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
         elif openai_key:
             self.client = OpenAI(api_key=openai_key)
             self.model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
