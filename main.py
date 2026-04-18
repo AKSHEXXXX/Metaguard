@@ -195,7 +195,10 @@ def render_sandbox_markdown(
 
     # 2. Get lineage
     logger.info("Fetching downstream lineage for asset: %s", asset.id)
-    graph = provider.get_downstream_lineage(asset.id, depth=depth)
+    if isinstance(provider, OpenMetadataProvider):
+        graph = provider.get_downstream_lineage(asset.id, depth=depth)
+    else:
+        graph = provider.get_downstream_lineage(asset.id)
 
     # 3. Get changes
     from src.parser.diff_parser import DiffParser
