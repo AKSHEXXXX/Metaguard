@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ENABLE_LLM_SUMMARY: "true"
-          LINEAGE_MAX_DEPTH: "3"
+          LINEAGE_MAX_DEPTH: "5"
         run: |
           set -euo pipefail
           python main.py \
