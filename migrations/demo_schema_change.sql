@@ -12,3 +12,9 @@ ALTER TABLE fact_orders ALTER COLUMN amount TYPE VARCHAR(255);
 
 -- Additive: safe new column
 ALTER TABLE fact_orders ADD COLUMN created_at TIMESTAMP;
+
+-- NEW CHANGES FOR PR #2 --
+ALTER TABLE fact_orders DROP COLUMN order_status;
+ALTER TABLE fact_orders RENAME COLUMN internal_code TO product_sku;
+ALTER TABLE fact_orders ALTER COLUMN discount TYPE BIGINT;
+ALTER TABLE fact_orders ADD COLUMN is_active BOOLEAN;
