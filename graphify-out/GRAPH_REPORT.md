@@ -1,227 +1,235 @@
-# Graph Report - .  (2026-04-17)
+# Graph Report - /Users/akshatsaxena/Desktop/metaguard  (2026-04-19)
 
 ## Corpus Check
-- Corpus is ~14,566 words - fits in a single context window. You may not need a graph.
+- 57 files · ~28,737 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 246 nodes · 569 edges · 27 communities detected
-- Extraction: 52% EXTRACTED · 48% INFERRED · 0% AMBIGUOUS · INFERRED: 271 edges (avg confidence: 0.67)
+- 312 nodes · 819 edges · 28 communities detected
+- Extraction: 48% EXTRACTED · 52% INFERRED · 0% AMBIGUOUS · INFERRED: 424 edges (avg confidence: 0.68)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Core Data Models & Base Interfaces|Core Data Models & Base Interfaces]]
-- [[_COMMUNITY_OpenMetadata Integration|OpenMetadata Integration]]
-- [[_COMMUNITY_GitHub Actions Integration|GitHub Actions Integration]]
-- [[_COMMUNITY_CLI Entrypoint & Reporting|CLI Entrypoint & Reporting]]
-- [[_COMMUNITY_Lineage & Asset Resolution|Lineage & Asset Resolution]]
-- [[_COMMUNITY_Validation Rules & Tests|Validation Rules & Tests]]
-- [[_COMMUNITY_Fixture Management|Fixture Management]]
-- [[_COMMUNITY_Impact Evaluation Rules|Impact Evaluation Rules]]
-- [[_COMMUNITY_AI-Assisted Summarization|AI-Assisted Summarization]]
-- [[_COMMUNITY_SQL Diff Parsing|SQL Diff Parsing]]
-- [[_COMMUNITY_Project Phase 1 Overview|Project Phase 1 Overview]]
-- [[_COMMUNITY_Markdown Rendering|Markdown Rendering]]
-- [[_COMMUNITY_Provider Interface Validation|Provider Interface Validation]]
-- [[_COMMUNITY_Smoke Tests|Smoke Tests]]
-- [[_COMMUNITY_Project Phase 2 Strategy|Project Phase 2 Strategy]]
-- [[_COMMUNITY_Unit Test Scaffolding|Unit Test Scaffolding]]
-- [[_COMMUNITY_Unit Test Setup (Common)|Unit Test Setup (Common)]]
-- [[_COMMUNITY_Integration Test Setup (Common)|Integration Test Setup (Common)]]
-- [[_COMMUNITY_Provider Setup (Common)|Provider Setup (Common)]]
-- [[_COMMUNITY_Parser Setup (Common)|Parser Setup (Common)]]
-- [[_COMMUNITY_Normalization Logic|Normalization Logic]]
-- [[_COMMUNITY_Adapter Setup (Common)|Adapter Setup (Common)]]
-- [[_COMMUNITY_Engine Setup (Common)|Engine Setup (Common)]]
-- [[_COMMUNITY_Impact Scoring|Impact Scoring]]
-- [[_COMMUNITY_Domain Setup (Common)|Domain Setup (Common)]]
-- [[_COMMUNITY_Project Phase 3 Strategy|Project Phase 3 Strategy]]
-- [[_COMMUNITY_Project Phase 4 Strategy|Project Phase 4 Strategy]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `SchemaChange` - 33 edges
-2. `evaluate()` - 27 edges
-3. `Asset` - 27 edges
-4. `LineageGraph` - 24 edges
-5. `AssetType` - 21 edges
-6. `OpenMetadataProvider` - 19 edges
-7. `_asset()` - 18 edges
-8. `LineageEdge` - 18 edges
-9. `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` - 17 edges
-10. `MockMetadataProvider` - 17 edges
+1. `Asset` - 38 edges
+2. `SchemaChange` - 37 edges
+3. `LineageGraph` - 34 edges
+4. `evaluate()` - 30 edges
+5. `AssetType` - 29 edges
+6. `LineageEdge` - 27 edges
+7. `OpenMetadataProvider` - 25 edges
+8. `render_sandbox_markdown()` - 23 edges
+9. `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` - 22 edges
+10. `MCPMetadataProvider` - 22 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `_schema_change_from_dict()` --calls--> `SchemaChange`  [INFERRED]
-  main.py → src/domain/models.py
-- `_schema_change_from_dict()` --calls--> `ChangeType`  [INFERRED]
-  main.py → src/domain/enums.py
-- `_collect_fixture_records()` --calls--> `default()`  [INFERRED]
-  main.py → src/parser/fixture_loader.py
-- `_collect_fixture_records()` --calls--> `MockMetadataProvider`  [INFERRED]
-  main.py → src/providers/mock_provider.py
-- `_collect_fixture_records()` --calls--> `resolve()`  [INFERRED]
-  main.py → src/providers/resolver.py
+- `main()` --calls--> `SchemaChange`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/domain/models.py
+- `main()` --calls--> `traverse()`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/traverser.py
+- `main()` --calls--> `evaluate()`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/rules.py
+- `main()` --calls--> `build()`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/reporter.py
+- `main()` --calls--> `render()`  [INFERRED]
+  /Users/akshatsaxena/Desktop/metaguard/smoke_test.py → src/engine/renderer.py
 
 ## Hyperedges (group relationships)
 - **Core Engine Components** — metaguard_diffparser, metaguard_lineagetraverser, metaguard_impactrulesengine [EXTRACTED 1.00]
 
 ## Communities
 
-### Community 0 - "Core Data Models & Base Interfaces"
-Cohesion: 0.14
-Nodes (32): MetadataProvider, Resolve an asset reference (id or name) to an Asset., Return downstream lineage graph rooted at the given asset id., Enum, AssetType, ChangeType, Confidence, Severity (+24 more)
+### Community 0 - "Community 0"
+Cohesion: 0.09
+Nodes (38): AssetNotFoundError, MetadataProvider, Resolve an asset reference (id or name) to an Asset., Return downstream lineage graph rooted at the given asset id., AssetType, LookupError, iter_sse_events(), _lineage_graph_from_payload() (+30 more)
 
-### Community 1 - "OpenMetadata Integration"
-Cohesion: 0.12
-Nodes (17): smoke_openmetadata(), _asset_name(), _asset_type_from_om_entity(), _extract_column_map(), _extract_criticality(), _extract_domain(), _extract_owner(), _normalize_host() (+9 more)
+### Community 1 - "Community 1"
+Cohesion: 0.09
+Nodes (24): _default_stream_provider(), _asset_name(), _asset_type_from_om_entity(), _extract_column_map(), _extract_criticality(), _extract_domain(), _extract_owner(), _normalize_host() (+16 more)
 
-### Community 2 - "GitHub Actions Integration"
-Cohesion: 0.14
-Nodes (10): from_env(), GitHubAdapter, _GitHubComment, Minimal GitHub REST adapter (stdlib only).      Implements an idempotent PR comm, Create or update a single MetaGuard bot comment on a PR.          Identification, _default_stream_provider(), RuntimeError, _FakeHTTPResponse (+2 more)
+### Community 2 - "Community 2"
+Cohesion: 0.18
+Nodes (33): SchemaChange, _column_map_has_alias(), _column_map_references(), _compute_path(), evaluate(), _format_reason(), _normalize_type(), rule_add_column() (+25 more)
 
-### Community 3 - "CLI Entrypoint & Reporting"
-Cohesion: 0.14
-Nodes (19): AuthConfigError, JWTAuthProvider, Raised when required auth configuration is missing or invalid., _asset_type_rank(), _collect_fixture_records(), _confidence_rank(), main(), _parse_changed_files() (+11 more)
+### Community 3 - "Community 3"
+Cohesion: 0.15
+Nodes (22): _asset_type_rank(), _collect_fixture_records(), _confidence_rank(), _effective_sandbox_depth(), main(), _parse_changed_files(), _record_to_dict(), render_fixture_markdown() (+14 more)
 
-### Community 4 - "Lineage & Asset Resolution"
-Cohesion: 0.12
-Nodes (11): AssetNotFoundError, LookupError, MetadataProvider, MockMetadataProvider, resolve(), test_known_asset_resolves_with_high_confidence(), test_unknown_asset_returns_low_confidence(), test_cli_mock_changed_files_fixture_prints_markdown() (+3 more)
+### Community 4 - "Community 4"
+Cohesion: 0.13
+Nodes (10): from_env(), GitHubAdapter, _GitHubComment, Minimal GitHub REST adapter (stdlib only).      Implements an idempotent PR comm, Create or update a single MetaGuard bot comment on a PR.          Identification, RuntimeError, _FakeHTTPResponse, test_get_changed_files() (+2 more)
 
-### Community 5 - "Validation Rules & Tests"
-Cohesion: 0.34
-Nodes (19): SchemaChange, evaluate(), _asset(), test_add_column_default_is_low_high(), test_add_column_strict_schema_consumer_is_medium_low(), test_alter_nullability_not_null_to_null_is_low_high(), test_alter_nullability_null_to_not_null_is_high_high(), test_alter_nullability_table_level_only_is_medium_medium() (+11 more)
+### Community 5 - "Community 5"
+Cohesion: 0.23
+Nodes (18): DiffParser, Enum, ChangeType, Confidence, Severity, FileNotFoundError, FixtureNotFoundError, Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like (+10 more)
 
-### Community 6 - "Fixture Management"
-Cohesion: 0.19
-Nodes (9): FileNotFoundError, default(), FixtureLoader, FixtureNotFoundError, FixtureValidationError, test_e2e_all_fixtures_match_expected(), test_fixture_loader_invalid_schema_raises(), test_fixture_loader_loads_all_fixture_sets() (+1 more)
+### Community 6 - "Community 6"
+Cohesion: 0.18
+Nodes (15): AppConfig, load_config(), _read_required(), _get_json(), main(), _read_required(), _search_tables_for_service(), main() (+7 more)
 
-### Community 7 - "Impact Evaluation Rules"
-Cohesion: 0.29
-Nodes (14): _column_map_has_alias(), _column_map_references(), _compute_path(), _format_reason(), _normalize_type(), rule_add_column(), rule_alter_nullability(), rule_alter_type() (+6 more)
+### Community 7 - "Community 7"
+Cohesion: 0.22
+Nodes (7): default(), FixtureLoader, FixtureValidationError, test_e2e_all_fixtures_match_expected(), test_fixture_loader_invalid_schema_raises(), test_fixture_loader_loads_all_fixture_sets(), test_fixture_loader_missing_fixture_raises()
 
-### Community 8 - "AI-Assisted Summarization"
+### Community 8 - "Community 8"
+Cohesion: 0.22
+Nodes (7): LLMSummarizer, Phase 4 summarizer wrapper.      Contract:     - Accepts full ImpactReport JSON, SummaryValidationError, test_llm_summarizer_calls_llm_with_prompt(), test_llm_summarizer_raises_without_client(), test_summarizer_appends_llm_summary_when_valid(), test_summarizer_falls_back_when_hallucinated_asset_is_mentioned()
+
+### Community 9 - "Community 9"
+Cohesion: 0.39
+Nodes (5): AuthConfigError, JWTAuthProvider, Raised when required auth configuration is missing or invalid., test_missing_env_var_raises(), test_present_env_var_returns_token()
+
+### Community 10 - "Community 10"
+Cohesion: 0.39
+Nodes (6): parse(), _strip_quotes(), test_parse_add_column(), test_parse_alter_column_type(), test_parse_drop_column(), test_parse_rename_column()
+
+### Community 11 - "Community 11"
 Cohesion: 0.33
-Nodes (5): LLMSummarizer, Phase 4 summarizer wrapper.      Contract:     - Accepts full ImpactReport JSON, SummaryValidationError, test_summarizer_appends_llm_summary_when_valid(), test_summarizer_falls_back_when_hallucinated_asset_is_mentioned()
+Nodes (4): resolve(), test_known_asset_resolves_with_high_confidence(), test_unknown_asset_returns_low_confidence(), test_cli_mock_changed_files_fixture_prints_markdown()
 
-### Community 9 - "SQL Diff Parsing"
-Cohesion: 0.33
-Nodes (7): DiffParser, parse(), _strip_quotes(), test_parse_add_column(), test_parse_alter_column_type(), test_parse_drop_column(), test_parse_rename_column()
-
-### Community 10 - "Project Phase 1 Overview"
-Cohesion: 0.4
-Nodes (5): Diff Parser, Test Fixtures (F1-F5), Impact Rules Engine, Lineage Traverser, Phase 1: Core Engine
-
-### Community 11 - "Markdown Rendering"
-Cohesion: 0.83
-Nodes (3): _recommended_actions(), render(), _severity_badge()
-
-### Community 12 - "Provider Interface Validation"
+### Community 12 - "Community 12"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 13 - "Smoke Tests"
+### Community 13 - "Community 13"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 14 - "Project Phase 2 Strategy"
+### Community 14 - "Community 14"
 Cohesion: 1.0
-Nodes (2): MetadataProvider Protocol, Phase 2: OpenMetadata Integration
+Nodes (2): Test Fixtures (F1-F5), Phase 1: Core Engine
 
-### Community 15 - "Unit Test Scaffolding"
-Cohesion: 1.0
-Nodes (0): 
-
-### Community 16 - "Unit Test Setup (Common)"
+### Community 15 - "Community 15"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 17 - "Integration Test Setup (Common)"
+### Community 16 - "Community 16"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 18 - "Provider Setup (Common)"
+### Community 17 - "Community 17"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 19 - "Parser Setup (Common)"
+### Community 18 - "Community 18"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 20 - "Normalization Logic"
+### Community 19 - "Community 19"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 21 - "Adapter Setup (Common)"
+### Community 20 - "Community 20"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 22 - "Engine Setup (Common)"
+### Community 21 - "Community 21"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 23 - "Impact Scoring"
+### Community 22 - "Community 22"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 24 - "Domain Setup (Common)"
+### Community 23 - "Community 23"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 25 - "Project Phase 3 Strategy"
+### Community 24 - "Community 24"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 25 - "Community 25"
+Cohesion: 1.0
+Nodes (1): Phase 2: OpenMetadata Integration
+
+### Community 26 - "Community 26"
 Cohesion: 1.0
 Nodes (1): Phase 3: GitHub Integration
 
-### Community 26 - "Project Phase 4 Strategy"
+### Community 27 - "Community 27"
 Cohesion: 1.0
 Nodes (1): Phase 4: LLM Summarizer
 
 ## Knowledge Gaps
-- **12 isolated node(s):** `Raised when required auth configuration is missing or invalid.`, `Minimal GitHub REST adapter (stdlib only).      Implements an idempotent PR comm`, `Create or update a single MetaGuard bot comment on a PR.          Identification`, `Phase 4 summarizer wrapper.      Contract:     - Accepts full ImpactReport JSON`, `Phase 2: OpenMetadata Integration` (+7 more)
+- **9 isolated node(s):** `Raised when required auth configuration is missing or invalid.`, `Minimal GitHub REST adapter (stdlib only).      Implements an idempotent PR comm`, `Create or update a single MetaGuard bot comment on a PR.          Identification`, `Phase 4 summarizer wrapper.      Contract:     - Accepts full ImpactReport JSON`, `Phase 1: Core Engine` (+4 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Provider Interface Validation`** (2 nodes): `test_stub_satisfies_metadata_provider_protocol()`, `test_provider_interface.py`
+- **Thin community `Community 12`** (2 nodes): `test_stub_satisfies_metadata_provider_protocol()`, `test_provider_interface.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Smoke Tests`** (2 nodes): `test_pytest_runs()`, `test_smoke.py`
+- **Thin community `Community 13`** (2 nodes): `test_pytest_runs()`, `test_smoke.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Project Phase 2 Strategy`** (2 nodes): `MetadataProvider Protocol`, `Phase 2: OpenMetadata Integration`
+- **Thin community `Community 14`** (2 nodes): `Test Fixtures (F1-F5)`, `Phase 1: Core Engine`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Unit Test Scaffolding`** (1 nodes): `__init__.py`
+- **Thin community `Community 15`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Unit Test Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 16`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Integration Test Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 17`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Provider Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 18`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Parser Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 19`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Normalization Logic`** (1 nodes): `normalizer.py`
+- **Thin community `Community 20`** (1 nodes): `normalizer.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Adapter Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 21`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Engine Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 22`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Impact Scoring`** (1 nodes): `scorer.py`
+- **Thin community `Community 23`** (1 nodes): `scorer.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Domain Setup (Common)`** (1 nodes): `__init__.py`
+- **Thin community `Community 24`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Project Phase 3 Strategy`** (1 nodes): `Phase 3: GitHub Integration`
+- **Thin community `Community 25`** (1 nodes): `Phase 2: OpenMetadata Integration`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Project Phase 4 Strategy`** (1 nodes): `Phase 4: LLM Summarizer`
+- **Thin community `Community 26`** (1 nodes): `Phase 3: GitHub Integration`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 27`** (1 nodes): `Phase 4: LLM Summarizer`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` connect `Core Data Models & Base Interfaces` to `OpenMetadata Integration`, `GitHub Actions Integration`, `CLI Entrypoint & Reporting`, `Lineage & Asset Resolution`, `Validation Rules & Tests`, `Fixture Management`?**
-  _High betweenness centrality (0.281) - this node is a cross-community bridge._
-- **Why does `SchemaChange` connect `Validation Rules & Tests` to `Core Data Models & Base Interfaces`, `CLI Entrypoint & Reporting`, `Lineage & Asset Resolution`, `Impact Evaluation Rules`, `SQL Diff Parsing`?**
-  _High betweenness centrality (0.154) - this node is a cross-community bridge._
-- **Why does `GitHubAdapter` connect `GitHub Actions Integration` to `Core Data Models & Base Interfaces`?**
-  _High betweenness centrality (0.115) - this node is a cross-community bridge._
-- **Are the 32 inferred relationships involving `SchemaChange` (e.g. with `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` and `AssetResolver`) actually correct?**
-  _`SchemaChange` has 32 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 18 inferred relationships involving `evaluate()` (e.g. with `_collect_fixture_records()` and `test_drop_column_with_column_lineage_is_critical_high()`) actually correct?**
-  _`evaluate()` has 18 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 26 inferred relationships involving `Asset` (e.g. with `MockMetadataProvider` and `AssetResolver`) actually correct?**
-  _`Asset` has 26 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 23 inferred relationships involving `LineageGraph` (e.g. with `MockMetadataProvider` and `MetadataProvider`) actually correct?**
-  _`LineageGraph` has 23 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `render_sandbox_markdown()` connect `Community 3` to `Community 0`, `Community 1`, `Community 2`, `Community 6`, `Community 8`, `Community 10`?**
+  _High betweenness centrality (0.184) - this node is a cross-community bridge._
+- **Why does `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` connect `Community 5` to `Community 0`, `Community 1`, `Community 2`, `Community 3`, `Community 4`, `Community 7`, `Community 8`, `Community 9`?**
+  _High betweenness centrality (0.146) - this node is a cross-community bridge._
+- **Why does `SchemaChange` connect `Community 2` to `Community 0`, `Community 1`, `Community 3`, `Community 5`, `Community 10`, `Community 11`?**
+  _High betweenness centrality (0.107) - this node is a cross-community bridge._
+- **Are the 37 inferred relationships involving `Asset` (e.g. with `_FakeMCPClient` and `_FakeRESTProvider`) actually correct?**
+  _`Asset` has 37 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 36 inferred relationships involving `SchemaChange` (e.g. with `Returns (fixture_id, file_paths).      - If `changed_files` is a fixture ID like` and `main()`) actually correct?**
+  _`SchemaChange` has 36 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 33 inferred relationships involving `LineageGraph` (e.g. with `_FakeMCPClient` and `_FakeRESTProvider`) actually correct?**
+  _`LineageGraph` has 33 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 21 inferred relationships involving `evaluate()` (e.g. with `main()` and `main()`) actually correct?**
+  _`evaluate()` has 21 INFERRED edges - model-reasoned connections that need verification._
