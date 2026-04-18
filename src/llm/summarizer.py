@@ -1,26 +1,33 @@
 from __future__ import annotations
 
 import os
-from typing import Callable
+
+from openai import OpenAI
 
 
-SYSTEM_PROMPT = """You are technical writer summarizing schema impact report.
-Rewrite only prose explanation sections for readability.
-Do not change asset names, severities, confidence, counts, dependency paths, recommended actions.
-Return markdown only."""
+SYSTEM_PROMPT = """You are a technical writer summarizing a schema impact report.
+Rewrite ONLY the prose explanation sections to be more readable.
+DO NOT change: asset names, severity labels, confidence values, impact counts, dependency paths, or recommended actions.
+Return only improved markdown. Do not add new facts."""
 
 
 class LLMSummarizer:
-    def __init__(self, llm_call: Callable[[str], str] | None = None) -> None:
+    def __init__(self) -> None:
+        api_key = os.getenv("OPENAI_API_KEY", "").strip()
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY must be set for LLMSummarizer")
+        self.client = OpenAI(api_key=api_key)
         self.model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-        self._llm_call = llm_call
 
     def summarize(self, report_json: dict, markdown: str) -> str:
-        prompt = (
-            f"SYSTEM:\n{SYSTEM_PROMPT}\n\n"
-            f"IMPACT REPORT JSON:\n{report_json}\n\n"
-            f"CURRENT MARKDOWN:\n{markdown}\n"
+        prompt = f"IMPACT REPORT JSON:\n{report_json}\n\nCURRENT MARKDOWN:\n{markdown}"
+        resp = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.3,
         )
-        if self._llm_call is None:
-            raise RuntimeError("No LLM client configured")
-        return self._llm_call(prompt)
+        content = resp.choices[0].message.content
+        return content or markdown

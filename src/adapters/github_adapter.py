@@ -47,13 +47,11 @@ class GitHubAdapter:
 
         Identification:
         - Hidden HTML marker `<!-- metaguard-bot-comment -->`
-        - Comment author must match the authenticated user (bot) login
         """
 
         final_body = self._ensure_marker(body)
-        bot_login = self._get_authenticated_login()
+        existing = self._find_existing_comment(pr_number=pr_number)
 
-        existing = self._find_existing_comment(pr_number=pr_number, bot_login=bot_login)
         if existing is None:
             self._create_comment(pr_number=pr_number, body=final_body)
             return
@@ -86,17 +84,8 @@ class GitHubAdapter:
             return f"{body}\n\n{self.MARKER}\n"
         return f"{self.MARKER}\n"
 
-    def _get_authenticated_login(self) -> str:
-        if self._cached_login is not None:
-            return self._cached_login
-        payload = self._request_json("GET", "/user")
-        login = payload.get("login")
-        if not isinstance(login, str) or not login:
-            raise RuntimeError("GitHub API /user did not return a login")
-        self._cached_login = login
-        return login
 
-    def _find_existing_comment(self, *, pr_number: int, bot_login: str) -> _GitHubComment | None:
+    def _find_existing_comment(self, *, pr_number: int) -> _GitHubComment | None:
         # For PR review comments you’d use /pulls/{pr}/comments; for issue-style PR comments use /issues/{pr}/comments.
         comments = self._request_json(
             "GET",
@@ -111,12 +100,11 @@ class GitHubAdapter:
             body = c.get("body")
             if not isinstance(body, str) or self.MARKER not in body:
                 continue
-            user = c.get("user") or {}
-            login = user.get("login") if isinstance(user, dict) else None
-            if login != bot_login:
-                continue
+
             cid = c.get("id")
             if isinstance(cid, int):
+                user = c.get("user") or {}
+                login = user.get("login") if isinstance(user, dict) else None
                 return _GitHubComment(id=cid, body=body, user_login=login)
         return None
 

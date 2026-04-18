@@ -2,3 +2,4 @@ pytest>=8.0.0
 click>=8.1.0
 dataclasses
 python-dotenv>=1.0.0
+openai>=1.0.0
