@@ -30,6 +30,11 @@ logger = logging.getLogger("metaguard")
 load_dotenv()
 
 
+def _effective_sandbox_depth(depth: int) -> int:
+    # The current sandbox rejects downstreamDepth values above 3.
+    return min(depth, 3)
+
+
 def _schema_change_from_dict(payload: dict[str, Any]) -> SchemaChange:
     return SchemaChange(
         entity=payload["entity"],
@@ -162,6 +167,7 @@ def render_fixture_markdown(fixture_id: str) -> str:
 
 
 def smoke_openmetadata(host: str, token: str, asset_ref: str, depth: int) -> None:
+    depth = _effective_sandbox_depth(depth)
     provider = OpenMetadataProvider(host=host, jwt_token=token)
     root = provider.resolve_asset(asset_ref)
     graph = provider.get_downstream_lineage(root.id, depth=depth)
@@ -173,6 +179,7 @@ def smoke_openmetadata(host: str, token: str, asset_ref: str, depth: int) -> Non
 
 
 def smoke_sandbox(asset_ref: str, transport: str, depth: int) -> None:
+    depth = _effective_sandbox_depth(depth)
     cfg = load_config()
     rest_provider = OpenMetadataProvider(host=cfg.om_host, jwt_token=cfg.om_token)
     provider = rest_provider

@@ -174,13 +174,14 @@ class OpenMetadataProvider(MetadataProvider):
             )
 
         edges: list[LineageEdge] = []
-        for e in payload.get("edges", []) or []:
+        raw_edges = payload.get("edges", []) or payload.get("downstreamEdges", []) or []
+        for e in raw_edges:
             if not isinstance(e, dict):
                 continue
             from_ent = e.get("fromEntity") or {}
             to_ent = e.get("toEntity") or {}
-            from_id = from_ent.get("id")
-            to_id = to_ent.get("id")
+            from_id = from_ent.get("id") if isinstance(from_ent, dict) else from_ent
+            to_id = to_ent.get("id") if isinstance(to_ent, dict) else to_ent
             if not (isinstance(from_id, str) and isinstance(to_id, str)):
                 continue
 
@@ -224,4 +225,3 @@ class OpenMetadataProvider(MetadataProvider):
                         continue
                     out.append({fc: tc})
         return out or None
-

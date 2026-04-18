@@ -37,12 +37,13 @@ jobs:
           OPENMETADATA_MCP_URL: ${{ secrets.OPENMETADATA_MCP_URL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ENABLE_LLM_SUMMARY: "false"
+          LINEAGE_MAX_DEPTH: "3"
         run: |
           set -euo pipefail
           python main.py \
             --mode sandbox \
             --transport mcp \
-            --om-asset "sample_table_fqn" \
+            --om-asset "acme_nexus_analytics.ANALYTICS.MARTS.fact_orders" \
             --pr-number "${{ github.event.pull_request.number }}" \
             --repo "${{ github.repository }}" \
             --output github || \
