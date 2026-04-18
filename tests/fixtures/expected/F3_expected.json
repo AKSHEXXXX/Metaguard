@@ -1,0 +1,25 @@
+{
+  "id": "F3",
+  "highest_severity": "HIGH",
+  "total_affected": 2,
+  "records": [
+    {
+      "asset_id": "t2",
+      "asset_name": "stg_orders",
+      "asset_type": "TABLE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Downstream asset uses order_amount via column-level lineage; INT → STRING is an incompatible type change",
+      "path": ["sales.orders.order_amount", "stg_orders.order_amount"]
+    },
+    {
+      "asset_id": "t3",
+      "asset_name": "mart_order_metrics",
+      "asset_type": "TABLE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Downstream asset uses order_amount via column-level lineage; INT → STRING is an incompatible type change",
+      "path": ["sales.orders.order_amount", "mart_order_metrics.order_amount"]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+name: MetaGuard Schema Impact Analysis
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "migrations/*.sql"
+      - "models/**/*.sql"
+      - "schema/**/*.sql"
+
+permissions:
+  contents: read
+
+jobs:
+  metaguard:
+    name: Run MetaGuard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run MetaGuard
+        shell: bash
+        env:
+          OPENMETADATA_HOST: ${{ secrets.OPENMETADATA_HOST }}
+          OPENMETADATA_TOKEN: ${{ secrets.OPENMETADATA_TOKEN }}
+          OPENMETADATA_MCP_URL: ${{ secrets.OPENMETADATA_MCP_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ENABLE_LLM_SUMMARY: "false"
+        run: |
+          set -euo pipefail
+          python main.py \
+            --mode sandbox \
+            --transport mcp \
+            --om-asset "sample_table_fqn" \
+            --pr-number "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" \
+            --output github || \
+          python main.py --mode mock --fixture F1 | tee metaguard.md
+
+      - name: Upload MetaGuard report
+        uses: actions/upload-artifact@v4
+        with:
+          name: metaguard-report
+          path: metaguard.md

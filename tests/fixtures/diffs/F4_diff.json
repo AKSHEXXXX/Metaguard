@@ -1,0 +1,15 @@
+{
+  "id": "F4",
+  "description": "Rename email to email_address on analytics.users (alias maintained)",
+  "input_type": "normalized_change",
+  "changes": [
+    {
+      "entity": "analytics.users",
+      "change_type": "RENAME_COLUMN",
+      "column": "email",
+      "old_type": null,
+      "new_type": "email_address",
+      "source_file": "migrations/20260417_rename_email_column.sql"
+    }
+  ]
+}

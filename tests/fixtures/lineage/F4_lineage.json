@@ -1,0 +1,26 @@
+{
+  "id": "F4",
+  "nodes": [
+    {"id": "t1", "name": "analytics.users", "type": "TABLE", "owner": "data_eng", "criticality": "high", "domain": "user_analytics"},
+    {"id": "t2", "name": "stg_users", "type": "TABLE", "owner": "analytics_eng", "criticality": "medium", "domain": "user_analytics"},
+    {"id": "d1", "name": "User Growth Dashboard", "type": "DASHBOARD", "owner": "bi_team", "criticality": "medium", "domain": "growth_reporting"}
+  ],
+  "edges": [
+    {
+      "from_id": "t1",
+      "to_id": "t2",
+      "column_map": [
+        {"from": "email", "to": "email_address"},
+        {"from": "email_address", "to": "email_address"}
+      ]
+    },
+    {
+      "from_id": "t2",
+      "to_id": "d1",
+      "column_map": [
+        {"from": "email", "to": "email_address"},
+        {"from": "email_address", "to": "email_address"}
+      ]
+    }
+  ]
+}

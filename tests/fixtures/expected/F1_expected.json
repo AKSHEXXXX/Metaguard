@@ -1,0 +1,43 @@
+{
+  "id": "F1",
+  "highest_severity": "CRITICAL",
+  "total_affected": 4,
+  "records": [
+    {
+      "asset_id": "t2",
+      "asset_name": "stg_customers",
+      "asset_type": "TABLE",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Downstream asset directly uses dropped column customer_id via column-level lineage",
+      "path": ["analytics.customers.customer_id", "stg_customers.customer_id"]
+    },
+    {
+      "asset_id": "t3",
+      "asset_name": "mart_customer_360",
+      "asset_type": "TABLE",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Downstream asset uses dropped column through stg_customers",
+      "path": ["analytics.customers.customer_id", "stg_customers.customer_id", "mart_customer_360.customer_id"]
+    },
+    {
+      "asset_id": "d1",
+      "asset_name": "Revenue by Customer",
+      "asset_type": "DASHBOARD",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Dashboard depends on mart_customer_360 which uses dropped column",
+      "path": ["analytics.customers.customer_id", "stg_customers.customer_id", "mart_customer_360.customer_id", "Revenue by Customer"]
+    },
+    {
+      "asset_id": "p1",
+      "asset_name": "nightly_customer_rollup",
+      "asset_type": "PIPELINE",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "reason": "Pipeline depends on analytics.customers but column-level lineage not available",
+      "path": ["analytics.customers", "nightly_customer_rollup"]
+    }
+  ]
+}

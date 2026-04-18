@@ -1,0 +1,25 @@
+{
+  "id": "F4",
+  "highest_severity": "MEDIUM",
+  "total_affected": 2,
+  "records": [
+    {
+      "asset_id": "t2",
+      "asset_name": "stg_users",
+      "asset_type": "TABLE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Downstream asset has column-level lineage with an alias entry in the column map; rename is partially backward-compatible",
+      "path": ["analytics.users.email", "stg_users.email_address"]
+    },
+    {
+      "asset_id": "d1",
+      "asset_name": "User Growth Dashboard",
+      "asset_type": "DASHBOARD",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Dashboard depends on downstream asset with alias-backed rename; column-level lineage confirms dependency",
+      "path": ["analytics.users.email", "stg_users.email_address", "User Growth Dashboard"]
+    }
+  ]
+}

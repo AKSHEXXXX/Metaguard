@@ -1,0 +1,15 @@
+{
+  "id": "F2",
+  "description": "Add preferred_language to analytics.products",
+  "input_type": "normalized_change",
+  "changes": [
+    {
+      "entity": "analytics.products",
+      "change_type": "ADD_COLUMN",
+      "column": "preferred_language",
+      "old_type": null,
+      "new_type": "STRING",
+      "source_file": "migrations/20260417_add_preferred_language.sql"
+    }
+  ]
+}

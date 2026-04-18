@@ -1,0 +1,12 @@
+{
+  "id": "F3",
+  "nodes": [
+    {"id": "t1", "name": "sales.orders", "type": "TABLE", "owner": "data_eng", "criticality": "high", "domain": "sales_analytics"},
+    {"id": "t2", "name": "stg_orders", "type": "TABLE", "owner": "analytics_eng", "criticality": "medium", "domain": "sales_analytics"},
+    {"id": "t3", "name": "mart_order_metrics", "type": "TABLE", "owner": "analytics_eng", "criticality": "high", "domain": "sales_analytics"}
+  ],
+  "edges": [
+    {"from_id": "t1", "to_id": "t2", "column_map": [{"from": "order_amount", "to": "order_amount"}]},
+    {"from_id": "t1", "to_id": "t3", "column_map": [{"from": "order_amount", "to": "order_amount"}]}
+  ]
+}

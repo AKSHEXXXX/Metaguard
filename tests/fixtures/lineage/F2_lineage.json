@@ -1,0 +1,7 @@
+{
+  "id": "F2",
+  "nodes": [
+    {"id": "t1", "name": "analytics.products", "type": "TABLE", "owner": "data_eng", "criticality": "medium", "domain": "product_analytics"}
+  ],
+  "edges": []
+}

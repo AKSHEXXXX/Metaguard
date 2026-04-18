@@ -1,0 +1,25 @@
+{
+  "id": "F5",
+  "highest_severity": "HIGH",
+  "total_affected": 2,
+  "records": [
+    {
+      "asset_id": "t2",
+      "asset_name": "stg_invoices",
+      "asset_type": "TABLE",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "reason": "Column-level lineage missing; table-level dependency on finance.invoices is confirmed, but column usage is unknown",
+      "path": ["finance.invoices", "stg_invoices"]
+    },
+    {
+      "asset_id": "d1",
+      "asset_name": "Invoice Aging",
+      "asset_type": "DASHBOARD",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "reason": "Column-level lineage missing; table-level dependency confirmed through stg_invoices, but column usage is unknown",
+      "path": ["finance.invoices", "stg_invoices", "Invoice Aging"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "F5",
+  "description": "Drop invoice_id from finance.invoices (table-level lineage only)",
+  "input_type": "normalized_change",
+  "changes": [
+    {
+      "entity": "finance.invoices",
+      "change_type": "DROP_COLUMN",
+      "column": "invoice_id",
+      "old_type": null,
+      "new_type": null,
+      "source_file": "migrations/20260417_drop_invoice_id.sql"
+    }
+  ]
+}

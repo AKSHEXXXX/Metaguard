@@ -1,0 +1,12 @@
+{
+  "id": "F5",
+  "nodes": [
+    {"id": "t1", "name": "finance.invoices", "type": "TABLE", "owner": "finance_eng", "criticality": "high", "domain": "finance_analytics"},
+    {"id": "t2", "name": "stg_invoices", "type": "TABLE", "owner": "analytics_eng", "criticality": "medium", "domain": "finance_analytics"},
+    {"id": "d1", "name": "Invoice Aging", "type": "DASHBOARD", "owner": "bi_team", "criticality": "high", "domain": "finance_reporting"}
+  ],
+  "edges": [
+    {"from_id": "t1", "to_id": "t2", "column_map": null},
+    {"from_id": "t2", "to_id": "d1", "column_map": null}
+  ]
+}

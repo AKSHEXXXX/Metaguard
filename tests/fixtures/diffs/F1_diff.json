@@ -1,0 +1,15 @@
+{
+  "id": "F1",
+  "description": "Drop customer_id from analytics.customers",
+  "input_type": "normalized_change",
+  "changes": [
+    {
+      "entity": "analytics.customers",
+      "change_type": "DROP_COLUMN",
+      "column": "customer_id",
+      "old_type": null,
+      "new_type": null,
+      "source_file": "migrations/20260417_drop_customer_id.sql"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "F1",
+  "nodes": [
+    {"id": "t1", "name": "analytics.customers", "type": "TABLE", "owner": "data_eng", "criticality": "high", "domain": "customer_analytics"},
+    {"id": "t2", "name": "stg_customers", "type": "TABLE", "owner": "analytics_eng", "criticality": "medium", "domain": "customer_analytics"},
+    {"id": "t3", "name": "mart_customer_360", "type": "TABLE", "owner": "analytics_eng", "criticality": "high", "domain": "customer_analytics"},
+    {"id": "d1", "name": "Revenue by Customer", "type": "DASHBOARD", "owner": "bi_team", "criticality": "high", "domain": "executive_reporting"},
+    {"id": "p1", "name": "nightly_customer_rollup", "type": "PIPELINE", "owner": "data_eng", "criticality": "high", "domain": "customer_analytics"}
+  ],
+  "edges": [
+    {"from_id": "t1", "to_id": "t2", "column_map": [{"from": "customer_id", "to": "customer_id"}]},
+    {"from_id": "t2", "to_id": "t3", "column_map": [{"from": "customer_id", "to": "customer_id"}]},
+    {"from_id": "t3", "to_id": "d1", "column_map": [{"from": "customer_id", "to": "customer_id"}]},
+    {"from_id": "t1", "to_id": "p1", "column_map": null}
+  ]
+}

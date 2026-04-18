@@ -1,0 +1,15 @@
+{
+  "id": "F3",
+  "description": "Alter type of order_amount from INT to STRING on sales.orders",
+  "input_type": "normalized_change",
+  "changes": [
+    {
+      "entity": "sales.orders",
+      "change_type": "ALTER_TYPE",
+      "column": "order_amount",
+      "old_type": "INT",
+      "new_type": "STRING",
+      "source_file": "migrations/20260417_alter_order_amount_type.sql"
+    }
+  ]
+}
