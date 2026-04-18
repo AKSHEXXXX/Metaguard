@@ -13,11 +13,20 @@ Return only improved markdown. Do not add new facts."""
 
 class LLMSummarizer:
     def __init__(self) -> None:
-        api_key = os.getenv("OPENAI_API_KEY", "").strip()
-        if not api_key:
-            raise RuntimeError("OPENAI_API_KEY must be set for LLMSummarizer")
-        self.client = OpenAI(api_key=api_key)
-        self.model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        groq_key = os.getenv("GROQ_API_KEY", "").strip()
+        openai_key = os.getenv("OPENAI_API_KEY", "").strip()
+
+        if groq_key:
+            self.client = OpenAI(
+                api_key=groq_key,
+                base_url="https://api.groq.com/openai/v1"
+            )
+            self.model = os.getenv("GROQ_MODEL", "llama-3.1-70b-versatile")
+        elif openai_key:
+            self.client = OpenAI(api_key=openai_key)
+            self.model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        else:
+            raise RuntimeError("Neither GROQ_API_KEY nor OPENAI_API_KEY is set for LLMSummarizer")
 
     def summarize(self, report_json: dict, markdown: str) -> str:
         prompt = f"IMPACT REPORT JSON:\n{report_json}\n\nCURRENT MARKDOWN:\n{markdown}"

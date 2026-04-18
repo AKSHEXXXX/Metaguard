@@ -38,6 +38,7 @@ jobs:
           OPENMETADATA_MCP_URL: ${{ secrets.OPENMETADATA_MCP_URL || 'https://sandbox.open-metadata.org/mcp' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           ENABLE_LLM_SUMMARY: "true"
           LINEAGE_MAX_DEPTH: "5"
         run: |
