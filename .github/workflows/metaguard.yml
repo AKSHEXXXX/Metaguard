@@ -47,7 +47,12 @@ jobs:
             --pr-number "${{ github.event.pull_request.number }}" \
             --repo "${{ github.repository }}" \
             --output github || \
-          python main.py --mode mock --fixture F1 | tee metaguard.md
+          python main.py \
+            --mode mock \
+            --fixture F1 \
+            --pr-number "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" \
+            --output github | tee metaguard.md
 
       - name: Upload MetaGuard report
         uses: actions/upload-artifact@v4

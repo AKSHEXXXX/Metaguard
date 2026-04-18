@@ -178,7 +178,9 @@ def smoke_openmetadata(host: str, token: str, asset_ref: str, depth: int) -> Non
     click.echo(f"Downstream graph: {len(graph.nodes)} nodes, {len(graph.edges)} edges")
 
 
-def smoke_sandbox(asset_ref: str, transport: str, depth: int) -> None:
+def render_sandbox_markdown(
+    asset_ref: str, transport: str, depth: int, file_paths: list[str]
+) -> str:
     depth = _effective_sandbox_depth(depth)
     cfg = load_config()
     rest_provider = OpenMetadataProvider(host=cfg.om_host, jwt_token=cfg.om_token)
@@ -187,13 +189,82 @@ def smoke_sandbox(asset_ref: str, transport: str, depth: int) -> None:
         mcp_client = MCPClient(mcp_url=cfg.om_mcp_url, jwt_token=cfg.om_token)
         provider = MCPMetadataProvider(mcp_client=mcp_client, rest_fallback=rest_provider, depth=depth)
 
+    # 1. Resolve root asset
+    logger.info("Resolving root asset: %s", asset_ref)
     asset = provider.resolve_asset(asset_ref)
-    graph = provider.get_downstream_lineage(asset.id)
-    if len(graph.nodes) <= 1:
-        raise SystemExit("Smoke test failed: downstream lineage is empty.")
 
-    click.echo(f"Resolved root asset: {asset.name} ({asset.id}) [{asset.type.value}]")
-    click.echo(f"Downstream graph: {len(graph.nodes)} nodes, {len(graph.edges)} edges")
+    # 2. Get lineage
+    logger.info("Fetching downstream lineage for asset: %s", asset.id)
+    graph = provider.get_downstream_lineage(asset.id, depth=depth)
+
+    # 3. Get changes
+    from src.parser.diff_parser import DiffParser
+    changes = []
+    for path in file_paths:
+        if os.path.exists(path):
+            with open(path, "r") as f:
+                content = f.read()
+                parsed = DiffParser.parse(content)
+                logger.info("Parsed %d changes from %s", len(parsed), path)
+                changes.extend(parsed)
+
+    if not changes:
+        # Fallback for demo: assume a DROP_COLUMN on the root asset
+        logger.info("No SQL changes parsed from file_paths; using demo DROP_COLUMN on root asset")
+        changes.append(
+            SchemaChange(
+                entity=asset.name,
+                change_type=ChangeType.DROP_COLUMN,
+                column="legacy_id",
+                source_file="demo_migration.sql",
+            )
+        )
+
+    # 4. Evaluate impact
+    records = []
+    if graph and graph.nodes:
+        logger.info("Traversing lineage graph (nodes=%d, edges=%d)", len(graph.nodes), len(graph.edges))
+        traversed = LineageTraverser.traverse(asset.id, graph, depth=depth)
+        edge_map = {(edge.from_id, edge.to_id): edge for edge in graph.edges}
+        name_to_id = {node.name: node.id for node in graph.nodes.values()}
+
+        for downstream_asset, path_names in traversed:
+            path_ids = [name_to_id[name] for name in path_names if name in name_to_id]
+            column_map = None
+            if len(path_ids) >= 2:
+                edge = edge_map.get((path_ids[-2], path_ids[-1]))
+                if edge:
+                    column_map = edge.column_map
+
+            for change in changes:
+                records.append(
+                    ImpactRulesEngine.evaluate(
+                        change=change,
+                        asset=downstream_asset,
+                        path=path_names,
+                        column_map=column_map,
+                    )
+                )
+
+    # 5. Build report and render
+    logger.info("Building impact report with %d records", len(records))
+    report = ReportBuilder.build(report_id="sandbox-run", changes=changes, records=_sort_records(records))
+    markdown = PRCommentRenderer.render(report)
+    report_json = report_to_fixture_dict("sandbox-run", changes, records)
+
+    # 6. Optional LLM Summary
+    if str(os.getenv("ENABLE_LLM_SUMMARY", "false")).lower() == "true":
+        try:
+            summarizer = LLMSummarizer()
+            improved = summarizer.summarize(report_json=report_json, markdown=markdown)
+            if SummaryValidator().validate(report_json, improved):
+                logger.info("Using LLM-improved summary")
+                return improved
+            logger.warning("LLM summary failed validation. Using deterministic markdown.")
+        except Exception as exc:
+            logger.warning("LLM summary failed: %s. Using deterministic markdown.", exc)
+
+    return markdown
 
 
 _FIXTURE_ID_RE = re.compile(r"^F[1-5]$")
@@ -281,7 +352,30 @@ def main(
         return
 
     if effective_mode == "sandbox" and om_asset:
-        smoke_sandbox(asset_ref=om_asset, transport=transport, depth=depth)
+        logger.info("Running MetaGuard in sandbox mode for asset '%s'", om_asset)
+        try:
+            body = render_sandbox_markdown(
+                asset_ref=om_asset,
+                transport=transport,
+                depth=depth,
+                file_paths=file_paths,
+            )
+        except Exception as exc:
+            logger.error("Sandbox run failed: %s", exc)
+            raise SystemExit(f"Sandbox run failed: {exc}") from exc
+
+        if output == "github" and pr_number is not None:
+            gh = (
+                GitHubAdapter.from_env()
+                if repo is None
+                else GitHubAdapter(github_token=os.getenv("GITHUB_TOKEN", ""), repo=repo)
+            )
+            gh.post_pr_comment(pr_number=pr_number, body=body)
+            logger.info("Posted MetaGuard report to PR #%s", pr_number)
+            return
+
+        click.echo(body)
+        logger.info("Rendered MetaGuard markdown report to stdout")
         return
 
     # Legacy Phase 2 path: explicit host + token.
