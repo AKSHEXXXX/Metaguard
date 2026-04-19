@@ -70,3 +70,16 @@ metaguard.md
 # Docker
 .docker/
 docker-compose.override.yml
+
+# Agent and Docs
+.agent/
+.agents/
+.cursor/
+Docs/
+skills-lock.json
+
+# Markdown files
+*.md
+!readme.md
+!README.md
+!GRAPH_REPORT.md
