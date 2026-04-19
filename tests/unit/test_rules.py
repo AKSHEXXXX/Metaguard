@@ -42,7 +42,7 @@ def test_rename_column_no_alias_is_critical_high() -> None:
     assert record.confidence is Confidence.HIGH
 
 
-def test_rename_column_with_alias_is_medium_high() -> None:
+def test_rename_column_with_alias_is_warning_high() -> None:
     change = SchemaChange(entity="t", change_type=ChangeType.RENAME_COLUMN, column="old_col", new_type="new_col")
     record = ImpactRulesEngine.evaluate(
         change,
@@ -50,7 +50,7 @@ def test_rename_column_with_alias_is_medium_high() -> None:
         ["t", "ds"],
         [{"from": "old_col", "to": "old_col"}, {"from": "old_col", "to": "new_col"}],
     )
-    assert record.severity is Severity.MEDIUM
+    assert record.severity is Severity.WARNING
     assert record.confidence is Confidence.HIGH
 
 
@@ -77,10 +77,10 @@ def test_alter_type_compatible_with_column_lineage_is_low_high() -> None:
     assert record.confidence is Confidence.HIGH
 
 
-def test_alter_type_table_level_only_is_medium_medium() -> None:
+def test_alter_type_table_level_only_is_warning_medium() -> None:
     change = SchemaChange(entity="t", change_type=ChangeType.ALTER_TYPE, column="c", old_type="INT", new_type="BIGINT")
     record = ImpactRulesEngine.evaluate(change, _asset(), ["t", "ds"], None)
-    assert record.severity is Severity.MEDIUM
+    assert record.severity is Severity.WARNING
     assert record.confidence is Confidence.MEDIUM
 
 
@@ -102,19 +102,19 @@ def test_alter_nullability_null_to_not_null_is_high_high() -> None:
     assert record.confidence is Confidence.HIGH
 
 
-def test_alter_nullability_table_level_only_is_medium_medium() -> None:
+def test_alter_nullability_table_level_only_is_warning_medium() -> None:
     change = SchemaChange(
         entity="t", change_type=ChangeType.ALTER_NULLABILITY, column="c", old_type="NULL", new_type="NOT NULL"
     )
     record = ImpactRulesEngine.evaluate(change, _asset(), ["t", "ds"], None)
-    assert record.severity is Severity.MEDIUM
+    assert record.severity is Severity.WARNING
     assert record.confidence is Confidence.MEDIUM
 
 
-def test_add_column_strict_schema_consumer_is_medium_low() -> None:
+def test_add_column_strict_schema_consumer_is_warning_low() -> None:
     change = SchemaChange(entity="t", change_type=ChangeType.ADD_COLUMN, column="new_col")
     record = ImpactRulesEngine.evaluate(change, _asset(criticality="strict_schema"), ["t", "ds"], None)
-    assert record.severity is Severity.MEDIUM
+    assert record.severity is Severity.WARNING
     assert record.confidence is Confidence.LOW
 
 
@@ -163,8 +163,8 @@ def test_deep_lineage_without_column_map_has_low_confidence() -> None:
     path = ["t", "l1", "l2", "l3", "l4"] # 4 hops
     record = ImpactRulesEngine.evaluate(change, _asset(), path, None)
     # Original would be HIGH severity, MEDIUM confidence
-    # Reduced by depth to MEDIUM severity, LOW confidence
-    assert record.severity is Severity.MEDIUM
+    # Reduced by depth to WARNING severity, LOW confidence
+    assert record.severity is Severity.WARNING
     assert record.confidence is Confidence.LOW
 
 

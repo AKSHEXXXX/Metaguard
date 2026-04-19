@@ -173,8 +173,7 @@ def rule_drop_column(change: SchemaChange, column_map: list[dict[str, str]] | No
         return RuleOutcome(Severity.LOW, Confidence.HIGH, "No consumers detected")
 
     if column_map is None:
-        # Upgrade to CRITICAL for uncertainty on confirmed downstream
-        return RuleOutcome(Severity.CRITICAL, Confidence.MEDIUM, "Table dependency confirmed; column usage unknown but assumed critical")
+        return RuleOutcome(Severity.HIGH, Confidence.MEDIUM, "Table dependency confirmed; column usage unknown but assumed high risk")
 
     if _column_map_references(column_map, change.column):
         return RuleOutcome(Severity.CRITICAL, Confidence.HIGH, "Direct column dependency on dropped field")
@@ -187,7 +186,7 @@ def rule_rename_column(change: SchemaChange, column_map: list[dict[str, str]] | 
         return RuleOutcome(Severity.LOW, Confidence.HIGH, "No consumers detected")
 
     if column_map is None:
-        return RuleOutcome(Severity.CRITICAL, Confidence.MEDIUM, "Column rename may break; cannot confirm without column map")
+        return RuleOutcome(Severity.HIGH, Confidence.MEDIUM, "Column rename may break; cannot confirm without column map")
 
     if _column_map_has_alias(column_map, change.column, change.new_type):
         return RuleOutcome(Severity.WARNING, Confidence.HIGH, "Alias provides backward compatibility but risk exists")

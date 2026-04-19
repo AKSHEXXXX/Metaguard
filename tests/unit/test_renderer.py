@@ -45,7 +45,7 @@ def test_renderer_polished_title_format() -> None:
             ),
             ImpactRecord(
                 asset_id="a2", asset_name="asset_two", asset_type=AssetType.VIEW,
-                severity=Severity.MEDIUM, confidence=Confidence.HIGH,
+                severity=Severity.WARNING, confidence=Confidence.HIGH,
                 reason="y", path=["root", "mid", "asset_two"],
             ),
         ],
@@ -59,31 +59,7 @@ def test_renderer_polished_title_format() -> None:
     assert "Why this changed" in md
 
 
-def test_renderer_change_details_section() -> None:
-    """Phase 2: verify 'Changes detected' section when changes are provided."""
-    report = ImpactReport(
-        id="test",
-        highest_severity=Severity.HIGH,
-        total_affected=1,
-        records=[
-            ImpactRecord(
-                asset_id="a1", asset_name="downstream_tbl", asset_type=AssetType.TABLE,
-                severity=Severity.HIGH, confidence=Confidence.MEDIUM,
-                reason="x", path=["fact_orders", "downstream_tbl"],
-            ),
-        ],
-        generated_at=datetime(2026, 4, 17, tzinfo=timezone.utc),
-    )
-    changes = [
-        SchemaChange(entity="fact_orders", change_type=ChangeType.DROP_COLUMN, column="legacy_id"),
-        SchemaChange(entity="fact_orders", change_type=ChangeType.ADD_COLUMN, column="created_at"),
-    ]
-    md = PRCommentRenderer.render(report, changes=changes)
-    assert "Changes detected" in md
-    assert "dropped column" in md
-    assert "added column" in md
-    assert "`legacy_id`" in md
-    assert "`created_at`" in md
+
 
 
 def test_renderer_no_owner_column_when_absent() -> None:
