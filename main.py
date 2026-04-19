@@ -47,7 +47,7 @@ def _schema_change_from_dict(payload: dict[str, Any]) -> SchemaChange:
 
 
 def _severity_rank(sev: Severity) -> int:
-    return {Severity.LOW: 0, Severity.MEDIUM: 1, Severity.HIGH: 2, Severity.CRITICAL: 3}[sev]
+    return {Severity.LOW: 0, Severity.WARNING: 1, Severity.HIGH: 2, Severity.CRITICAL: 3}[sev]
 
 
 def _confidence_rank(conf: str) -> int:
