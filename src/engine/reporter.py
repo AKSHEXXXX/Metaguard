@@ -13,8 +13,8 @@ class ReportBuilder:
     def build(report_id: str, changes: list[SchemaChange], records: list[ImpactRecord]) -> ImpactReport:
         highest = Severity.LOW
         if records:
-            # Severity is ordered LOW < MEDIUM < HIGH < CRITICAL.
-            order = {Severity.LOW: 0, Severity.MEDIUM: 1, Severity.HIGH: 2, Severity.CRITICAL: 3}
+            # Severity is ordered LOW < WARNING < HIGH < CRITICAL.
+            order = {Severity.LOW: 0, Severity.WARNING: 1, Severity.HIGH: 2, Severity.CRITICAL: 3}
             highest = max((r.severity for r in records), key=lambda s: order[s])
 
         return ImpactReport(
