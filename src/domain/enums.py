@@ -14,7 +14,7 @@ class ChangeType(str, Enum):
 
 class Severity(str, Enum):
     LOW = "LOW"
-    MEDIUM = "MEDIUM"
+    WARNING = "WARNING"
     HIGH = "HIGH"
     CRITICAL = "CRITICAL"
 
