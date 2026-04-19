@@ -9,7 +9,7 @@ def _severity_badge(sev: Severity) -> str:
         return "🔴"
     if sev is Severity.HIGH:
         return "🟠"
-    if sev is Severity.MEDIUM:
+    if sev is Severity.WARNING:
         return "🟡"
     return "🟢"
 
@@ -18,7 +18,7 @@ def _severity_label(sev: Severity) -> str:
     return {
         Severity.CRITICAL: "critical",
         Severity.HIGH: "high-impact",
-        Severity.MEDIUM: "moderate",
+        Severity.WARNING: "warning",
         Severity.LOW: "low-risk",
     }[sev]
 
@@ -47,7 +47,7 @@ def _suggested_followup(sev: Severity) -> list[str]:
             "Run integration tests for the impacted assets.",
             "Notify the asset owners if this change is intentional.",
         ]
-    if sev is Severity.MEDIUM:
+    if sev is Severity.WARNING:
         return [
             "Check for strict schema consumers that may reject the change.",
             "Run validation queries post-deploy.",
@@ -62,10 +62,12 @@ class PRCommentRenderer:
     def render(report: ImpactReport, changes: list[SchemaChange] | None = None) -> str:
         badge = _severity_badge(report.highest_severity)
         label = _severity_label(report.highest_severity)
-        title = f"{badge} **MetaGuard** found a {label} schema change"
+        # Template: 🟠 MetaGuard found a high-impact schema change
+        title = f"{badge} MetaGuard found a {label} schema change"
 
         n = report.total_affected
-        summary = f"This PR affects **{n}** downstream asset{'s' if n != 1 else ''}."
+        # Template: This PR affects 3 downstream assets.
+        summary = f"This PR affects {n} downstream asset{'s' if n != 1 else ''}."
 
         lines: list[str] = [title, "", summary, ""]
 
@@ -88,30 +90,23 @@ class PRCommentRenderer:
         # --- Why this changed ---
         if report.records:
             lines.append("")
-            lines.append("**Why this changed:**")
+            lines.append("Why this changed:")
+            # Use a set to deduplicate flow pairs across multiple affected assets
+            flow_pairs: set[str] = set()
             for r in report.records:
                 if r.path and len(r.path) >= 2:
-                    flow = " → ".join(f"`{p}`" for p in r.path)
-                    lines.append(f"- {flow}")
+                    for i in range(len(r.path) - 1):
+                        pair = f"- `{r.path[i]}` flows into `{r.path[i+1]}`"
+                        flow_pairs.add(pair)
+            
+            for pair in sorted(list(flow_pairs)):
+                lines.append(pair)
 
-        # --- Change details (if changes provided) ---
-        if changes:
-            lines.append("")
-            lines.append("**Changes detected:**")
-            for c in changes:
-                col_info = f"`{c.column}`" if c.column else "schema"
-                verb = _change_verb(c.change_type)
-                extra = ""
-                if c.change_type is ChangeType.RENAME_COLUMN and c.new_type:
-                    extra = f" → `{c.new_type}`"
-                elif c.change_type is ChangeType.ALTER_TYPE and c.new_type:
-                    old = c.old_type or "?"
-                    extra = f" (`{old}` → `{c.new_type}`)"
-                lines.append(f"- {verb} {col_info}{extra} on `{c.entity}`")
+        # Note: 'Changes detected' section is removed to follow the target template strictly.
 
         # --- Suggested follow-up ---
         lines.append("")
-        lines.append("**Suggested follow-up:**")
+        lines.append("Suggested follow-up:")
         for a in _suggested_followup(report.highest_severity):
             lines.append(f"- {a}")
 

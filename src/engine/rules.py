@@ -173,7 +173,8 @@ def rule_drop_column(change: SchemaChange, column_map: list[dict[str, str]] | No
         return RuleOutcome(Severity.LOW, Confidence.HIGH, "No consumers detected")
 
     if column_map is None:
-        return RuleOutcome(Severity.HIGH, Confidence.MEDIUM, "Table dependency confirmed; column usage unknown")
+        # Upgrade to CRITICAL for uncertainty on confirmed downstream
+        return RuleOutcome(Severity.CRITICAL, Confidence.MEDIUM, "Table dependency confirmed; column usage unknown but assumed critical")
 
     if _column_map_references(column_map, change.column):
         return RuleOutcome(Severity.CRITICAL, Confidence.HIGH, "Direct column dependency on dropped field")
@@ -186,10 +187,10 @@ def rule_rename_column(change: SchemaChange, column_map: list[dict[str, str]] | 
         return RuleOutcome(Severity.LOW, Confidence.HIGH, "No consumers detected")
 
     if column_map is None:
-        return RuleOutcome(Severity.HIGH, Confidence.MEDIUM, "Column rename may break; cannot confirm without column map")
+        return RuleOutcome(Severity.CRITICAL, Confidence.MEDIUM, "Column rename may break; cannot confirm without column map")
 
     if _column_map_has_alias(column_map, change.column, change.new_type):
-        return RuleOutcome(Severity.MEDIUM, Confidence.HIGH, "Alias provides backward compatibility but risk exists")
+        return RuleOutcome(Severity.WARNING, Confidence.HIGH, "Alias provides backward compatibility but risk exists")
 
     return RuleOutcome(Severity.CRITICAL, Confidence.HIGH, "Rename breaks direct column reference")
 
@@ -199,7 +200,7 @@ def rule_alter_type(change: SchemaChange, column_map: list[dict[str, str]] | Non
         return RuleOutcome(Severity.LOW, Confidence.HIGH, "No consumers detected")
 
     if column_map is None:
-        return RuleOutcome(Severity.MEDIUM, Confidence.MEDIUM, "Type impact uncertain without column-level confirmation")
+        return RuleOutcome(Severity.WARNING, Confidence.MEDIUM, "Type impact uncertain without column-level confirmation")
 
     if _type_change_incompatible(change.old_type, change.new_type):
         return RuleOutcome(Severity.HIGH, Confidence.HIGH, "Type mismatch likely breaks downstream computation")
@@ -216,7 +217,7 @@ def rule_alter_nullability(change: SchemaChange, column_map: list[dict[str, str]
         return RuleOutcome(Severity.LOW, Confidence.HIGH, "No consumers detected")
 
     if column_map is None:
-        return RuleOutcome(Severity.MEDIUM, Confidence.MEDIUM, "Cannot confirm impact without column-level lineage")
+        return RuleOutcome(Severity.WARNING, Confidence.MEDIUM, "Cannot confirm impact without column-level lineage")
 
     old_n = _normalize_type(change.old_type)
     new_n = _normalize_type(change.new_type)
@@ -226,7 +227,7 @@ def rule_alter_nullability(change: SchemaChange, column_map: list[dict[str, str]
     if old_n == "NULL" and new_n == "NOT NULL":
         return RuleOutcome(Severity.HIGH, Confidence.HIGH, "Tightening constraint; may break inserts in dependent pipelines")
 
-    return RuleOutcome(Severity.MEDIUM, Confidence.HIGH, "Cannot confirm impact without column-level lineage")
+    return RuleOutcome(Severity.WARNING, Confidence.HIGH, "Cannot confirm impact without column-level lineage")
 
 
 def rule_add_column(asset: Asset, has_downstream: bool) -> RuleOutcome:
@@ -234,11 +235,11 @@ def rule_add_column(asset: Asset, has_downstream: bool) -> RuleOutcome:
     # this rule relies on a heuristic strict-schema tag carried in metadata.
     strict_schema = (asset.criticality or "").strip().lower() == "strict_schema"
     if strict_schema:
-        return RuleOutcome(Severity.MEDIUM, Confidence.LOW, "Heuristic only; possible strict schema consumer")
+        return RuleOutcome(Severity.WARNING, Confidence.LOW, "Heuristic only; possible strict schema consumer")
     return RuleOutcome(Severity.LOW, Confidence.HIGH, "Additive change; no breakage expected")
 
 
-_SEVERITY_ORDER = [Severity.LOW, Severity.MEDIUM, Severity.HIGH, Severity.CRITICAL]
+_SEVERITY_ORDER = [Severity.LOW, Severity.WARNING, Severity.HIGH, Severity.CRITICAL]
 
 
 def _lower_severity(sev: Severity) -> Severity:
