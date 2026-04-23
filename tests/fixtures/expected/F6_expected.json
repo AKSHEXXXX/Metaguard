@@ -1,0 +1,52 @@
+{
+  "id": "F6",
+  "highest_severity": "CRITICAL",
+  "total_affected": 5,
+  "records": [
+    {
+      "asset_id": "t2",
+      "asset_name": "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics",
+      "asset_type": "TABLE",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Downstream asset directly uses dropped column region via column-level lineage",
+      "path": ["acme_nexus_analytics.ANALYTICS.MARTS.fact_orders.region", "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics.region"]
+    },
+    {
+      "asset_id": "t3",
+      "asset_name": "acme_nexus_analytics.ANALYTICS.METRICS.product_performance",
+      "asset_type": "TABLE",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Downstream asset directly uses dropped column region via column-level lineage",
+      "path": ["acme_nexus_analytics.ANALYTICS.MARTS.fact_orders.region", "acme_nexus_analytics.ANALYTICS.METRICS.product_performance.region"]
+    },
+    {
+      "asset_id": "t4",
+      "asset_name": "acme_nexus_redshift.enterprise_dw.public.executive_sales_summary",
+      "asset_type": "TABLE",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Downstream asset uses dropped column through acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics",
+      "path": ["acme_nexus_analytics.ANALYTICS.MARTS.fact_orders.region", "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics.region", "acme_nexus_redshift.enterprise_dw.public.executive_sales_summary.region"]
+    },
+    {
+      "asset_id": "d1",
+      "asset_name": "metabase.acme.Executive Sales Dashboard",
+      "asset_type": "DASHBOARD",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Dashboard depends on acme_nexus_redshift.enterprise_dw.public.executive_sales_summary which uses dropped column",
+      "path": ["acme_nexus_analytics.ANALYTICS.MARTS.fact_orders.region", "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics.region", "acme_nexus_redshift.enterprise_dw.public.executive_sales_summary.region", "metabase.acme.Executive Sales Dashboard"]
+    },
+    {
+      "asset_id": "p1",
+      "asset_name": "airflow.daily_sales_pipeline",
+      "asset_type": "PIPELINE",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "reason": "Pipeline depends on acme_nexus_analytics.ANALYTICS.MARTS.fact_orders but column-level lineage not available",
+      "path": ["acme_nexus_analytics.ANALYTICS.MARTS.fact_orders", "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics", "airflow.daily_sales_pipeline"]
+    }
+  ]
+}

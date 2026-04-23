@@ -270,7 +270,7 @@ def render_sandbox_markdown(
     return markdown
 
 
-_FIXTURE_ID_RE = re.compile(r"^F[1-5]$")
+_FIXTURE_ID_RE = re.compile(r"^F[1-6]$")
 
 
 def _parse_changed_files(changed_files: str | None) -> tuple[str | None, list[str]]:
