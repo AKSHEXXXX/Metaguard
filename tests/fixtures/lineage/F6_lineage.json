@@ -1,0 +1,18 @@
+{
+  "id": "F6",
+  "nodes": [
+    {"id": "t1", "name": "acme_nexus_analytics.ANALYTICS.MARTS.fact_orders", "type": "TABLE", "owner": "data_eng", "criticality": "high", "domain": "sales_analytics"},
+    {"id": "t2", "name": "acme_nexus_analytics.ANALYTICS.METRICS.customer_metrics", "type": "TABLE", "owner": "analytics_eng", "criticality": "high", "domain": "sales_analytics"},
+    {"id": "t3", "name": "acme_nexus_analytics.ANALYTICS.METRICS.product_performance", "type": "TABLE", "owner": "analytics_eng", "criticality": "medium", "domain": "sales_analytics"},
+    {"id": "t4", "name": "acme_nexus_redshift.enterprise_dw.public.executive_sales_summary", "type": "TABLE", "owner": "data_eng", "criticality": "high", "domain": "executive_reporting"},
+    {"id": "d1", "name": "metabase.acme.Executive Sales Dashboard", "type": "DASHBOARD", "owner": "bi_team", "criticality": "high", "domain": "executive_reporting"},
+    {"id": "p1", "name": "airflow.daily_sales_pipeline", "type": "PIPELINE", "owner": "platform_eng", "criticality": "high", "domain": "sales_analytics"}
+  ],
+  "edges": [
+    {"from_id": "t1", "to_id": "t2", "column_map": [{"from": "region", "to": "region"}]},
+    {"from_id": "t1", "to_id": "t3", "column_map": [{"from": "region", "to": "region"}]},
+    {"from_id": "t2", "to_id": "t4", "column_map": [{"from": "region", "to": "region"}]},
+    {"from_id": "t4", "to_id": "d1", "column_map": [{"from": "region", "to": "region"}]},
+    {"from_id": "t2", "to_id": "p1", "column_map": null}
+  ]
+}

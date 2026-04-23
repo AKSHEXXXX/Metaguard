@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from src.domain.enums import ChangeType, Severity
+from src.domain.enums import AssetType, ChangeType, Severity
 from src.domain.models import ImpactReport, SchemaChange
 
 
@@ -57,6 +57,45 @@ def _suggested_followup(sev: Severity) -> list[str]:
     ]
 
 
+def _asset_type_followup(report: ImpactReport) -> list[str]:
+    """Generate additional follow-up items for specific asset types (pipelines, dashboards)."""
+    items: list[str] = []
+    seen: set[str] = set()
+    for r in report.records:
+        if r.asset_type is AssetType.PIPELINE and r.asset_name not in seen:
+            seen.add(r.asset_name)
+            items.append(f"Pause `{r.asset_name}` until the affected column is restored or its query is updated.")
+        elif r.asset_type is AssetType.DASHBOARD and r.asset_name not in seen:
+            seen.add(r.asset_name)
+            owner_note = f" ({r.owner})" if r.owner else ""
+            items.append(f"Alert dashboard owner{owner_note} of `{r.asset_name}` — dependent charts may break.")
+    return items
+
+
+def _asset_types_summary(report: ImpactReport) -> str:
+    """Build a human-readable suffix listing affected asset type categories."""
+    type_names = {
+        AssetType.TABLE: "tables",
+        AssetType.VIEW: "views",
+        AssetType.DASHBOARD: "dashboards",
+        AssetType.PIPELINE: "pipelines",
+        AssetType.MODEL: "models",
+        AssetType.FEATURE_STORE: "feature stores",
+    }
+    present = []
+    seen: set[AssetType] = set()
+    for r in report.records:
+        if r.asset_type not in seen:
+            seen.add(r.asset_type)
+            present.append(type_names.get(r.asset_type, r.asset_type.value.lower() + "s"))
+
+    if len(present) <= 1:
+        return ""
+    if len(present) == 2:
+        return f" across {present[0]} and {present[1]}"
+    return f" across {', '.join(present[:-1])}, and {present[-1]}"
+
+
 class PRCommentRenderer:
     @staticmethod
     def render(report: ImpactReport, changes: list[SchemaChange] | None = None) -> str:
@@ -66,8 +105,9 @@ class PRCommentRenderer:
         title = f"{badge} MetaGuard found a {label} schema change"
 
         n = report.total_affected
-        # Template: This PR affects 3 downstream assets.
-        summary = f"This PR affects {n} downstream asset{'s' if n != 1 else ''}."
+        type_suffix = _asset_types_summary(report)
+        # Template: This PR affects 3 downstream assets across tables, dashboards, and pipelines.
+        summary = f"This PR affects {n} downstream asset{'s' if n != 1 else ''}{type_suffix}."
 
         lines: list[str] = [title, "", summary, ""]
 
@@ -110,4 +150,10 @@ class PRCommentRenderer:
         for a in _suggested_followup(report.highest_severity):
             lines.append(f"- {a}")
 
+        # --- Asset-type-specific follow-up ---
+        asset_items = _asset_type_followup(report)
+        for item in asset_items:
+            lines.append(f"- {item}")
+
         return "\n".join(lines).strip() + "\n"
+

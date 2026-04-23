@@ -1,0 +1,15 @@
+{
+  "id": "F6",
+  "description": "Drop region column from fact_orders — cross-asset blast radius demo",
+  "input_type": "normalized_change",
+  "changes": [
+    {
+      "entity": "acme_nexus_analytics.ANALYTICS.MARTS.fact_orders",
+      "change_type": "DROP_COLUMN",
+      "column": "region",
+      "old_type": null,
+      "new_type": null,
+      "source_file": "migrations/20260423_drop_region.sql"
+    }
+  ]
+}
