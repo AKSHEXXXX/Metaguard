@@ -270,9 +270,10 @@ python main.py \
 
 ## Demo Video of the Project
 
-You can see the working of the project here:
 
-https://www.loom.com/share/9420193d7307460daa307edbba4395de
+https://github.com/user-attachments/assets/45f779fd-49ef-423c-81e8-59e610765bc7
+
+
 
 
 
