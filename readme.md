@@ -268,14 +268,13 @@ python main.py \
 
 ---
 
-## Demo Repository
+## Demo Video of the Project
 
-See MetaGuard running live on a real PR →
-**[github.com/AKSHEXXXX/metaguard-demo](https://github.com/AKSHEXXXX/metaguard-demo)**
+You can see the working of the project here:
 
-The demo repo has a pre-merged baseline schema PR and an open breaking-change
-PR where MetaGuard has already posted its impact report comment. You can fork
-it and open your own PR to trigger it yourself.
+https://www.loom.com/share/9420193d7307460daa307edbba4395de
+
+
 
 ---
 
