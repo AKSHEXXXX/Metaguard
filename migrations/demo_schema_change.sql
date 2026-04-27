@@ -12,3 +12,4 @@ ALTER TABLE fact_orders ALTER COLUMN amount TYPE VARCHAR(255);
 
 -- Additive: safe new column
 ALTER TABLE fact_orders ADD COLUMN created_at TIMESTAMP;
+-- trigger Sun Apr 19 16:42:09 IST 2026
